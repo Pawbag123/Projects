@@ -1,0 +1,4 @@
+<map id="Plaskowyz::UstalParametry" name="Plaskowyz::UstalParametry">
+<area shape="rect" id="node1" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Plaskowyz." alt="" coords="272,5,471,32"/>
+<area shape="rect" id="node2" href="$class_plaskowyz.html#a1b4094eb7f5398bf3b7fc165ef7f50ae" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Plaskowyz." alt="" coords="5,5,224,32"/>
+</map>

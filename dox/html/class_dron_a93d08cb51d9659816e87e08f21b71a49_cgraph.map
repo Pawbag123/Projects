@@ -1,0 +1,14 @@
+<map id="Dron::Oblicz_i_Zapisz_WspGlbDrona" name="Dron::Oblicz_i_Zapisz_WspGlbDrona">
+<area shape="rect" id="node1" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="5,90,168,131"/>
+<area shape="rect" id="node2" href="$class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="216,57,379,98"/>
+<area shape="rect" id="node12" href="$class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="216,122,379,163"/>
+<area shape="rect" id="node3" href="$class_dron.html#aff573f1126bf56484b8165d872eccb6e" title="Metoda pozwala na transformacje bryly do Globalnego Ukladu Współrzędnych." alt="" coords="427,35,599,61"/>
+<area shape="rect" id="node10" href="$class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="429,86,596,127"/>
+<area shape="rect" id="node11" href="$class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe" title="Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową" alt="" coords="429,151,596,193"/>
+<area shape="rect" id="node4" href="$class_bryla.html#aefdf9009f66cebc6a9136d6639050a61" title="Metoda, która służy do skalowania wierzchołków bryły." alt="" coords="697,5,799,32"/>
+<area shape="rect" id="node5" href="$class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="647,57,849,98"/>
+<area shape="rect" id="node6" href="$class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="897,64,1011,91"/>
+<area shape="rect" id="node7" href="$class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="1059,13,1169,40"/>
+<area shape="rect" id="node8" href="$class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="1059,64,1169,91"/>
+<area shape="rect" id="node9" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="1059,115,1169,141"/>
+</map>

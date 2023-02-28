@@ -1,0 +1,13 @@
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/CMakeFiles/rebuild_cache.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/CMakeFiles/edit_cache.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/edit_cache.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Scena.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Dron.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Dron_Dragonfly.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Plaskowyz.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/rebuild_cache.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Gora_z_Ostr.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Gora_z_Dl_Grania.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/ElemPow.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/Sciezka.dir
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build/src/CMakeFiles/lacze_do_gnuplota.dir

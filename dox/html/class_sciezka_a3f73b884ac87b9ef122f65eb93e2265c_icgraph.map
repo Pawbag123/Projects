@@ -1,0 +1,5 @@
+<map id="Sciezka::WezKat" name="Sciezka::WezKat">
+<area shape="rect" id="node1" title="Metoda zwracająca kąt rotacji ścieżki oraz drona." alt="" coords="285,31,413,57"/>
+<area shape="rect" id="node2" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+</map>

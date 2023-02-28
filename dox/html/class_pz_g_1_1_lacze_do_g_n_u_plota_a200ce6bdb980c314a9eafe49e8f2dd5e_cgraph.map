@@ -1,0 +1,8 @@
+<map id="PzG::LaczeDoGNUPlota::Inicjalizuj" name="PzG::LaczeDoGNUPlota::Inicjalizuj">
+<area shape="rect" id="node1" title="Inicjalizuje połączenie z programem gnuplot." alt="" coords="5,71,179,112"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#af8be8aeb3b1b524fab67d4411cba5b9e" title="Informuje, czy połączenie z gnuplot&#39;em jest zainicjalizowane." alt="" coords="227,5,461,47"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5063854b7232a7951d120a21df63f2b7" title="Przesyła polecenie do gnuplota." alt="" coords="257,71,431,112"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1c7b9acc40de8d8bbb40fb0722512933" title="Uruchamia program gnuplot jako proces potomny." alt="" coords="255,136,433,177"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae5f907633699e898710cce4351193330" title="Wyświetla komunika błędu." alt="" coords="509,104,683,145"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5e4f3a226ed36f7110032d802d84847c" title="Udostępnia informację czy mają być wyświetlane informacje o błędach." alt="" coords="731,104,937,145"/>
+</map>

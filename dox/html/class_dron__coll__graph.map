@@ -1,0 +1,13 @@
+<map id="Dron" name="Dron">
+<area shape="rect" id="node1" title="Klasa modeluje pojęcie drona." alt="" coords="197,644,250,671"/>
+<area shape="rect" id="node2" href="$class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="49,351,137,377"/>
+<area shape="rect" id="node9" href="$class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="128,453,184,480"/>
+<area shape="rect" id="node3" href="$class_wektor.html" title=" " alt="" coords="176,260,282,287"/>
+<area shape="rect" id="node7" href="$class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="265,403,345,429"/>
+<area shape="rect" id="node11" href="$class_sciezka.html" title="Klasa modelująca pojęcie ścieżki lotu drona." alt="" coords="364,504,435,531"/>
+<area shape="rect" id="node4" href="$class_licznik.html" title=" " alt="" coords="133,95,314,121"/>
+<area shape="rect" id="node6" href="$class_wektor.html" title="Szablon klasy Wektor." alt="" coords="245,171,394,197"/>
+<area shape="rect" id="node5" href="$class_licznik.html" title="Szablon licznik modelujący pojęcie licznika elementów danej klasy." alt="" coords="157,5,290,32"/>
+<area shape="rect" id="node8" href="$class_prostopadloscian.html" title="Klasa modelująca pojęcie Prostopadłościanu." alt="" coords="168,555,301,581"/>
+<area shape="rect" id="node10" href="$class_graniastoslup.html" title="Klasa modelująca pojęcie graniastosłupa." alt="" coords="32,555,144,581"/>
+</map>

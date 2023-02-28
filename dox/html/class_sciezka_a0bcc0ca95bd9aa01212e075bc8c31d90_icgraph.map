@@ -1,0 +1,5 @@
+<map id="Sciezka::UstalSciezke" name="Sciezka::UstalSciezke">
+<area shape="rect" id="node1" title="Metoda ustalająca ścieżkę drona za pomocą stworzonych wcześniej metod." alt="" coords="507,5,669,32"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#ab976ec78d721529af43e600adb404c05" title="Metoda która pozwala na narysowanie ścieżki lotu." alt="" coords="280,5,459,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="5,5,232,32"/>
+</map>

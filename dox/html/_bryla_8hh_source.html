@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy Bryla.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Bryla.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_bryla_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef BRYLA_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define BRYLA_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_uklad_wsp_8hh.html">UkladWsp.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_obiekt_sc_8hh.html">ObiektSc.hh</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;list&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_bryla.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_bryla.html">Bryla</a> : <span class="keyword">public</span> <a class="code" href="class_uklad_wsp.html">UkladWsp</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_bryla.html#af97ca97dd3b1cec99ce99d7886feceb6">   26</a></span>&#160;    std::string <a class="code" href="class_bryla.html#af97ca97dd3b1cec99ce99d7886feceb6">_NazwaPliku_BrylaWzorcowa</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_bryla.html#aeb6108ae31c373644b550e7a10dd205e">   31</a></span>&#160;    std::string <a class="code" href="class_bryla.html#aeb6108ae31c373644b550e7a10dd205e">_NazwaPliku_BrylaFinalna</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">   36</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">_Skala</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_bryla.html#a1f7aa61e91e8e9bac207506223ddee87">   46</a></span>&#160;    <a class="code" href="class_bryla.html#a1f7aa61e91e8e9bac207506223ddee87">Bryla</a>(<span class="keyword">const</span> std::string &amp;NazwaPlikuBrylaWzorcowa,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          <span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Skala,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          <span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Polozenie)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        : <a class="code" href="class_uklad_wsp.html">UkladWsp</a>(Polozenie),</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          <a class="code" href="class_bryla.html#af97ca97dd3b1cec99ce99d7886feceb6">_NazwaPliku_BrylaWzorcowa</a>(NazwaPlikuBrylaWzorcowa),</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          <a class="code" href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">_Skala</a>(Skala){};</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// Bryla(const std::string &amp;NazwaPlikuBrylaWzorcowa,</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//       const std::string &amp;NazwaPlikuBrylaFinalna,</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">//       const Wektor3D &amp;Skala, const Wektor3D &amp;Polozenie,</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">//       const double KatOrientacji) : UkladWsp(Polozenie, KatOrientacji),</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">//                                     _NazwaPliku_BrylaWzorcowa(NazwaPlikuBrylaWzorcowa),</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">//                                     _NazwaPliku_BrylaFinalna(NazwaPlikuBrylaFinalna),</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">//                                     _Skala(Skala){};</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">   68</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Skaluj</a>(<span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Wierz)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="class_wektor.html">Wektor3D</a> Wynik;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 3; ++i)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            Wynik[i] = Wierz[i] * <a class="code" href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">_Skala</a>[i];</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> Wynik;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    };</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44">   76</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44">WezSkale</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">_Skala</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">   86</a></span>&#160;    <span class="keyword">const</span> std::string &amp;<a class="code" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">WezNazwePliku_BrylaWzorcowa</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_bryla.html#af97ca97dd3b1cec99ce99d7886feceb6">_NazwaPliku_BrylaWzorcowa</a>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    };</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">   96</a></span>&#160;    <span class="keyword">const</span> std::string &amp;<a class="code" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_bryla.html#aeb6108ae31c373644b550e7a10dd205e">_NazwaPliku_BrylaFinalna</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    };</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">  106</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">UstalNazwePliku_BrylaFinalna</a>(<span class="keyword">const</span> std::string &amp;Nazwa)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="class_bryla.html#aeb6108ae31c373644b550e7a10dd205e">_NazwaPliku_BrylaFinalna</a> = Nazwa;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="class_bryla.html#ad3480603f549502406e17c9807bd66d8">  115</a></span>&#160;    <a class="code" href="class_bryla.html#ad3480603f549502406e17c9807bd66d8">~Bryla</a>()</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        std::remove(<a class="code" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a>().c_str());</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;};</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_obiekt_sc_8hh_html"><div class="ttname"><a href="_obiekt_sc_8hh.html">ObiektSc.hh</a></div><div class="ttdoc">Plik zawiera definicję klasy ObiektSc oraz jej metod.</div></div>
+<div class="ttc" id="a_uklad_wsp_8hh_html"><div class="ttname"><a href="_uklad_wsp_8hh.html">UkladWsp.hh</a></div><div class="ttdoc">Plik zawierający definicję klasy UkladWsp.</div></div>
+<div class="ttc" id="aclass_bryla_html"><div class="ttname"><a href="class_bryla.html">Bryla</a></div><div class="ttdoc">Klasa modeluje pojęcie bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00020">Bryla.hh:21</a></div></div>
+<div class="ttc" id="aclass_bryla_html_a13c6c416b92fcc50c656bf37adab74d9"><div class="ttname"><a href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">Bryla::WezNazwePliku_BrylaFinalna</a></div><div class="ttdeci">const std::string &amp; WezNazwePliku_BrylaFinalna() const</div><div class="ttdoc">Metoda zwracająca nazwę pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00096">Bryla.hh:96</a></div></div>
+<div class="ttc" id="aclass_bryla_html_a1f7aa61e91e8e9bac207506223ddee87"><div class="ttname"><a href="class_bryla.html#a1f7aa61e91e8e9bac207506223ddee87">Bryla::Bryla</a></div><div class="ttdeci">Bryla(const std::string &amp;NazwaPlikuBrylaWzorcowa, const Wektor3D &amp;Skala, const Wektor3D &amp;Polozenie)</div><div class="ttdoc">Konstruktor Bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00046">Bryla.hh:46</a></div></div>
+<div class="ttc" id="aclass_bryla_html_a272cd76773d897b7b3521c27eb09ffa4"><div class="ttname"><a href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">Bryla::UstalNazwePliku_BrylaFinalna</a></div><div class="ttdeci">void UstalNazwePliku_BrylaFinalna(const std::string &amp;Nazwa)</div><div class="ttdoc">Metoda ustalająca nazwę pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00106">Bryla.hh:106</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aab1aa0ebfd11c8d0258a55ad3b83d2fe"><div class="ttname"><a href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">Bryla::WezNazwePliku_BrylaWzorcowa</a></div><div class="ttdeci">const std::string &amp; WezNazwePliku_BrylaWzorcowa() const</div><div class="ttdoc">Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00086">Bryla.hh:86</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aba090cd07dc8e55eb6442638a2a1c794"><div class="ttname"><a href="class_bryla.html#aba090cd07dc8e55eb6442638a2a1c794">Bryla::_Skala</a></div><div class="ttdeci">Wektor3D _Skala</div><div class="ttdoc">Obiekt typu Wektor3D zawierający skalę bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00036">Bryla.hh:36</a></div></div>
+<div class="ttc" id="aclass_bryla_html_ad3480603f549502406e17c9807bd66d8"><div class="ttname"><a href="class_bryla.html#ad3480603f549502406e17c9807bd66d8">Bryla::~Bryla</a></div><div class="ttdeci">~Bryla()</div><div class="ttdoc">Destruktor obiektu Bryla, usuwa plik finalny zmodyfikowanej bryly.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00115">Bryla.hh:115</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aeb6108ae31c373644b550e7a10dd205e"><div class="ttname"><a href="class_bryla.html#aeb6108ae31c373644b550e7a10dd205e">Bryla::_NazwaPliku_BrylaFinalna</a></div><div class="ttdeci">std::string _NazwaPliku_BrylaFinalna</div><div class="ttdoc">Obiekt typu string zawierajacy ścieżkę do pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00031">Bryla.hh:31</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aedea7005cad4a1a8e8b6f2bdfa5d2d44"><div class="ttname"><a href="class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44">Bryla::WezSkale</a></div><div class="ttdeci">Wektor3D WezSkale() const</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00076">Bryla.hh:76</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aefdf9009f66cebc6a9136d6639050a61"><div class="ttname"><a href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Bryla::Skaluj</a></div><div class="ttdeci">Wektor3D Skaluj(const Wektor3D &amp;Wierz) const</div><div class="ttdoc">Metoda, która służy do skalowania wierzchołków bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00068">Bryla.hh:68</a></div></div>
+<div class="ttc" id="aclass_bryla_html_af97ca97dd3b1cec99ce99d7886feceb6"><div class="ttname"><a href="class_bryla.html#af97ca97dd3b1cec99ce99d7886feceb6">Bryla::_NazwaPliku_BrylaWzorcowa</a></div><div class="ttdeci">std::string _NazwaPliku_BrylaWzorcowa</div><div class="ttdoc">Obiekt typu string zawierajacy ścieżkę do pliku zawierającego bryłę wzorcową</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00026">Bryla.hh:26</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html"><div class="ttname"><a href="class_uklad_wsp.html">UkladWsp</a></div><div class="ttdoc">Klasa UkladWsp.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00023">UkladWsp.hh:24</a></div></div>
+<div class="ttc" id="aclass_wektor_html"><div class="ttname"><a href="class_wektor.html">Wektor&lt; 3 &gt;</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<map id="UkladWsp::WezPolozenie" name="UkladWsp::WezPolozenie">
+<area shape="rect" id="node1" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="681,132,868,159"/>
+<area shape="rect" id="node2" href="$class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="397,5,623,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#adb4d6d61f99a99f17d154aaf9007d746" title="Metoda ustalajaca parametry Drona w celu detekcji kolizji." alt="" coords="429,56,591,83"/>
+<area shape="rect" id="node5" href="$class_gora__z___dl___grania.html#a8acdf32b0d90c1e4b07c9e5ad5dd2e88" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Dl_Grania." alt="" coords="387,107,633,133"/>
+<area shape="rect" id="node7" href="$class_gora__z___ostr.html#a251b3f43c9f3d42ab808b96b6bb76513" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Ostr." alt="" coords="405,157,615,184"/>
+<area shape="rect" id="node9" href="$class_plaskowyz.html#a652b7575fe816bad3fdb10689397f3ce" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Plaskowyz." alt="" coords="411,208,609,235"/>
+<area shape="rect" id="node11" href="$class_dron.html#a8946f7b041d9c79c8776bd0fe5b1bf78" title="Metoda przekazujaca polozenie drona w celu dorysowania sciezki." alt="" coords="428,259,592,285"/>
+<area shape="rect" id="node4" href="$class_dron.html#af4c252f650e0d321570d2f90d645efa9" title="Metoda sprawdzajaca czy dron nie koliduje z innym dronem." alt="" coords="132,40,315,67"/>
+<area shape="rect" id="node6" href="$class_gora__z___dl___grania.html#af1fd53ef28022edf15bf399e041c6702" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Dl_Grania." alt="" coords="123,91,324,133"/>
+<area shape="rect" id="node8" href="$class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Ostr." alt="" coords="108,157,339,184"/>
+<area shape="rect" id="node10" href="$class_plaskowyz.html#a1b4094eb7f5398bf3b7fc165ef7f50ae" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Plaskowyz." alt="" coords="114,208,333,235"/>
+<area shape="rect" id="node12" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="159,259,287,285"/>
+<area shape="rect" id="node13" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,259,60,285"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UkladWsp::WyswietlWsp" name="UkladWsp::WyswietlWsp">
+<area shape="rect" id="node1" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="580,31,764,57"/>
+<area shape="rect" id="node2" href="$class_scena.html#af3ab2270aeeecd5b9785564880a4d25a" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="317,5,532,32"/>
+<area shape="rect" id="node5" href="$class_dron.html#a2572b34c50a2b321109eee797fd9ac98" title="Metoda wyświetla aktualne położenie drona, tj. jego współrzędne X, Y." alt="" coords="354,56,495,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node4" href="$class_scena.html#ac14c1edb0c4a8cc24de59281dc7bc8c9" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="108,31,269,57"/>
+</map>

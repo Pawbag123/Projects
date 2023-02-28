@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBryla.a  CMakeFiles/Bryla.dir/Bryla.cpp.o
+/usr/bin/ranlib libBryla.a

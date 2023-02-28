@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy Gora_z_Ostr.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_400757c3a0df52e783ed9699284f29ce.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Gora_z_Ostr.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_gora__z___ostr_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_gora__z___ostr_8hh.html">Gora_z_Ostr.hh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0">   10</a></span>&#160;<a class="code" href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0">Gora_z_Ostr::Gora_z_Ostr</a>(<span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Skala,</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                         <span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Polozenie)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    : <a class="code" href="class_elem_pow.html">ElemPow</a>(<a class="code" href="_definicje_8hh.html#a0a2274e3dae49da17c7256599d5c84c0">PLIK_WZORCOWEGO_SZESCIANU_POW</a>,</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;              Skala,</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;              Polozenie)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">ZwiekszIlElem</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">PrzypiszNrElem</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    ++<a class="code" href="class_gora__z___ostr.html#adf2ca9fbe4e53b3a8d26e97b76143022">_Nr_Gory_z_Ostr</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">UstalNazwePliku_BrylaFinalna</a>(</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="_definicje_8hh.html#a5cbe0600c198753b6d674b78d0517349">SCIEZKA_DO_PLIKU_ELEMENT</a> +</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        std::to_string(<a class="code" href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">WezNrElem</a>()) +</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="_definicje_8hh.html#a5c645b839a8f6fa4f006c45cdd85d748">PLIK_GORY_Z_OSTR</a> +</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::to_string(<a class="code" href="class_gora__z___ostr.html#adf2ca9fbe4e53b3a8d26e97b76143022">_Nr_Gory_z_Ostr</a>) + <span class="stringliteral">&quot;.dat&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf">   26</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf">Gora_z_Ostr::TransformujElement</a>(std::ifstream &amp;Plik_We,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                     std::ofstream &amp;Plik_Wy)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    assert(Plik_We.good());</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    assert(Plik_Wy.good());</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> Wierz;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> Ind_krawedz = 0; Ind_krawedz &lt; 5; ++Ind_krawedz)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> Ind_wierz = 0; Ind_wierz &lt; 4; ++Ind_wierz)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            Plik_We &gt;&gt; Wierz;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (Plik_We.fail())</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">if</span> (Wierz[2] &gt; 0.5)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            { <span class="comment">// Tutaj realizowana jest deformacja</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                Wierz[0] = Wierz[1] = 0;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (Wierz[2] == 0.5)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                Wierz[0] /= 2;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                Wierz[1] /= 2;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            Wierz = <a class="code" href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Skaluj</a>(Wierz);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            Wierz = <a class="code" href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">TransfDoUklWspRodzica</a>(Wierz);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            Plik_Wy &lt;&lt; Wierz &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">if</span> (Plik_Wy.fail())</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Plik_Wy &lt;&lt; std::endl; <span class="comment">// Dodatkowa linia oddzielająca krawędzie</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> !Plik_Wy.fail();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283">   64</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283">Gora_z_Ostr::SprawdzCzyZajete</a>(<a class="code" href="class_obiekt_sc.html">ObiektSc</a> *Obiekt)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="class_gora__z___ostr.html#a251b3f43c9f3d42ab808b96b6bb76513">UstalParametry</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    Obiekt-&gt;<a class="code" href="class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6">UstalParametry</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> Sr = Obiekt-&gt;<a class="code" href="class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e">WezSrodek</a>();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">double</span> Pr = Obiekt-&gt;<a class="code" href="class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd">WezPromien</a>();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">double</span> DlX = fabs(Sr[0] - <a class="code" href="class_obiekt_sc.html#a57754ccd799921162112b78452dcf001">_SrodekObiektu</a>[0]);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">double</span> DlY = fabs(Sr[1] - <a class="code" href="class_obiekt_sc.html#a57754ccd799921162112b78452dcf001">_SrodekObiektu</a>[1]);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (DlX &gt; (<a class="code" href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">_BokX</a> + Pr))</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (DlY &gt; (<a class="code" href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">_BokY</a> + Pr))</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">if</span> (DlX &lt;= (<a class="code" href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">_BokX</a>))</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">if</span> (DlY &lt;= (<a class="code" href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">_BokY</a>))</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">double</span> OdlWierzch = (DlX - <a class="code" href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">_BokX</a>) * (DlX - <a class="code" href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">_BokX</a>) +</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        (DlY - <a class="code" href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">_BokY</a>) * (DlY - <a class="code" href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">_BokY</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> (OdlWierzch &lt;= (Pr * Pr));</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="ttc" id="a_definicje_8hh_html_a0a2274e3dae49da17c7256599d5c84c0"><div class="ttname"><a href="_definicje_8hh.html#a0a2274e3dae49da17c7256599d5c84c0">PLIK_WZORCOWEGO_SZESCIANU_POW</a></div><div class="ttdeci">#define PLIK_WZORCOWEGO_SZESCIANU_POW</div><div class="ttdef"><b>Definition:</b> <a href="_definicje_8hh_source.html#l00013">Definicje.hh:13</a></div></div>
+<div class="ttc" id="a_definicje_8hh_html_a5c645b839a8f6fa4f006c45cdd85d748"><div class="ttname"><a href="_definicje_8hh.html#a5c645b839a8f6fa4f006c45cdd85d748">PLIK_GORY_Z_OSTR</a></div><div class="ttdeci">#define PLIK_GORY_Z_OSTR</div><div class="ttdef"><b>Definition:</b> <a href="_definicje_8hh_source.html#l00019">Definicje.hh:19</a></div></div>
+<div class="ttc" id="a_definicje_8hh_html_a5cbe0600c198753b6d674b78d0517349"><div class="ttname"><a href="_definicje_8hh.html#a5cbe0600c198753b6d674b78d0517349">SCIEZKA_DO_PLIKU_ELEMENT</a></div><div class="ttdeci">#define SCIEZKA_DO_PLIKU_ELEMENT</div><div class="ttdef"><b>Definition:</b> <a href="_definicje_8hh_source.html#l00018">Definicje.hh:18</a></div></div>
+<div class="ttc" id="a_gora__z___ostr_8hh_html"><div class="ttname"><a href="_gora__z___ostr_8hh.html">Gora_z_Ostr.hh</a></div><div class="ttdoc">Plik zawiera definicje klasy Gora_z_Ostr oraz jej metod.</div></div>
+<div class="ttc" id="aclass_bryla_html_a272cd76773d897b7b3521c27eb09ffa4"><div class="ttname"><a href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">Bryla::UstalNazwePliku_BrylaFinalna</a></div><div class="ttdeci">void UstalNazwePliku_BrylaFinalna(const std::string &amp;Nazwa)</div><div class="ttdoc">Metoda ustalająca nazwę pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00106">Bryla.hh:106</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aefdf9009f66cebc6a9136d6639050a61"><div class="ttname"><a href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Bryla::Skaluj</a></div><div class="ttdeci">Wektor3D Skaluj(const Wektor3D &amp;Wierz) const</div><div class="ttdoc">Metoda, która służy do skalowania wierzchołków bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00068">Bryla.hh:68</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html"><div class="ttname"><a href="class_elem_pow.html">ElemPow</a></div><div class="ttdoc">Klasa modeluje pojecie elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00017">ElemPow.hh:18</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a0094cdb6bccb9b15c75d43a9ade92333"><div class="ttname"><a href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">ElemPow::ZwiekszIlElem</a></div><div class="ttdeci">static void ZwiekszIlElem()</div><div class="ttdoc">Metoda zwiekszajaca licznik ilosci elementow.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00048">ElemPow.hh:48</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a08fe6af641886d6a281a54af287a1330"><div class="ttname"><a href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">ElemPow::WezNrElem</a></div><div class="ttdeci">int WezNrElem()</div><div class="ttdoc">Metoda zwracajaca prywatny atrybut Elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00067">ElemPow.hh:67</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_af6749994670c576a87586e30d7fcf6b1"><div class="ttname"><a href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">ElemPow::PrzypiszNrElem</a></div><div class="ttdeci">void PrzypiszNrElem()</div><div class="ttdoc">Metoda przypisujaca Elementowi jego numer.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00057">ElemPow.hh:57</a></div></div>
+<div class="ttc" id="aclass_gora__z___ostr_html_a0930b15784a904ab3ddd82b9fe1546c0"><div class="ttname"><a href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0">Gora_z_Ostr::Gora_z_Ostr</a></div><div class="ttdeci">Gora_z_Ostr(const Wektor3D &amp;Skala, const Wektor3D &amp;Polozenie)</div><div class="ttdoc">Konstruktor parametryczny obiektu Gora_z_Ostr.</div><div class="ttdef"><b>Definition:</b> <a href="_gora__z___ostr_8cpp_source.html#l00010">Gora_z_Ostr.cpp:10</a></div></div>
+<div class="ttc" id="aclass_gora__z___ostr_html_a0d6cacbce25132cf644c96b19085a283"><div class="ttname"><a href="class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283">Gora_z_Ostr::SprawdzCzyZajete</a></div><div class="ttdeci">bool SprawdzCzyZajete(ObiektSc *Obiekt) override</div><div class="ttdoc">Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Ostr.</div><div class="ttdef"><b>Definition:</b> <a href="_gora__z___ostr_8cpp_source.html#l00064">Gora_z_Ostr.cpp:64</a></div></div>
+<div class="ttc" id="aclass_gora__z___ostr_html_a251b3f43c9f3d42ab808b96b6bb76513"><div class="ttname"><a href="class_gora__z___ostr.html#a251b3f43c9f3d42ab808b96b6bb76513">Gora_z_Ostr::UstalParametry</a></div><div class="ttdeci">void UstalParametry() override</div><div class="ttdoc">Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Ostr.</div><div class="ttdef"><b>Definition:</b> <a href="_gora__z___ostr_8hh_source.html#l00066">Gora_z_Ostr.hh:66</a></div></div>
+<div class="ttc" id="aclass_gora__z___ostr_html_ab65a0a797ae24882b973644e91c1c9cf"><div class="ttname"><a href="class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf">Gora_z_Ostr::TransformujElement</a></div><div class="ttdeci">bool TransformujElement(std::ifstream &amp;Plik_We, std::ofstream &amp;Plik_Wy) const override</div><div class="ttdoc">Metoda transformująca bryłę wzorcową w górę z ostrym szczytem.</div><div class="ttdef"><b>Definition:</b> <a href="_gora__z___ostr_8cpp_source.html#l00026">Gora_z_Ostr.cpp:26</a></div></div>
+<div class="ttc" id="aclass_gora__z___ostr_html_adf2ca9fbe4e53b3a8d26e97b76143022"><div class="ttname"><a href="class_gora__z___ostr.html#adf2ca9fbe4e53b3a8d26e97b76143022">Gora_z_Ostr::_Nr_Gory_z_Ostr</a></div><div class="ttdeci">static int _Nr_Gory_z_Ostr</div><div class="ttdoc">Licznik obiektów typu Gora_z_Ostr.</div><div class="ttdef"><b>Definition:</b> <a href="_gora__z___ostr_8hh_source.html#l00024">Gora_z_Ostr.hh:24</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html"><div class="ttname"><a href="class_obiekt_sc.html">ObiektSc</a></div><div class="ttdoc">Klasa definiuje pojęcie obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00018">ObiektSc.hh:19</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_a10a67d7d300e60519b2ba83143bd23cd"><div class="ttname"><a href="class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd">ObiektSc::WezPromien</a></div><div class="ttdeci">double WezPromien() const</div><div class="ttdoc">Metoda pozwalająca na uzyskanie promienia Drona.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00062">ObiektSc.hh:62</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_a2f1b072291df4e43589e73c0d49e4f3e"><div class="ttname"><a href="class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e">ObiektSc::WezSrodek</a></div><div class="ttdeci">Wektor3D WezSrodek() const</div><div class="ttdoc">Metoda pozwalajaca na uzyskanie srodka obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00052">ObiektSc.hh:52</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_a57754ccd799921162112b78452dcf001"><div class="ttname"><a href="class_obiekt_sc.html#a57754ccd799921162112b78452dcf001">ObiektSc::_SrodekObiektu</a></div><div class="ttdeci">Wektor3D _SrodekObiektu</div><div class="ttdoc">Obiekt typu Wektor3D przechowujacy środek położenia obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00025">ObiektSc.hh:25</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_a5803a0992fe3495255e917182997404c"><div class="ttname"><a href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">ObiektSc::_BokY</a></div><div class="ttdeci">double _BokY</div><div class="ttdoc">Liczba typu double przechowująca połowę wartości boku Y elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00043">ObiektSc.hh:43</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_ae757b746ad65f7515ae546e63f669715"><div class="ttname"><a href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">ObiektSc::_BokX</a></div><div class="ttdeci">double _BokX</div><div class="ttdoc">Liczba typu double przechowująca połowę wartości boku X elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00037">ObiektSc.hh:37</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html_ae9c55591b182c972398772f1f84431e6"><div class="ttname"><a href="class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6">ObiektSc::UstalParametry</a></div><div class="ttdeci">virtual void UstalParametry()=0</div><div class="ttdoc">Metoda ustalająca odpowiednie paramery obiektu w celu sprawdzenia kolizji.</div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_abd4381df11d0447cd2170dd98f533368"><div class="ttname"><a href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">UkladWsp::TransfDoUklWspRodzica</a></div><div class="ttdeci">Wektor3D TransfDoUklWspRodzica(const Wektor3D &amp;Wierz) const</div><div class="ttdoc">Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00145">UkladWsp.hh:145</a></div></div>
+<div class="ttc" id="aclass_wektor_html"><div class="ttname"><a href="class_wektor.html">Wektor&lt; 3 &gt;</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

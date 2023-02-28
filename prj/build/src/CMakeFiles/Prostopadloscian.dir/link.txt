@@ -1,0 +1,2 @@
+/usr/bin/ar qc libProstopadloscian.a  CMakeFiles/Prostopadloscian.dir/Prostopadloscian.cpp.o
+/usr/bin/ranlib libProstopadloscian.a

@@ -1,0 +1,5 @@
+<map id="UkladWsp::WezKat" name="UkladWsp::WezKat">
+<area shape="rect" id="node1" title="Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach." alt="" coords="280,31,425,57"/>
+<area shape="rect" id="node2" href="$class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="42,56,195,83"/>
+</map>

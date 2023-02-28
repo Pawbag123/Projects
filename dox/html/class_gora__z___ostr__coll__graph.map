@@ -1,0 +1,11 @@
+<map id="Gora_z_Ostr" name="Gora_z_Ostr">
+<area shape="rect" id="node1" title="Klasa modeluje pojęcie góry z ostrym szczytem." alt="" coords="111,603,212,629"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="120,527,203,553"/>
+<area shape="rect" id="node3" href="$class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="97,451,153,477"/>
+<area shape="rect" id="node4" href="$class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="81,349,169,376"/>
+<area shape="rect" id="node5" href="$class_wektor.html" title=" " alt="" coords="48,260,155,287"/>
+<area shape="rect" id="node9" href="$class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="163,400,243,427"/>
+<area shape="rect" id="node6" href="$class_licznik.html" title=" " alt="" coords="5,95,187,121"/>
+<area shape="rect" id="node8" href="$class_wektor.html" title="Szablon klasy Wektor." alt="" coords="117,171,267,197"/>
+<area shape="rect" id="node7" href="$class_licznik.html" title="Szablon licznik modelujący pojęcie licznika elementów danej klasy." alt="" coords="29,5,163,32"/>
+</map>

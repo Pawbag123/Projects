@@ -1,0 +1,11 @@
+<map id="Bryla::WezNazwePliku_BrylaWzorcowa" name="Bryla::WezNazwePliku_BrylaWzorcowa">
+<area shape="rect" id="node1" title="Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową" alt="" coords="735,71,901,112"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b" title="Metoda zapisujaca element w pliku." alt="" coords="496,5,687,47"/>
+<area shape="rect" id="node3" href="$class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="510,71,673,112"/>
+<area shape="rect" id="node9" href="$class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="510,136,673,177"/>
+<area shape="rect" id="node4" href="$class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,104,448,145"/>
+<area shape="rect" id="node5" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,35,237,62"/>
+<area shape="rect" id="node6" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,86,198,113"/>
+<area shape="rect" id="node7" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,137,217,163"/>
+<area shape="rect" id="node8" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,187,218,214"/>
+</map>

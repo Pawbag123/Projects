@@ -1,0 +1,37 @@
+<map id="Scena::DodajElement" name="Scena::DodajElement">
+<area shape="rect" id="node1" title="Metoda, której zadaniem jest dodanie elementu powierzchni." alt="" coords="5,429,167,455"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="237,239,410,280"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="237,392,410,433"/>
+<area shape="rect" id="node34" href="$class_scena.html#a0b5df06bf42a02f7e5d5b344ed91a352" title="Metoda wczytująca dane elementu, który ma zostać stworzony." alt="" coords="215,458,432,485"/>
+<area shape="rect" id="node35" href="$class_scena.html#ab1a253cfddb8e50f27bde49fefd4dc75" title="Metoda pozwalająca na wybranie rodzaju tworzonego elementu." alt="" coords="235,509,411,535"/>
+<area shape="rect" id="node3" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="552,190,679,217"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a087d906ddd4b2e3db32ef61ce4cd5e60" title="Tworzy preambułę poprzedzającą polecenie rysowania." alt="" coords="480,241,751,283"/>
+<area shape="rect" id="node15" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#af8be8aeb3b1b524fab67d4411cba5b9e" title="Informuje, czy połączenie z gnuplot&#39;em jest zainicjalizowane." alt="" coords="799,307,1033,348"/>
+<area shape="rect" id="node16" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a25585ec3f1bd3b6bf42f374c38b8d237" title="Tworzy listę parametrów umożliwiających rysowanie dodatkowych elementów." alt="" coords="488,424,743,465"/>
+<area shape="rect" id="node17" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ad3d7607946b82aa941d786dcd086d27e" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="517,541,713,583"/>
+<area shape="rect" id="node19" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aee10e48fe1b9fba6e2897b4ccfa27aef" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="483,624,748,665"/>
+<area shape="rect" id="node29" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a200ce6bdb980c314a9eafe49e8f2dd5e" title="Inicjalizuje połączenie z programem gnuplot." alt="" coords="529,359,702,400"/>
+<area shape="rect" id="node30" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5063854b7232a7951d120a21df63f2b7" title="Przesyła polecenie do gnuplota." alt="" coords="829,437,1003,479"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#add41e4bb92ccf9991b1cb15699f8c3d6" title="Tworzy preambułę poprzedzającą polecenie rysowania w trybie 2D." alt="" coords="829,176,1003,217"/>
+<area shape="rect" id="node14" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae3b2f34035fdfbbcab696057022341ab" title="Tworzy preambułę poprzedzającą polecenie rysowania w trybie 3D." alt="" coords="829,241,1003,283"/>
+<area shape="rect" id="node7" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a4579aecf7b4777fdde0cae4e98c275c2" title="Tworzy polecenie ustawiające zakres dla danej współrzędnej." alt="" coords="1081,185,1280,227"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a8e23479629af3df3d352b7839ae396b8" title="Górną wartość zakresu dla osi OX." alt="" coords="1345,267,1518,308"/>
+<area shape="rect" id="node9" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a66836c9749bf179420e4ca3e9447efd7" title="Dolna wartość zakresu dla osi OX." alt="" coords="1345,332,1518,373"/>
+<area shape="rect" id="node10" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ac54e4e7448ce3bd324efdc94a999f535" title="Górną wartość zakresu dla osi OY." alt="" coords="1345,5,1518,47"/>
+<area shape="rect" id="node11" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9352c0382bfaeaaba9f65399a7383164" title="Dolną wartość zakresu dla osi OY." alt="" coords="1345,71,1518,112"/>
+<area shape="rect" id="node12" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a20a5d03e1fc19c682032bffc54340f12" title="Górną wartość zakresu dla osi OZ." alt="" coords="1345,136,1518,177"/>
+<area shape="rect" id="node13" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9068bd9a9873ba9c6d70016f1ae7cd7f" title="Dolną wartość zakresu dla osi OZ." alt="" coords="1345,201,1518,243"/>
+<area shape="rect" id="node18" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="805,525,1027,551"/>
+<area shape="rect" id="node20" href="$namespace_pz_g.html#a85d3a77f67c2724ba3675bc3ef05eb81" title="Dopisuje do polecenia rysowania wpisy z nazwami plików, w których są współrzędne punktów." alt="" coords="803,693,1029,735"/>
+<area shape="rect" id="node23" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="799,576,1033,617"/>
+<area shape="rect" id="node28" href="$namespace_pz_g.html#ae6b9705e199ad695b61b4e902eaf0d6c" title="Dopisuje do tworzonego polenia dla gnuplota wpisy ustawiające etykiety punktów." alt="" coords="807,642,1025,669"/>
+<area shape="rect" id="node21" href="$class_pz_g_1_1_atrybuty_rysowania.html#a9f0f08bb69dca9c12e7f55c165c6223e" title="Udostępnia rozmiar rysowania." alt="" coords="1089,732,1272,773"/>
+<area shape="rect" id="node22" href="$class_pz_g_1_1_atrybuty_rysowania.html#a85f1665049d64618e1ac1d18c000ff76" title="Udostępnia styl rysowania." alt="" coords="1089,667,1272,708"/>
+<area shape="rect" id="node24" href="$namespace_pz_g.html#a169c311f0e0b6ffadcd44e91e749f72d" title="Wczytuje z pliku listę punktów." alt="" coords="1084,576,1277,617"/>
+<area shape="rect" id="node25" href="$class_pz_g_1_1_atrybuty_rysowania.html#ab068535b4d2f755c394557d1da72a4eb" title="Zmienia kolor rysowania." alt="" coords="1340,511,1523,552"/>
+<area shape="rect" id="node26" href="$class_pz_g_1_1_atrybuty_rysowania.html#af4b140eb03bc10b6fd816fad63f8372e" title="Zmienia rozmiar rysowania." alt="" coords="1340,576,1523,617"/>
+<area shape="rect" id="node27" href="$class_pz_g_1_1_atrybuty_rysowania.html#a2ac97706124b14072715ecf3f07e82b4" title="Zmienia styl rysowania." alt="" coords="1340,641,1523,683"/>
+<area shape="rect" id="node33" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1c7b9acc40de8d8bbb40fb0722512933" title="Uruchamia program gnuplot jako proces potomny." alt="" coords="827,372,1005,413"/>
+<area shape="rect" id="node31" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae5f907633699e898710cce4351193330" title="Wyświetla komunika błędu." alt="" coords="1094,429,1267,471"/>
+<area shape="rect" id="node32" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5e4f3a226ed36f7110032d802d84847c" title="Udostępnia informację czy mają być wyświetlane informacje o błędach." alt="" coords="1328,429,1535,471"/>
+</map>

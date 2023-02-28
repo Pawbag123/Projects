@@ -1,0 +1,13 @@
+Przykład demonstruje operacje jakie należy wykonać,
+aby stworzyć wizualizację przelotu drona. Można go
+potraktować jako zalążek do zadania. Należy pamiętać
+jednak, że dostarczony kod nie jest pisany obiektowo
+i wymaga gruntownej przebudowy, aby dostosować go
+do wymogów zadania.
+
+Aby skorzystać z niniejszego przykładu,
+należy przekopiować cala zawartość kartoteki
+do swojej własnej, np.
+
+  cp ~bk/edu/kpo/zad/z5-1/przyklad-animacji-drona  ~
+

@@ -1,0 +1,7 @@
+<map id="Dron::ObrocRotory" name="Dron::ObrocRotory">
+<area shape="rect" id="node1" title="Metoda która pozwala na obrót rotorów poprzez dodanie im kąta rotacji." alt="" coords="285,81,428,108"/>
+<area shape="rect" id="node2" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+<area shape="rect" id="node4" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,107,217,133"/>
+<area shape="rect" id="node5" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,157,218,184"/>
+</map>

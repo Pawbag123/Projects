@@ -1,0 +1,4 @@
+<map id="Sciezka::DodajPoziom" name="Sciezka::DodajPoziom">
+<area shape="rect" id="node1" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="219,5,329,32"/>
+</map>

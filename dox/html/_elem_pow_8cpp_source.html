@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy ElemPow.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_400757c3a0df52e783ed9699284f29ce.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ElemPow.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_elem_pow_8cpp.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_elem_pow_8hh.html">ElemPow.hh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">   10</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">ElemPow::Oblicz_i_Zapisz_WspGlbElementu</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    std::ifstream Plik_Wz(<a class="code" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">WezNazwePliku_BrylaWzorcowa</a>());</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    std::ofstream Plik_Finalny(<a class="code" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a>());</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (!Plik_Wz.is_open())</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        std::cerr &lt;&lt; std::endl</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                  &lt;&lt; <span class="stringliteral">&quot; Blad otwarcia do odczytu pliku: &quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                  &lt;&lt; <a class="code" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">WezNazwePliku_BrylaWzorcowa</a>() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (!Plik_Finalny.is_open())</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        std::cerr &lt;&lt; std::endl</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                  &lt;&lt; <span class="stringliteral">&quot; Blad otwarcia do odczytu pliku: &quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                  &lt;&lt; <a class="code" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a>() &lt;&lt; std::endl</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">TransformujElement</a>(Plik_Wz, Plik_Finalny);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="ttc" id="a_elem_pow_8hh_html"><div class="ttname"><a href="_elem_pow_8hh.html">ElemPow.hh</a></div><div class="ttdoc">Plik zawiera definicje klasy ElemPow oraz jej metod.</div></div>
+<div class="ttc" id="aclass_bryla_html_a13c6c416b92fcc50c656bf37adab74d9"><div class="ttname"><a href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">Bryla::WezNazwePliku_BrylaFinalna</a></div><div class="ttdeci">const std::string &amp; WezNazwePliku_BrylaFinalna() const</div><div class="ttdoc">Metoda zwracająca nazwę pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00096">Bryla.hh:96</a></div></div>
+<div class="ttc" id="aclass_bryla_html_aab1aa0ebfd11c8d0258a55ad3b83d2fe"><div class="ttname"><a href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">Bryla::WezNazwePliku_BrylaWzorcowa</a></div><div class="ttdeci">const std::string &amp; WezNazwePliku_BrylaWzorcowa() const</div><div class="ttdoc">Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00086">Bryla.hh:86</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_ad45ca209027ace75a732795162d0e016"><div class="ttname"><a href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">ElemPow::TransformujElement</a></div><div class="ttdeci">virtual bool TransformujElement(std::ifstream &amp;Plik_We, std::ofstream &amp;Plik_Wy) const =0</div><div class="ttdoc">Metoda transformujaca element.</div></div>
+<div class="ttc" id="aclass_elem_pow_html_adec35516611cc001b9d8dc8f0d69692b"><div class="ttname"><a href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">ElemPow::Oblicz_i_Zapisz_WspGlbElementu</a></div><div class="ttdeci">bool Oblicz_i_Zapisz_WspGlbElementu() const</div><div class="ttdoc">Metoda zapisujaca element w pliku.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8cpp_source.html#l00010">ElemPow.cpp:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

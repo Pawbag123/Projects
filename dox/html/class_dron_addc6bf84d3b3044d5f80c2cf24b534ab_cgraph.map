@@ -1,0 +1,4 @@
+<map id="Dron::ObrocRotory" name="Dron::ObrocRotory">
+<area shape="rect" id="node1" title="Metoda która pozwala na obrót rotorów poprzez dodanie im kąta rotacji." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f" title="Zwiększenie kąta orientacji." alt="" coords="196,5,352,32"/>
+</map>

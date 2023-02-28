@@ -1,0 +1,4 @@
+<map id="Scena::SprawdzCzyZajete" name="Scena::SprawdzCzyZajete">
+<area shape="rect" id="node1" title="Metoda sprawdzajaca czy miejsce lądowania drona jest już zajęte." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$class_scena.html#ad56272196623f54554fa4663e434359f" title="Metoda pozwalająca na użycie aktywnego drona." alt="" coords="244,5,455,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Gora_z_Ostr::TransformujElement" name="Gora_z_Ostr::TransformujElement">
+<area shape="rect" id="node1" title="Metoda transformująca bryłę wzorcową w górę z ostrym szczytem." alt="" coords="5,27,192,69"/>
+<area shape="rect" id="node2" href="$class_bryla.html#aefdf9009f66cebc6a9136d6639050a61" title="Metoda, która służy do skalowania wierzchołków bryły." alt="" coords="290,5,393,32"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="240,57,443,98"/>
+<area shape="rect" id="node4" href="$class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="491,64,604,91"/>
+<area shape="rect" id="node5" href="$class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="652,13,763,40"/>
+<area shape="rect" id="node6" href="$class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="653,64,762,91"/>
+<area shape="rect" id="node7" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="652,115,763,141"/>
+</map>

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/lacze_do_gnuplota.hh
+string
+-
+list
+-
+vector
+-
+
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/main.cpp
+iostream
+-
+fstream
+-
+iomanip
+-
+cmath
+-
+cassert
+-
+unistd.h
+-
+lacze_do_gnuplota.hh
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/lacze_do_gnuplota.hh
+

@@ -1,0 +1,8 @@
+<map id="Scena::DodajNazwyPlikow" name="Scena::DodajNazwyPlikow">
+<area shape="rect" id="node1" title="Metoda dodająca nazwy plików do łącza." alt="" coords="5,97,199,123"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="262,5,435,47"/>
+<area shape="rect" id="node4" href="$class_scena.html#a27888a732da383b6419ec82e419707a5" title="Metoda umieszczająca nazwy plików obu dronów w obiekcie SpisPlikow." alt="" coords="247,71,451,98"/>
+<area shape="rect" id="node5" href="$class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a" title="Metoda zwracająca całkowitą ilość plików." alt="" coords="271,122,426,149"/>
+<area shape="rect" id="node6" href="$class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb" title="Metoda zwracająca nazwę pliku znajdującą się w danym miejscu." alt="" coords="264,173,433,199"/>
+<area shape="rect" id="node3" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="499,13,625,39"/>
+</map>

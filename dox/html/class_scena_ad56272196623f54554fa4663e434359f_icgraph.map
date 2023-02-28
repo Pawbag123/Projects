@@ -1,0 +1,8 @@
+<map id="Scena::UzyjAktywnegoDrona" name="Scena::UzyjAktywnegoDrona">
+<area shape="rect" id="node1" title="Metoda pozwalająca na użycie aktywnego drona." alt="" coords="580,56,791,83"/>
+<area shape="rect" id="node2" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="125,5,253,32"/>
+<area shape="rect" id="node4" href="$class_scena.html#a1dcf70340cc2b073f4dc887755577963" title="Metoda sprawdzajaca czy miejsce lądowania drona jest już zajęte." alt="" coords="329,56,520,83"/>
+<area shape="rect" id="node5" href="$class_scena.html#af3ab2270aeeecd5b9785564880a4d25a" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="317,107,532,133"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" id="node6" href="$class_scena.html#ac14c1edb0c4a8cc24de59281dc7bc8c9" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="108,107,269,133"/>
+</map>

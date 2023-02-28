@@ -1,0 +1,10 @@
+<map id="Sciezka.hh" name="Sciezka.hh">
+<area shape="rect" id="node1" title="Plik zawierający definicję klasy Sciezka." alt="" coords="220,5,311,32"/>
+<area shape="rect" id="node2" href="$_dron_8hh.html" title="Plik zawiera definicję klasy Dron." alt="" coords="174,80,247,107"/>
+<area shape="rect" id="node8" href="$_sciezka_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Sciezka." alt="" coords="272,80,371,107"/>
+<area shape="rect" id="node3" href="$_dron_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Dron." alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node4" href="$_scena_8hh.html" title="Plik zawierający definicję klasy Scena." alt="" coords="110,155,191,181"/>
+<area shape="rect" id="node7" href="$_spis_plikow_8hh.html" title="Plik zawiera definicję klasy SpisPlikow." alt="" coords="215,155,326,181"/>
+<area shape="rect" id="node5" href="$_scena_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Scena." alt="" coords="52,229,140,256"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Główny plik programu." alt="" coords="164,229,247,256"/>
+</map>

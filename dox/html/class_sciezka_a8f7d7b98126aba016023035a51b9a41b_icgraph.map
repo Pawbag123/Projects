@@ -1,0 +1,9 @@
+<map id="Sciezka::DodajPoziom" name="Sciezka::DodajPoziom">
+<area shape="rect" id="node1" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="780,31,945,57"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#a834f9cb90322bf1fabb036335a74766c" title="Metoda tworząca nową ścieżkę drona wydłużoną o fragment potrzebny do ominięcia przeszkody." alt="" coords="507,5,732,32"/>
+<area shape="rect" id="node5" href="$class_sciezka.html#a0bcc0ca95bd9aa01212e075bc8c31d90" title="Metoda ustalająca ścieżkę drona za pomocą stworzonych wcześniej metod." alt="" coords="538,56,701,83"/>
+<area shape="rect" id="node3" href="$class_sciezka.html#abcf031bad1be90abd183c731331e2ff1" title="Metoda która na nowo rysuje ścieżkę drona poprawioną po kolizji." alt="" coords="280,5,459,32"/>
+<area shape="rect" id="node4" href="$class_dron.html#a20ea808d61c0754e30b0de915523f199" title="Metoda , majaca na celu dorysowanie dalszej sciezki drona w wypadku kolizji." alt="" coords="15,5,222,32"/>
+<area shape="rect" id="node6" href="$class_sciezka.html#ab976ec78d721529af43e600adb404c05" title="Metoda która pozwala na narysowanie ścieżki lotu." alt="" coords="280,56,459,83"/>
+<area shape="rect" id="node7" href="$class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="5,56,232,83"/>
+</map>

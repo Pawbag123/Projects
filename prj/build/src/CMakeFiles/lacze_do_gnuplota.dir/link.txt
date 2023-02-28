@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblacze_do_gnuplota.a  CMakeFiles/lacze_do_gnuplota.dir/lacze_do_gnuplota.cpp.o
+/usr/bin/ranlib liblacze_do_gnuplota.a

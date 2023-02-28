@@ -1,0 +1,5 @@
+<map id="Scena::WyswietlAktPolozenie" name="Scena::WyswietlAktPolozenie">
+<area shape="rect" id="node1" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="5,31,220,57"/>
+<area shape="rect" id="node2" href="$class_scena.html#ad56272196623f54554fa4663e434359f" title="Metoda pozwalająca na użycie aktywnego drona." alt="" coords="268,5,479,32"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="281,56,465,83"/>
+</map>

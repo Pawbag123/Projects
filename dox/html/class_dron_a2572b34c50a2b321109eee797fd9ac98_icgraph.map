@@ -1,0 +1,6 @@
+<map id="Dron::WyswietlPol" name="Dron::WyswietlPol">
+<area shape="rect" id="node1" title="Metoda wyświetla aktualne położenie drona, tj. jego współrzędne X, Y." alt="" coords="557,5,699,32"/>
+<area shape="rect" id="node2" href="$class_scena.html#a1604d88089e1d5866162f4c55db6ba93" title="Metoda wyświetlająca aktualne położenie dronóœ" alt="" coords="317,5,509,32"/>
+<area shape="rect" id="node3" href="$class_scena.html#ac14c1edb0c4a8cc24de59281dc7bc8c9" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="108,5,269,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

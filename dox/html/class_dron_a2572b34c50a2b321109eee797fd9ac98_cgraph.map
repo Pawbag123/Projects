@@ -1,0 +1,4 @@
+<map id="Dron::WyswietlPol" name="Dron::WyswietlPol">
+<area shape="rect" id="node1" title="Metoda wyświetla aktualne położenie drona, tj. jego współrzędne X, Y." alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node2" href="$class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="195,5,379,32"/>
+</map>

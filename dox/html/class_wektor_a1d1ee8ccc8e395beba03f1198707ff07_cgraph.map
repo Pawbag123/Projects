@@ -1,0 +1,5 @@
+<map id="Wektor::WyswietlIlosc" name="Wektor::WyswietlIlosc">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,172,73"/>
+<area shape="rect" id="node2" href="$class_licznik.html#a152e2649c3a00092bca22c758c2125a1" title="Metoda statyczna zwracająca liczbę aktualnie istniejących obiektów." alt="" coords="220,5,371,47"/>
+<area shape="rect" id="node3" href="$class_licznik.html#a89e725dedc417cdb7ef78125c4ee09d9" title="Metoda statyczna zwracająca liczbę wszystkich utworzonych obiektów." alt="" coords="220,71,371,112"/>
+</map>

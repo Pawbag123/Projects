@@ -1,0 +1,9 @@
+<map id="PzG::LaczeDoGNUPlota::UsunNazwePliku" name="PzG::LaczeDoGNUPlota::UsunNazwePliku">
+<area shape="rect" id="node1" title="Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę." alt="" coords="709,39,883,81"/>
+<area shape="rect" id="node2" href="$class_scena.html#a17869a6d7c7f682bb870d45af02feade" title="Metoda, której zadaniem jest usunięcie elementu powierzchni." alt="" coords="284,5,440,32"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9f31ec3f418db5df94e2b24096dfc64d" title="Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę." alt="" coords="488,39,661,81"/>
+<area shape="rect" id="node5" href="$class_sciezka.html#af09fc5883348ae894cf64f4e44253dfc" title="Metoda, która usuwa ścieżkę z łącza do GNUPlota." alt="" coords="494,105,655,132"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,60,73"/>
+<area shape="rect" id="node6" href="$class_dron.html#a0e96e5238f928a17a942e349a3adf781" title="Metoda usuwająca ścieżkę" alt="" coords="291,72,433,99"/>
+<area shape="rect" id="node7" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="108,72,236,99"/>
+</map>

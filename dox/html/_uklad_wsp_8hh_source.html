@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy UkladWsp.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">UkladWsp.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_uklad_wsp_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef UKLAD_WSP_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define UKLAD_WSP_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_wektor3_d_8hh.html">Wektor3D.hh</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_macierz3x3_8hh.html">Macierz3x3.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_definicje_8hh.html">Definicje.hh</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_uklad_wsp.html">UkladWsp</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">   29</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">   34</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">   43</a></span>&#160;    <a class="code" href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">UkladWsp</a>(<span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Polozenie,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">double</span> KatOrientacji) : <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>(Polozenie),</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                           <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a>(KatOrientacji){};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">   52</a></span>&#160;    <a class="code" href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">UkladWsp</a>(<span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Polozenie) : <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>(Polozenie), <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a>(0){};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">   59</a></span>&#160;    <span class="keywordtype">double</span> &amp;<a class="code" href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">WezKat</a>()</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">   69</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">UstawKat</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a> = alfa;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">   79</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">Wznies</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> wys)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[2] = wys;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">   91</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">Przesun</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> Dl[2], <span class="keyword">const</span> <span class="keywordtype">double</span> CalkDl)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[0] = <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[0] + Dl[0] / CalkDl;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[1] = <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[1] + Dl[1] / CalkDl;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">  107</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">WezPolozenie</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="class_wektor.html">Wektor3D</a> wynik = <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> wynik;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">  119</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">DodajKat</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a> += alfa;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">  128</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">WyswietlWsp</a>()</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        std::cout &lt;&lt; <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[0] &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[1];</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#a02d3b34d674cdd42bbc3b024c9902737">  133</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_uklad_wsp.html#a02d3b34d674cdd42bbc3b024c9902737">WyswietlWsp_Dla_Elem</a>()</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;(&quot;</span> &lt;&lt; <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[0] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>[1] &lt;&lt; <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">  145</a></span>&#160;    <a class="code" href="class_wektor.html">Wektor3D</a> <a class="code" href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">TransfDoUklWspRodzica</a>(<span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Wierz)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="class_macierz.html">Macierz3x3</a> rotacja;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        rotacja.<a class="code" href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b">setM</a>(<a class="code" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a>, <span class="charliteral">&#39;z&#39;</span>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> (Wierz * rotacja) + <a class="code" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;};</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_definicje_8hh_html"><div class="ttname"><a href="_definicje_8hh.html">Definicje.hh</a></div><div class="ttdoc">Plik zawierający wszystkie niezbędne definicje.</div></div>
+<div class="ttc" id="a_macierz3x3_8hh_html"><div class="ttname"><a href="_macierz3x3_8hh.html">Macierz3x3.hh</a></div><div class="ttdoc">Plik zawierający definicję klasy Macierz3x3.</div></div>
+<div class="ttc" id="a_wektor3_d_8hh_html"><div class="ttname"><a href="_wektor3_d_8hh.html">Wektor3D.hh</a></div><div class="ttdoc">Plik zawierający definicję klasy Wektor3D.</div></div>
+<div class="ttc" id="aclass_macierz_html"><div class="ttname"><a href="class_macierz.html">Macierz</a></div><div class="ttdoc">Szablon klasy Macierz.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00023">Macierz.hh:24</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a7c4bbd016dd743cd6c5fa421c674220b"><div class="ttname"><a href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b">Macierz::setM</a></div><div class="ttdeci">void setM(const double alfa, const char &amp;os)</div><div class="ttdoc">Ustalenie macierzy obrotu.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00143">Macierz.hh:143</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html"><div class="ttname"><a href="class_uklad_wsp.html">UkladWsp</a></div><div class="ttdoc">Klasa UkladWsp.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00023">UkladWsp.hh:24</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a02d3b34d674cdd42bbc3b024c9902737"><div class="ttname"><a href="class_uklad_wsp.html#a02d3b34d674cdd42bbc3b024c9902737">UkladWsp::WyswietlWsp_Dla_Elem</a></div><div class="ttdeci">void WyswietlWsp_Dla_Elem()</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00133">UkladWsp.hh:133</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a304c5fec392b1650414c792181f5eea7"><div class="ttname"><a href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">UkladWsp::Wznies</a></div><div class="ttdeci">void Wznies(const double wys)</div><div class="ttdoc">Metoda zmieniająca współrzędną Z położenia (w celu zmiany wysokości)</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00079">UkladWsp.hh:79</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a46e8768fe87f886374dc763f2505a68f"><div class="ttname"><a href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">UkladWsp::WezPolozenie</a></div><div class="ttdeci">Wektor3D WezPolozenie() const</div><div class="ttdoc">Metoda zwracająca położenie układu w celu dalszego działania.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00107">UkladWsp.hh:107</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a58bb3734c52b05ef9c46a904bad2684f"><div class="ttname"><a href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">UkladWsp::DodajKat</a></div><div class="ttdeci">void DodajKat(const double alfa)</div><div class="ttdoc">Zwiększenie kąta orientacji.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00119">UkladWsp.hh:119</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a5eb8074532cd95c42ad46d48c0609b0e"><div class="ttname"><a href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">UkladWsp::_KatOrientacji_stopnie</a></div><div class="ttdeci">double _KatOrientacji_stopnie</div><div class="ttdoc">Liczba typu double przechowujaca dane na temat kata orientacji obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00034">UkladWsp.hh:34</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a659fddf550420b111d29cff01f2efce7"><div class="ttname"><a href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">UkladWsp::Przesun</a></div><div class="ttdeci">void Przesun(const double Dl[2], const double CalkDl)</div><div class="ttdoc">Metoda stworzona w celu animacji przesunięcia Drona o odpowiednie wartości.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00091">UkladWsp.hh:91</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_a90fc602001a089eb00674325afdc47e6"><div class="ttname"><a href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">UkladWsp::WezKat</a></div><div class="ttdeci">double &amp; WezKat()</div><div class="ttdoc">Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00059">UkladWsp.hh:59</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_aa54d639318666950968000c2decd8e66"><div class="ttname"><a href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">UkladWsp::UkladWsp</a></div><div class="ttdeci">UkladWsp(const Wektor3D &amp;Polozenie)</div><div class="ttdoc">Konstruktor układu współrzędnych o jednym parametrze.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00052">UkladWsp.hh:52</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_ab46e5eb35b7a39e1b4cb28aee81e3717"><div class="ttname"><a href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">UkladWsp::WyswietlWsp</a></div><div class="ttdeci">void WyswietlWsp()</div><div class="ttdoc">Wyświetlenie współrzędnych X i Y Układu.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00128">UkladWsp.hh:128</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_ab79d59974e4f9abd9246fc5ceb13e572"><div class="ttname"><a href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">UkladWsp::_Polozenie</a></div><div class="ttdeci">Wektor3D _Polozenie</div><div class="ttdoc">Wektor3D zawierający współrzędne polozenia obiektu.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00029">UkladWsp.hh:29</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_abd4381df11d0447cd2170dd98f533368"><div class="ttname"><a href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">UkladWsp::TransfDoUklWspRodzica</a></div><div class="ttdeci">Wektor3D TransfDoUklWspRodzica(const Wektor3D &amp;Wierz) const</div><div class="ttdoc">Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00145">UkladWsp.hh:145</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_ad1062ba3c1b2a0ca4a6b7c9a28779eb4"><div class="ttname"><a href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">UkladWsp::UkladWsp</a></div><div class="ttdeci">UkladWsp(const Wektor3D &amp;Polozenie, const double KatOrientacji)</div><div class="ttdoc">Konstruktor Ukladu wspolrzednych o dwóch parametrach.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00043">UkladWsp.hh:43</a></div></div>
+<div class="ttc" id="aclass_uklad_wsp_html_ae8421da5a59c50db2f9bccf3b1bf39ab"><div class="ttname"><a href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">UkladWsp::UstawKat</a></div><div class="ttdeci">void UstawKat(const double alfa)</div><div class="ttdoc">Ustalenie kąta orientacji.</div><div class="ttdef"><b>Definition:</b> <a href="_uklad_wsp_8hh_source.html#l00069">UkladWsp.hh:69</a></div></div>
+<div class="ttc" id="aclass_wektor_html"><div class="ttname"><a href="class_wektor.html">Wektor&lt; 3 &gt;</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

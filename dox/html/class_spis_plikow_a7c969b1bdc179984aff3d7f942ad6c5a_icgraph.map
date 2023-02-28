@@ -1,0 +1,7 @@
+<map id="SpisPlikow::WezIlosc" name="SpisPlikow::WezIlosc">
+<area shape="rect" id="node1" title="Metoda zwracająca całkowitą ilość plików." alt="" coords="565,31,720,57"/>
+<area shape="rect" id="node2" href="$class_scena.html#aca49d7ed66b0cfeb0a458d961770dbe3" title="Metoda dodająca nazwy plików do łącza." alt="" coords="324,5,517,32"/>
+<area shape="rect" id="node5" href="$class_spis_plikow.html#a88ecd6d4e2fdad812c44810414539e92" title="Metoda wyświetlająca wszystkie nazwy dodanych plików." alt="" coords="341,56,500,83"/>
+<area shape="rect" id="node3" href="$class_scena.html#abfa09a17e8374dee288140142e75d7e5" title="Metoda inicjalizująca łącze." alt="" coords="108,5,276,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

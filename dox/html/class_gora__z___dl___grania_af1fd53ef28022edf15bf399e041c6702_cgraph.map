@@ -1,0 +1,9 @@
+<map id="Gora_z_Dl_Grania::SprawdzCzyZajete" name="Gora_z_Dl_Grania::SprawdzCzyZajete">
+<area shape="rect" id="node1" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Dl_Grania." alt="" coords="5,99,207,141"/>
+<area shape="rect" id="node2" href="$class_gora__z___dl___grania.html#a8acdf32b0d90c1e4b07c9e5ad5dd2e88" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Dl_Grania." alt="" coords="255,31,501,57"/>
+<area shape="rect" id="node5" href="$class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6" title="Metoda ustalająca odpowiednie paramery obiektu w celu sprawdzenia kolizji." alt="" coords="283,81,473,108"/>
+<area shape="rect" id="node6" href="$class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd" title="Metoda pozwalająca na uzyskanie promienia Drona." alt="" coords="293,132,463,159"/>
+<area shape="rect" id="node7" href="$class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e" title="Metoda pozwalajaca na uzyskanie srodka obiektu." alt="" coords="298,183,458,209"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="549,5,736,32"/>
+<area shape="rect" id="node4" href="$class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44" title=" " alt="" coords="579,56,706,83"/>
+</map>

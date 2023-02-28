@@ -1,0 +1,19 @@
+<map id="PzG::LaczeDoGNUPlota::KomunikatBledu" name="PzG::LaczeDoGNUPlota::KomunikatBledu">
+<area shape="rect" id="node1" title="Wyświetla komunika błędu." alt="" coords="1469,320,1643,361"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5063854b7232a7951d120a21df63f2b7" title="Przesyła polecenie do gnuplota." alt="" coords="1246,320,1419,361"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aacb7ae45d283c741fb330f27b132e1a3" title="Generuje polecenie rysowania do pliku i przesyła je do gnuplota." alt="" coords="551,414,724,456"/>
+<area shape="rect" id="node17" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1c7b9acc40de8d8bbb40fb0722512933" title="Uruchamia program gnuplot jako proces potomny." alt="" coords="1244,254,1421,296"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a200ce6bdb980c314a9eafe49e8f2dd5e" title="Inicjalizuje połączenie z programem gnuplot." alt="" coords="1023,254,1196,296"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="801,254,975,296"/>
+<area shape="rect" id="node4" href="$class_scena.html#abfa09a17e8374dee288140142e75d7e5" title="Metoda inicjalizująca łącze." alt="" coords="553,8,721,35"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,84,60,111"/>
+<area shape="rect" id="node7" href="$class_scena.html#ae198d1c58cb88db0cf3af1d284095b60" title="Metoda, której zadaniem jest dodanie elementu powierzchni." alt="" coords="312,262,473,288"/>
+<area shape="rect" id="node9" href="$class_scena.html#a17869a6d7c7f682bb870d45af02feade" title="Metoda, której zadaniem jest usunięcie elementu powierzchni." alt="" coords="108,59,264,86"/>
+<area shape="rect" id="node10" href="$class_sciezka.html#af09fc5883348ae894cf64f4e44253dfc" title="Metoda, która usuwa ścieżkę z łącza do GNUPlota." alt="" coords="557,110,718,136"/>
+<area shape="rect" id="node13" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="521,160,753,187"/>
+<area shape="rect" id="node14" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="561,211,714,238"/>
+<area shape="rect" id="node15" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="541,262,733,288"/>
+<area shape="rect" id="node16" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="541,312,734,339"/>
+<area shape="rect" id="node11" href="$class_dron.html#a0e96e5238f928a17a942e349a3adf781" title="Metoda usuwająca ścieżkę" alt="" coords="321,110,464,136"/>
+<area shape="rect" id="node12" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="122,110,250,136"/>
+</map>

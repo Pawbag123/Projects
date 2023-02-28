@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy SpisPlikow.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">SpisPlikow.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_spis_plikow_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SPIS_PLIKOW_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SPIS_PLIKOW_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;cstring&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_dron_8hh.html">Dron.hh</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="lacze__do__gnuplota_8hh.html">lacze_do_gnuplota.hh</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_spis_plikow.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_spis_plikow.html">SpisPlikow</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">   26</a></span>&#160;    vector&lt;string&gt; <a class="code" href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">_NazwyPlikow</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#af53c696ef2c2771c337d2794aa051121">   33</a></span>&#160;    <a class="code" href="class_spis_plikow.html#af53c696ef2c2771c337d2794aa051121">SpisPlikow</a>()</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="class_spis_plikow.html#a4145e9c2b49c3724b2ad43eeb4540125">DodajNazwe</a>(<a class="code" href="_definicje_8hh.html#a36dd5d2dbf9e340165eed94e52522c68">PLIK_PLASZCZYZNY</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#a4145e9c2b49c3724b2ad43eeb4540125">   43</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_spis_plikow.html#a4145e9c2b49c3724b2ad43eeb4540125">DodajNazwe</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;Nazwa)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">_NazwyPlikow</a>.push_back(Nazwa);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb">   54</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb">WezNazwe</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idx)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">_NazwyPlikow</a>[idx];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a">   64</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a">WezIlosc</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">_NazwyPlikow</a>.size();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="class_spis_plikow.html#a88ecd6d4e2fdad812c44810414539e92">   73</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_spis_plikow.html#a88ecd6d4e2fdad812c44810414539e92">Wyswietl</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keyword">    </span>{</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt;= <a class="code" href="class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a">WezIlosc</a>(); ++i)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            cout &lt;&lt; <a class="code" href="class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb">WezNazwe</a>(i) &lt;&lt; endl;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;};</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_definicje_8hh_html_a36dd5d2dbf9e340165eed94e52522c68"><div class="ttname"><a href="_definicje_8hh.html#a36dd5d2dbf9e340165eed94e52522c68">PLIK_PLASZCZYZNY</a></div><div class="ttdeci">#define PLIK_PLASZCZYZNY</div><div class="ttdef"><b>Definition:</b> <a href="_definicje_8hh_source.html#l00015">Definicje.hh:15</a></div></div>
+<div class="ttc" id="a_dron_8hh_html"><div class="ttname"><a href="_dron_8hh.html">Dron.hh</a></div><div class="ttdoc">Plik zawiera definicję klasy Dron.</div></div>
+<div class="ttc" id="aclass_spis_plikow_html"><div class="ttname"><a href="class_spis_plikow.html">SpisPlikow</a></div><div class="ttdoc">Klasa modeluje pojęcie spisu plików wykorzystanych w celu rysowania figur.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00020">SpisPlikow.hh:21</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_a4145e9c2b49c3724b2ad43eeb4540125"><div class="ttname"><a href="class_spis_plikow.html#a4145e9c2b49c3724b2ad43eeb4540125">SpisPlikow::DodajNazwe</a></div><div class="ttdeci">void DodajNazwe(const string &amp;Nazwa)</div><div class="ttdoc">Metoda dodająca nazwę pliku, wykorzystana w innych funkcjach.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00043">SpisPlikow.hh:43</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_a718efff2bd0d8e83e895ce3c63dcc4fb"><div class="ttname"><a href="class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb">SpisPlikow::WezNazwe</a></div><div class="ttdeci">string WezNazwe(const int idx) const</div><div class="ttdoc">Metoda zwracająca nazwę pliku znajdującą się w danym miejscu.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00054">SpisPlikow.hh:54</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_a7c969b1bdc179984aff3d7f942ad6c5a"><div class="ttname"><a href="class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a">SpisPlikow::WezIlosc</a></div><div class="ttdeci">int WezIlosc() const</div><div class="ttdoc">Metoda zwracająca całkowitą ilość plików.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00064">SpisPlikow.hh:64</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_a88ecd6d4e2fdad812c44810414539e92"><div class="ttname"><a href="class_spis_plikow.html#a88ecd6d4e2fdad812c44810414539e92">SpisPlikow::Wyswietl</a></div><div class="ttdeci">void Wyswietl() const</div><div class="ttdoc">Metoda wyświetlająca wszystkie nazwy dodanych plików.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00073">SpisPlikow.hh:73</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_ab3f270c5b63ca02cb62d298d768d68ae"><div class="ttname"><a href="class_spis_plikow.html#ab3f270c5b63ca02cb62d298d768d68ae">SpisPlikow::_NazwyPlikow</a></div><div class="ttdeci">vector&lt; string &gt; _NazwyPlikow</div><div class="ttdoc">Szablon vector przechowujący nazwy plików.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00026">SpisPlikow.hh:26</a></div></div>
+<div class="ttc" id="aclass_spis_plikow_html_af53c696ef2c2771c337d2794aa051121"><div class="ttname"><a href="class_spis_plikow.html#af53c696ef2c2771c337d2794aa051121">SpisPlikow::SpisPlikow</a></div><div class="ttdeci">SpisPlikow()</div><div class="ttdoc">Konstruktor klasy SpisPlikow, dodaje nazwe pliku płaszczyzny.</div><div class="ttdef"><b>Definition:</b> <a href="_spis_plikow_8hh_source.html#l00033">SpisPlikow.hh:33</a></div></div>
+<div class="ttc" id="alacze__do__gnuplota_8hh_html"><div class="ttname"><a href="lacze__do__gnuplota_8hh.html">lacze_do_gnuplota.hh</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

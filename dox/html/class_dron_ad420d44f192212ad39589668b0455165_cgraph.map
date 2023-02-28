@@ -1,0 +1,5 @@
+<map id="Dron::DodajNazwyPlikow" name="Dron::DodajNazwyPlikow">
+<area shape="rect" id="node1" title="Metoda dodająca nazwy plików finalnych Drona." alt="" coords="5,35,191,61"/>
+<area shape="rect" id="node2" href="$class_spis_plikow.html#a4145e9c2b49c3724b2ad43eeb4540125" title="Metoda dodająca nazwę pliku, wykorzystana w innych funkcjach." alt="" coords="239,5,419,32"/>
+<area shape="rect" id="node3" href="$class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="245,57,412,98"/>
+</map>

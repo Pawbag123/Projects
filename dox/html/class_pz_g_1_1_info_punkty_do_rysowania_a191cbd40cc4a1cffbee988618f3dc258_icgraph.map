@@ -1,0 +1,5 @@
+<map id="PzG::InfoPunktyDoRysowania::WyznaczWspolrzEtykiety" name="PzG::InfoPunktyDoRysowania::WyznaczWspolrzEtykiety">
+<area shape="rect" id="node1" title="Wyznacza współrzędne położenia etykiety." alt="" coords="597,5,812,47"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_info_punkty_do_rysowania.html#aee45bb223dcbb35b32934eba41a723c6" title="Wpisuje nowe współrzędne." alt="" coords="268,5,549,47"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_info_punkty_do_rysowania.html#aed0725576cd5cf0ac01fc2e528e2c85b" title="Inicjalizuje obiekt." alt="" coords="5,5,220,47"/>
+</map>

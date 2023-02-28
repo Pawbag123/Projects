@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDron.a  CMakeFiles/Dron.dir/Dron.cpp.o
+/usr/bin/ranlib libDron.a

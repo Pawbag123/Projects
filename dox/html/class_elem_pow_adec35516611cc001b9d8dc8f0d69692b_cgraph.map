@@ -1,0 +1,6 @@
+<map id="ElemPow::Oblicz_i_Zapisz_WspGlbElementu" name="ElemPow::Oblicz_i_Zapisz_WspGlbElementu">
+<area shape="rect" id="node1" title="Metoda zapisujaca element w pliku." alt="" coords="5,57,196,98"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html#ad45ca209027ace75a732795162d0e016" title="Metoda transformujaca element." alt="" coords="244,5,464,32"/>
+<area shape="rect" id="node3" href="$class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="271,57,437,98"/>
+<area shape="rect" id="node4" href="$class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe" title="Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową" alt="" coords="271,122,437,163"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="Bryla::WezNazwePliku_BrylaFinalna" name="Bryla::WezNazwePliku_BrylaFinalna">
+<area shape="rect" id="node1" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="735,155,901,197"/>
+<area shape="rect" id="node2" href="$class_dron.html#ad420d44f192212ad39589668b0455165" title="Metoda dodająca nazwy plików finalnych Drona." alt="" coords="499,5,684,32"/>
+<area shape="rect" id="node3" href="$class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b" title="Metoda zapisujaca element w pliku." alt="" coords="496,57,687,98"/>
+<area shape="rect" id="node4" href="$class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="510,122,673,163"/>
+<area shape="rect" id="node10" href="$class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="510,187,673,229"/>
+<area shape="rect" id="node11" href="$class_bryla.html#ad3480603f549502406e17c9807bd66d8" title="Destruktor obiektu Bryla, usuwa plik finalny zmodyfikowanej bryly." alt="" coords="537,253,646,280"/>
+<area shape="rect" id="node12" href="$class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e" title="Destruktor obiektu ElemPow, usuwa plik finalny elementu powierzchni." alt="" coords="511,304,671,331"/>
+<area shape="rect" id="node5" href="$class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,155,448,197"/>
+<area shape="rect" id="node6" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,87,237,113"/>
+<area shape="rect" id="node7" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,137,198,164"/>
+<area shape="rect" id="node8" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,188,217,215"/>
+<area shape="rect" id="node9" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,239,218,265"/>
+</map>

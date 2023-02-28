@@ -1,0 +1,12 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" href="$class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="9,56,89,83"/>
+<area shape="rect" id="node2" href="$class_dron.html" title="Klasa modeluje pojęcie drona." alt="" coords="143,81,196,108"/>
+<area shape="rect" id="node3" href="$class_elem_pow.html" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="271,56,353,83"/>
+<area shape="rect" id="node4" href="$class_gora__z___dl___grania.html" title="Klasa modeluje pojecie Góry z długą Granią" alt="" coords="427,5,565,32"/>
+<area shape="rect" id="node5" href="$class_gora__z___ostr.html" title="Klasa modeluje pojęcie góry z ostrym szczytem." alt="" coords="445,56,547,83"/>
+<area shape="rect" id="node6" href="$class_plaskowyz.html" title="Klasa modeluje pojęcie Płaskowyżu." alt="" coords="451,107,541,133"/>
+<area shape="rect" id="node7" href="$class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="5,107,93,133"/>
+<area shape="rect" id="node8" href="$class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="141,132,197,159"/>
+<area shape="rect" id="node9" href="$class_graniastoslup.html" title="Klasa modelująca pojęcie graniastosłupa." alt="" coords="256,119,368,145"/>
+<area shape="rect" id="node10" href="$class_prostopadloscian.html" title="Klasa modelująca pojęcie Prostopadłościanu." alt="" coords="245,169,379,196"/>
+</map>

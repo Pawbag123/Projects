@@ -1,0 +1,5 @@
+<map id="Sciezka::DodajFragmentSciezki" name="Sciezka::DodajFragmentSciezki">
+<area shape="rect" id="node1" title="Metoda tworząca nową ścieżkę drona wydłużoną o fragment potrzebny do ominięcia przeszkody." alt="" coords="487,5,712,32"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#abcf031bad1be90abd183c731331e2ff1" title="Metoda która na nowo rysuje ścieżkę drona poprawioną po kolizji." alt="" coords="260,5,439,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a20ea808d61c0754e30b0de915523f199" title="Metoda , majaca na celu dorysowanie dalszej sciezki drona w wypadku kolizji." alt="" coords="5,5,212,32"/>
+</map>

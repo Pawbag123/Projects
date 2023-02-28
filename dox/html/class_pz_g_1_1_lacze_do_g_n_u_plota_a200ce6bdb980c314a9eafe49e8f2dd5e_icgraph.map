@@ -1,0 +1,16 @@
+<map id="PzG::LaczeDoGNUPlota::Inicjalizuj" name="PzG::LaczeDoGNUPlota::Inicjalizuj">
+<area shape="rect" id="node1" title="Inicjalizuje połączenie z programem gnuplot." alt="" coords="1023,201,1196,242"/>
+<area shape="rect" id="node2" href="$class_scena.html#abfa09a17e8374dee288140142e75d7e5" title="Metoda inicjalizująca łącze." alt="" coords="553,5,721,32"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="801,201,975,242"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aacb7ae45d283c741fb330f27b132e1a3" title="Generuje polecenie rysowania do pliku i przesyła je do gnuplota." alt="" coords="551,411,724,453"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,60,108"/>
+<area shape="rect" id="node5" href="$class_scena.html#ae198d1c58cb88db0cf3af1d284095b60" title="Metoda, której zadaniem jest dodanie elementu powierzchni." alt="" coords="312,56,473,83"/>
+<area shape="rect" id="node7" href="$class_scena.html#a17869a6d7c7f682bb870d45af02feade" title="Metoda, której zadaniem jest usunięcie elementu powierzchni." alt="" coords="108,107,264,133"/>
+<area shape="rect" id="node8" href="$class_sciezka.html#af09fc5883348ae894cf64f4e44253dfc" title="Metoda, która usuwa ścieżkę z łącza do GNUPlota." alt="" coords="557,157,718,184"/>
+<area shape="rect" id="node11" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="521,208,753,235"/>
+<area shape="rect" id="node12" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="561,259,714,285"/>
+<area shape="rect" id="node13" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="541,309,733,336"/>
+<area shape="rect" id="node14" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="541,360,734,387"/>
+<area shape="rect" id="node9" href="$class_dron.html#a0e96e5238f928a17a942e349a3adf781" title="Metoda usuwająca ścieżkę" alt="" coords="321,157,464,184"/>
+<area shape="rect" id="node10" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="122,157,250,184"/>
+</map>

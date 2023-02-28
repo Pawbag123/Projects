@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Dokumentacja pliku Wektor.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Komponenty</a> &#124;
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku Wektor.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Plik zawierający definicję szablon Wektor&lt;&gt;  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &quot;<a class="el" href="_macierz_8hh_source.html">Macierz.hh</a>&quot;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
+<code>#include &quot;<a class="el" href="_licznik_8hh_source.html">Licznik.hh</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Wykres zależności załączania dla Wektor.hh:</div>
+<div class="dyncontent">
+<div class="center"><img src="_wektor_8hh__incl.png" border="0" usemap="#a_wektor_8hh" alt=""/></div>
+<map name="a_wektor_8hh" id="a_wektor_8hh">
+<area shape="rect" title="Plik zawierający definicję szablon Wektor&lt;&gt;" alt="" coords="123,5,209,32"/>
+<area shape="rect" title=" " alt="" coords="81,155,161,181"/>
+<area shape="rect" href="_macierz_8hh.html" title="Plik zawiera definicje szablonu Macierz&lt;&gt; oraz jej metod." alt="" coords="261,80,354,107"/>
+<area shape="rect" title=" " alt="" coords="167,80,237,107"/>
+<area shape="rect" href="_licznik_8hh.html" title="Plik zawierający definicję szablonu licznik." alt="" coords="5,80,92,107"/>
+<area shape="rect" title=" " alt="" coords="185,155,259,181"/>
+<area shape="rect" title=" " alt="" coords="284,155,347,181"/>
+<area shape="rect" title=" " alt="" coords="371,155,438,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik:</div>
+<div class="dyncontent">
+<div class="center"><img src="_wektor_8hh__dep__incl.png" border="0" usemap="#a_wektor_8hhdep" alt=""/></div>
+<map name="a_wektor_8hhdep" id="a_wektor_8hhdep">
+<area shape="rect" title="Plik zawierający definicję szablon Wektor&lt;&gt;" alt="" coords="189,5,275,32"/>
+<area shape="rect" href="_wektor3_d_8hh.html" title="Plik zawierający definicję klasy Wektor3D." alt="" coords="179,80,285,107"/>
+<area shape="rect" href="_obiekt_sc_8hh.html" title="Plik zawiera definicję klasy ObiektSc oraz jej metod." alt="" coords="310,155,410,181"/>
+<area shape="rect" href="_sciezka_8hh.html" title="Plik zawierający definicję klasy Sciezka." alt="" coords="63,155,153,181"/>
+<area shape="rect" href="_uklad_wsp_8hh.html" title="Plik zawierający definicję klasy UkladWsp." alt="" coords="178,155,286,181"/>
+<area shape="rect" href="_bryla_8hh.html" title="Plik zawiera definicję klasy Bryla." alt="" coords="294,229,370,256"/>
+<area shape="rect" href="_elem_pow_8hh.html" title="Plik zawiera definicje klasy ElemPow oraz jej metod." alt="" coords="423,304,524,331"/>
+<area shape="rect" href="_graniastoslup_8hh.html" title="Plik zawiera definicję klasy Graniastosłup." alt="" coords="266,304,398,331"/>
+<area shape="rect" href="_prostopadloscian_8hh.html" title="Plik zawiera definicję klasy Prostopadloscian." alt="" coords="89,304,242,331"/>
+<area shape="rect" href="_elem_pow_8cpp.html" title="Plik zawierający rozwinięcie metod klasy ElemPow." alt="" coords="381,379,489,405"/>
+<area shape="rect" href="_gora__z___dl___grania_8hh.html" title="Plik zawiera definicje klasy Gora_z_Dl_Grania oraz jej metod." alt="" coords="513,379,671,405"/>
+<area shape="rect" href="_gora__z___ostr_8hh.html" title="Plik zawiera definicje klasy Gora_z_Ostr oraz jej metod." alt="" coords="696,379,816,405"/>
+<area shape="rect" href="_plaskowyz_8hh.html" title="Plik zawiera definicje klasy Plaskowyz oraz jej metod." alt="" coords="246,379,357,405"/>
+<area shape="rect" href="_gora__z___dl___grania_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Gora_z_Dl_Grania." alt="" coords="507,453,672,480"/>
+<area shape="rect" href="_scena_8hh.html" title="Plik zawierający definicję klasy Scena." alt="" coords="397,453,478,480"/>
+<area shape="rect" href="_scena_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Scena." alt="" coords="339,528,427,555"/>
+<area shape="rect" href="main_8cpp.html" title="Główny plik programu." alt="" coords="451,528,533,555"/>
+<area shape="rect" href="_gora__z___ostr_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Gora_z_Ostr." alt="" coords="697,453,823,480"/>
+<area shape="rect" href="_plaskowyz_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Plaskowyz." alt="" coords="245,453,363,480"/>
+<area shape="rect" href="_dron_8hh.html" title="Plik zawiera definicję klasy Dron." alt="" coords="129,379,202,405"/>
+<area shape="rect" href="_dron_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Dron." alt="" coords="5,453,85,480"/>
+<area shape="rect" href="_spis_plikow_8hh.html" title="Plik zawiera definicję klasy SpisPlikow." alt="" coords="110,453,221,480"/>
+<area shape="rect" href="_sciezka_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Sciezka." alt="" coords="88,229,187,256"/>
+</map>
+</div>
+</div>
+<p><a href="_wektor_8hh_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Komponenty</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wektor.html">Wektor&lt; Wymiar &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Szablon klasy <a class="el" href="class_wektor.html" title="Szablon klasy Wektor.">Wektor</a>.  <a href="class_wektor.html#details">Więcej...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a7301797fd4d4b5efa72582f9da18738d"><td class="memTemplParams" colspan="2">template&lt;int Wymiar&gt; </td></tr>
+<tr class="memitem:a7301797fd4d4b5efa72582f9da18738d"><td class="memTemplItemLeft" align="right" valign="top">std::istream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_wektor_8hh.html#a7301797fd4d4b5efa72582f9da18738d">operator&gt;&gt;</a> (std::istream &amp;in, <a class="el" href="class_wektor.html">Wektor</a>&lt; Wymiar &gt; &amp;wektor)</td></tr>
+<tr class="memdesc:a7301797fd4d4b5efa72582f9da18738d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciążenie operatora bitowego wczytania Wektora.  <a href="_wektor_8hh.html#a7301797fd4d4b5efa72582f9da18738d">Więcej...</a><br /></td></tr>
+<tr class="separator:a7301797fd4d4b5efa72582f9da18738d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3b9b90427875bd47a85b1de8204460"><td class="memTemplParams" colspan="2">template&lt;int Wymiar&gt; </td></tr>
+<tr class="memitem:afe3b9b90427875bd47a85b1de8204460"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_wektor_8hh.html#afe3b9b90427875bd47a85b1de8204460">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="class_wektor.html">Wektor</a>&lt; Wymiar &gt; &amp;wektor)</td></tr>
+<tr class="memdesc:afe3b9b90427875bd47a85b1de8204460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Przeciążenie operatora bitowego wyświetlania Wektora.  <a href="_wektor_8hh.html#afe3b9b90427875bd47a85b1de8204460">Więcej...</a><br /></td></tr>
+<tr class="separator:afe3b9b90427875bd47a85b1de8204460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="afe3b9b90427875bd47a85b1de8204460"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3b9b90427875bd47a85b1de8204460">&#9670;&nbsp;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int Wymiar&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_wektor.html">Wektor</a>&lt; Wymiar &gt; &amp;&#160;</td>
+          <td class="paramname"><em>wektor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p class="">Przeciazenie operatora bitowego w celu wyswietlenia Wektora Funkcja zostala stworzona na potrzeby wyswietlenia wierzcholkow prostokata Wyswietla ona wartosci wektora. Dane sa odpowiednio sformatowane, tzn. przyjęto notację stałoprzecinkową z dokładnością do 10 miejsca po przecinku. Szerokość wyświetlanego pola to 16 miejsc, sposób wyrównywania - do prawej strony.</p>
+<dl class="tparams"><dt>Parametry Szablonu</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Wymiar</td><td>- Wymiar Wektora </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">out</td><td>- Strumień wyjściowy, na którym ma zostać wyświetlony <a class="el" href="class_wektor.html" title="Szablon klasy Wektor.">Wektor</a> </td></tr>
+    <tr><td class="paramname">wektor</td><td>- <a class="el" href="class_wektor.html" title="Szablon klasy Wektor.">Wektor</a>, który ma zostać wyświetlony </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>std::ostream&amp; - Strumień wyjściowy </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_wektor_8hh_source.html#l00218">218</a> pliku <a class="el" href="_wektor_8hh_source.html">Wektor.hh</a>.</p>
+
+</div>
+</div>
+<a id="a7301797fd4d4b5efa72582f9da18738d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7301797fd4d4b5efa72582f9da18738d">&#9670;&nbsp;</a></span>operator&gt;&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int Wymiar&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::istream&amp; operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
+          <td class="paramname"><em>in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_wektor.html">Wektor</a>&lt; Wymiar &gt; &amp;&#160;</td>
+          <td class="paramname"><em>wektor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p class="">Przeciazenie operatora bitowego w celu wczytania wektora podanego przez uzytkownika Funkcja wczytuje dwie liczby typu double, oddzielone spacja a nastepnie zapisuje je do wektora</p>
+<dl class="tparams"><dt>Parametry Szablonu</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Wymiar</td><td>- Wymiar Wektora </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">in</td><td>- Strumień wejściowy służący do wczytania danych </td></tr>
+    <tr><td class="paramname">wektor</td><td>- obiekt klasy <a class="el" href="class_wektor.html" title="Szablon klasy Wektor.">Wektor</a> który zostanie zmodyfikowany po wczytaniu odpowiednich wartości </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>std::istream&amp; - Strumień wyjściowy </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_wektor_8hh_source.html#l00191">191</a> pliku <a class="el" href="_wektor_8hh_source.html">Wektor.hh</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

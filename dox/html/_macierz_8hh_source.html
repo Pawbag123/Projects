@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy Macierz.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Macierz.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_macierz_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef MACIERZ_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define MACIERZ_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;cstring&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">    8</a></span>&#160;<span class="preprocessor">#define PI 3.14159265</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">int</span> Wymiar&gt;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_macierz.html">   23</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_macierz.html">Macierz</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">   29</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[Wymiar][Wymiar];</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="class_macierz.html#ae79a7c17192a0b4b5f8a60904e046fe4">   38</a></span>&#160;  <a class="code" href="class_macierz.html#ae79a7c17192a0b4b5f8a60904e046fe4">Macierz</a>()</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Wymiar; ++i)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; Wymiar; ++j)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[i][j] = 0;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="comment">// Macierz(const int liczba)</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="comment">// {</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="comment">//   for (int i = 0; i &lt; Wymiar; ++i)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="comment">//     for (int j = 0; j &lt; Wymiar; ++j)</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">//       _Tab[i][j] = 0;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="comment">//   for (int i = 0; i &lt; Wymiar; ++i)</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="comment">//     _Tab[i][i] = liczba;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="comment">// }</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_macierz.html#a20c61d11d1ce8662ab4d23685d4dbd9f">   62</a></span>&#160;  <a class="code" href="class_macierz.html#a20c61d11d1ce8662ab4d23685d4dbd9f">Macierz</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][0] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//zapisanie cosinusow oraz sinusow</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][1] = -sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180); <span class="comment">//z odpowiedniego wzoru przy uzyciu</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][0] = sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//poprawnych funkcji</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][1] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][2] = 1;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="class_macierz.html#a84a801ff8d8df529076ee9b23536b786">   80</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="class_macierz.html#a84a801ff8d8df529076ee9b23536b786">operator()</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> X, <span class="keyword">const</span> <span class="keywordtype">int</span> Y)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">  </span>{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[X][Y];</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_macierz.html#a1997f07161fa635f0eaa47aea96c901b">   95</a></span>&#160;  <span class="keywordtype">double</span> &amp;<a class="code" href="class_macierz.html#a1997f07161fa635f0eaa47aea96c901b">operator()</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> X, <span class="keyword">const</span> <span class="keywordtype">int</span> Y)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[X][Y];</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="class_macierz.html#a56743b6fe6a3c011038a9caf9ca23100">  109</a></span>&#160;  <a class="code" href="class_macierz.html">Macierz&lt;Wymiar&gt;</a> <a class="code" href="class_macierz.html#a56743b6fe6a3c011038a9caf9ca23100">operator*</a>(<span class="keyword">const</span> <a class="code" href="class_macierz.html">Macierz&lt;Wymiar&gt;</a> &amp;macierz)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="keyword">  </span>{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="class_macierz.html">Macierz&lt;Wymiar&gt;</a> wynik;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Wymiar; i++)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; Wymiar; j++)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; Wymiar; k++)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;          wynik(i, j) += <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[i][k] * macierz(k, j);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> wynik;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="class_macierz.html#a160440e11cf586a5fb1fba940de57ac4">  126</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_macierz.html#a160440e11cf586a5fb1fba940de57ac4">clear</a>()</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Wymiar; ++i)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; Wymiar; ++j)</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[i][j] = 0;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b">  143</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b">setM</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa, <span class="keyword">const</span> <span class="keywordtype">char</span> &amp;os)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">if</span> (os == <span class="charliteral">&#39;x&#39;</span>)</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <a class="code" href="class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58">setX</a>(alfa);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (os == <span class="charliteral">&#39;y&#39;</span>)</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <a class="code" href="class_macierz.html#a386734fb46ce1b5fe995a5d44e398475">setY</a>(alfa);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (os == <span class="charliteral">&#39;z&#39;</span>)</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <a class="code" href="class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6">setZ</a>(alfa);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58">  162</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58">setX</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][1] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//zapisanie cosinusow oraz sinusow</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][2] = -sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180); <span class="comment">//z odpowiedniego wzoru przy uzyciu</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][1] = sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//poprawnych funkcji</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][2] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][0] = 1;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno"><a class="line" href="class_macierz.html#a386734fb46ce1b5fe995a5d44e398475">  180</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_macierz.html#a386734fb46ce1b5fe995a5d44e398475">setY</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][0] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//zapisanie cosinusow oraz sinusow</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][0] = -sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180); <span class="comment">//z odpowiedniego wzoru przy uzyciu</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][2] = sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//poprawnych funkcji</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][2] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][1] = 1;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6">  198</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6">setZ</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> alfa)</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][0] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//zapisanie cosinusow oraz sinusow</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[0][1] = -sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180); <span class="comment">//z odpowiedniego wzoru przy uzyciu</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][0] = sin(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);  <span class="comment">//poprawnych funkcji</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[1][1] = cos(alfa * <a class="code" href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a> / 180);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">_Tab</a>[2][2] = 1;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;};</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="comment">/*Przeciazenie operatora bitowego w celu wyswietlenia macierzy </span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="comment">(funkcja nie zostala uzyta w programie. sluzyla jako pomoc w trakcie pracy)</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="comment">Parametry:</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="comment">out - Strumien wyjsciowy na ktorym ma zostac wyswietlona macierz</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment">macierz - macierz ktora ma zostac wyswietlona</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="comment">Wartosc zwrocona:</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment">Strumien wyjsciowy */</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">int</span> Wymiar&gt;</div>
+<div class="line"><a name="l00228"></a><span class="lineno"><a class="line" href="_macierz_8hh.html#a16fab7455d34626650d8dc08ee24ca48">  228</a></span>&#160;std::ostream &amp;<a class="code" href="_macierz_8hh.html#a16fab7455d34626650d8dc08ee24ca48">operator&lt;&lt;</a>(std::ostream &amp;out, <a class="code" href="class_macierz.html">Macierz&lt;Wymiar&gt;</a> <span class="keyword">const</span> &amp;macierz)</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;{</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; Wymiar; i++)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;| &quot;</span>;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; Wymiar; ++j)</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      out &lt;&lt; std::setw(16) &lt;&lt; std::fixed &lt;&lt; std::setprecision(10) &lt;&lt; macierz(i, j) &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;|&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  <span class="keywordflow">return</span> out;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;}</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_macierz_8hh_html_a16fab7455d34626650d8dc08ee24ca48"><div class="ttname"><a href="_macierz_8hh.html#a16fab7455d34626650d8dc08ee24ca48">operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, Macierz&lt; Wymiar &gt; const &amp;macierz)</div><div class="ttdoc">Przeciążenie operatora bitowego.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00228">Macierz.hh:228</a></div></div>
+<div class="ttc" id="a_macierz_8hh_html_a598a3330b3c21701223ee0ca14316eca"><div class="ttname"><a href="_macierz_8hh.html#a598a3330b3c21701223ee0ca14316eca">PI</a></div><div class="ttdeci">#define PI</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00008">Macierz.hh:8</a></div></div>
+<div class="ttc" id="aclass_macierz_html"><div class="ttname"><a href="class_macierz.html">Macierz</a></div><div class="ttdoc">Szablon klasy Macierz.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00023">Macierz.hh:24</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a160440e11cf586a5fb1fba940de57ac4"><div class="ttname"><a href="class_macierz.html#a160440e11cf586a5fb1fba940de57ac4">Macierz::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Wyczyszczenie macierzy.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00126">Macierz.hh:126</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a1997f07161fa635f0eaa47aea96c901b"><div class="ttname"><a href="class_macierz.html#a1997f07161fa635f0eaa47aea96c901b">Macierz::operator()</a></div><div class="ttdeci">double &amp; operator()(const int X, const int Y)</div><div class="ttdoc">Przeciążenie operatora funkcyjnego.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00095">Macierz.hh:95</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a1c95b9e60baed1c837d0ffaaffdb0e58"><div class="ttname"><a href="class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58">Macierz::setX</a></div><div class="ttdeci">void setX(const double alfa)</div><div class="ttdoc">Utworzenie macierzy obrotu wokół osi X.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00162">Macierz.hh:162</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a20c61d11d1ce8662ab4d23685d4dbd9f"><div class="ttname"><a href="class_macierz.html#a20c61d11d1ce8662ab4d23685d4dbd9f">Macierz::Macierz</a></div><div class="ttdeci">Macierz(const double alfa)</div><div class="ttdoc">Konstruktor macierzy z argumentem.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00062">Macierz.hh:62</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a386734fb46ce1b5fe995a5d44e398475"><div class="ttname"><a href="class_macierz.html#a386734fb46ce1b5fe995a5d44e398475">Macierz::setY</a></div><div class="ttdeci">void setY(const double alfa)</div><div class="ttdoc">Utworzenie macierzy obrotu wokół osi Y.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00180">Macierz.hh:180</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a452f250191a2b84ab301f0c4bb5421f8"><div class="ttname"><a href="class_macierz.html#a452f250191a2b84ab301f0c4bb5421f8">Macierz::_Tab</a></div><div class="ttdeci">double _Tab[Wymiar][Wymiar]</div><div class="ttdoc">Tablica dwuwymiarowa typu double zawierajaca odpowiednie wartosci macierzy.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00029">Macierz.hh:29</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a56743b6fe6a3c011038a9caf9ca23100"><div class="ttname"><a href="class_macierz.html#a56743b6fe6a3c011038a9caf9ca23100">Macierz::operator*</a></div><div class="ttdeci">Macierz&lt; Wymiar &gt; operator*(const Macierz&lt; Wymiar &gt; &amp;macierz) const</div><div class="ttdoc">Przeciążenie operatora mnożenia macierzy.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00109">Macierz.hh:109</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a7c4bbd016dd743cd6c5fa421c674220b"><div class="ttname"><a href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b">Macierz::setM</a></div><div class="ttdeci">void setM(const double alfa, const char &amp;os)</div><div class="ttdoc">Ustalenie macierzy obrotu.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00143">Macierz.hh:143</a></div></div>
+<div class="ttc" id="aclass_macierz_html_a84a801ff8d8df529076ee9b23536b786"><div class="ttname"><a href="class_macierz.html#a84a801ff8d8df529076ee9b23536b786">Macierz::operator()</a></div><div class="ttdeci">double operator()(const int X, const int Y) const</div><div class="ttdoc">Przeciążenie operatora funkcyjnego.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00080">Macierz.hh:80</a></div></div>
+<div class="ttc" id="aclass_macierz_html_acf02beac8cd3f99b815cc8647df0cef6"><div class="ttname"><a href="class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6">Macierz::setZ</a></div><div class="ttdeci">void setZ(const double alfa)</div><div class="ttdoc">Utworzenie macierzy obrotu wokół osi Z.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00198">Macierz.hh:198</a></div></div>
+<div class="ttc" id="aclass_macierz_html_ae79a7c17192a0b4b5f8a60904e046fe4"><div class="ttname"><a href="class_macierz.html#ae79a7c17192a0b4b5f8a60904e046fe4">Macierz::Macierz</a></div><div class="ttdeci">Macierz()</div><div class="ttdoc">Konstruktor domyślny macierzy.</div><div class="ttdef"><b>Definition:</b> <a href="_macierz_8hh_source.html#l00038">Macierz.hh:38</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

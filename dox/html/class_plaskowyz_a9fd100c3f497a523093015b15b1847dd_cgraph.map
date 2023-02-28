@@ -1,0 +1,7 @@
+<map id="Plaskowyz::Plaskowyz" name="Plaskowyz::Plaskowyz">
+<area shape="rect" id="node1" title="Konstruktor parametryczny obiektu Plaskowyz." alt="" coords="5,93,172,120"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1" title="Metoda przypisujaca Elementowi jego numer." alt="" coords="220,5,411,32"/>
+<area shape="rect" id="node3" href="$class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4" title="Metoda ustalająca nazwę pliku zawierającego bryłę finalną" alt="" coords="229,57,402,98"/>
+<area shape="rect" id="node4" href="$class_elem_pow.html#a08fe6af641886d6a281a54af287a1330" title="Metoda zwracajaca prywatny atrybut Elementu powierzchni." alt="" coords="233,123,397,149"/>
+<area shape="rect" id="node5" href="$class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333" title="Metoda zwiekszajaca licznik ilosci elementow." alt="" coords="223,173,407,200"/>
+</map>

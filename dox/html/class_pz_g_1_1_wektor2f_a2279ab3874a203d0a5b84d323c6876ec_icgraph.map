@@ -1,0 +1,5 @@
+<map id="PzG::Wektor2f::Zmien" name="PzG::Wektor2f::Zmien">
+<area shape="rect" id="node1" title="Modyfikuje współrzędne wektora." alt="" coords="332,46,495,73"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_info_punkty_do_rysowania.html#af2b7bd8684f0b4a4b5465c16e0fe6c71" title="Zmienia współrzędne etykiety względem rozmiaru punktu." alt="" coords="5,5,284,47"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_info_punkty_do_rysowania.html#aea85f2f3149e375b4c89daad67ccd28e" title="Zmienia współrzędne etykiety względem współrzędnych punktu." alt="" coords="6,71,283,112"/>
+</map>

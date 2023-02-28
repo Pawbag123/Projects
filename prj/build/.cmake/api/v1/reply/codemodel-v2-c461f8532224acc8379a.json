@@ -1,0 +1,146 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Dron_Dragonfly",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Dron::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Dron-Debug-35145cadec7c8220c748.json",
+					"name" : "Dron",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Dron_Dragonfly::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Dron_Dragonfly-Debug-d9d2059b26313176cb50.json",
+					"name" : "Dron_Dragonfly",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ElemPow::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ElemPow-Debug-39c45b787746192d8e34.json",
+					"name" : "ElemPow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Gora_z_Dl_Grania::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Gora_z_Dl_Grania-Debug-997ab0af78f5411a358c.json",
+					"name" : "Gora_z_Dl_Grania",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Gora_z_Ostr::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Gora_z_Ostr-Debug-973ebe11dd204e4e2399.json",
+					"name" : "Gora_z_Ostr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Plaskowyz::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Plaskowyz-Debug-5d0e47b48322f7bded28.json",
+					"name" : "Plaskowyz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Scena::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Scena-Debug-5d2860ec923e4080b087.json",
+					"name" : "Scena",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Sciezka::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Sciezka-Debug-941878a45b91ad1e4a47.json",
+					"name" : "Sciezka",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lacze_do_gnuplota::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lacze_do_gnuplota-Debug-c1b39d6ca12fb1749357.json",
+					"name" : "lacze_do_gnuplota",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+		"source" : "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

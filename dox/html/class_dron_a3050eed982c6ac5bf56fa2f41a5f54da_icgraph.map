@@ -1,0 +1,8 @@
+<map id="Dron::Oblicz_i_Zapisz_WspGlbRotora" name="Dron::Oblicz_i_Zapisz_WspGlbRotora">
+<area shape="rect" id="node1" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="496,74,659,115"/>
+<area shape="rect" id="node2" href="$class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,74,448,115"/>
+<area shape="rect" id="node3" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node4" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+<area shape="rect" id="node5" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,107,217,133"/>
+<area shape="rect" id="node6" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,157,218,184"/>
+</map>

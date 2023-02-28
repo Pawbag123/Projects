@@ -1,0 +1,5 @@
+<map id="Dron::UstalPolSciezka" name="Dron::UstalPolSciezka">
+<area shape="rect" id="node1" title="Metoda przekazujaca polozenie drona w celu dorysowania sciezki." alt="" coords="5,31,169,57"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#a0d8430a238b05ac1e1c53b0fad3cb31d" title="Metoda ustalająca początkowe położenie Drona." alt="" coords="225,5,397,32"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="217,56,404,83"/>
+</map>

@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy ElemPow.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ElemPow.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_elem_pow_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ELEM_POW_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define ELEM_POW_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_bryla_8hh.html">Bryla.hh</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_elem_pow.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_elem_pow.html">ElemPow</a> : <span class="keyword">public</span> <a class="code" href="class_bryla.html">Bryla</a>, <span class="keyword">public</span> <a class="code" href="class_obiekt_sc.html">ObiektSc</a></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">   23</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">_IlElem</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">   29</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">_NrElem</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_elem_pow.html#af96ca3c06b4d1d94301787544ffa775c">   39</a></span>&#160;    <a class="code" href="class_elem_pow.html#af96ca3c06b4d1d94301787544ffa775c">ElemPow</a>(<span class="keyword">const</span> std::string &amp;NazwaPlikuBrylaWzorcowa,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Skala,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keyword">const</span> <a class="code" href="class_wektor.html">Wektor3D</a> &amp;Polozenie) : <a class="code" href="class_bryla.html">Bryla</a>(NazwaPlikuBrylaWzorcowa,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                               Skala, Polozenie){};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">   48</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">ZwiekszIlElem</a>()</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        ++<a class="code" href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">_IlElem</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">   57</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">PrzypiszNrElem</a>()</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">_NrElem</a> = <a class="code" href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">_IlElem</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">   67</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">WezNrElem</a>()</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">_NrElem</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">   83</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">TransformujElement</a>(std::ifstream &amp;Plik_We,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                    std::ofstream &amp;Plik_Wy) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">Oblicz_i_Zapisz_WspGlbElementu</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a80639ceac0f87a229671445771436131">   99</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_elem_pow.html#a80639ceac0f87a229671445771436131">WypiszElement</a>() = 0;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e">  105</a></span>&#160;    <span class="keyword">virtual</span> <a class="code" href="class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e">~ElemPow</a>()</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        std::remove(<a class="code" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a>().c_str());</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;};</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_bryla_8hh_html"><div class="ttname"><a href="_bryla_8hh.html">Bryla.hh</a></div><div class="ttdoc">Plik zawiera definicję klasy Bryla.</div></div>
+<div class="ttc" id="aclass_bryla_html"><div class="ttname"><a href="class_bryla.html">Bryla</a></div><div class="ttdoc">Klasa modeluje pojęcie bryły.</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00020">Bryla.hh:21</a></div></div>
+<div class="ttc" id="aclass_bryla_html_a13c6c416b92fcc50c656bf37adab74d9"><div class="ttname"><a href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">Bryla::WezNazwePliku_BrylaFinalna</a></div><div class="ttdeci">const std::string &amp; WezNazwePliku_BrylaFinalna() const</div><div class="ttdoc">Metoda zwracająca nazwę pliku zawierającego bryłę finalną</div><div class="ttdef"><b>Definition:</b> <a href="_bryla_8hh_source.html#l00096">Bryla.hh:96</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html"><div class="ttname"><a href="class_elem_pow.html">ElemPow</a></div><div class="ttdoc">Klasa modeluje pojecie elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00017">ElemPow.hh:18</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a0094cdb6bccb9b15c75d43a9ade92333"><div class="ttname"><a href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">ElemPow::ZwiekszIlElem</a></div><div class="ttdeci">static void ZwiekszIlElem()</div><div class="ttdoc">Metoda zwiekszajaca licznik ilosci elementow.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00048">ElemPow.hh:48</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a08fe6af641886d6a281a54af287a1330"><div class="ttname"><a href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">ElemPow::WezNrElem</a></div><div class="ttdeci">int WezNrElem()</div><div class="ttdoc">Metoda zwracajaca prywatny atrybut Elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00067">ElemPow.hh:67</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a3f9dd8d7903e8e00b1f5f04f84ea62c7"><div class="ttname"><a href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">ElemPow::_NrElem</a></div><div class="ttdeci">int _NrElem</div><div class="ttdoc">Zmienna stworzona w celu przypisania numeru elementu.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00029">ElemPow.hh:29</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a5a11f7fd12c10ee835c42f06450c423e"><div class="ttname"><a href="class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e">ElemPow::~ElemPow</a></div><div class="ttdeci">virtual ~ElemPow()</div><div class="ttdoc">Destruktor obiektu ElemPow, usuwa plik finalny elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00105">ElemPow.hh:105</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_a80639ceac0f87a229671445771436131"><div class="ttname"><a href="class_elem_pow.html#a80639ceac0f87a229671445771436131">ElemPow::WypiszElement</a></div><div class="ttdeci">virtual void WypiszElement()=0</div><div class="ttdoc">Metoda wypisująca nazwę elementu oraz jej współrzędne na standardowym wyjściu.</div></div>
+<div class="ttc" id="aclass_elem_pow_html_a99287b832abddab630f17a513afbfca8"><div class="ttname"><a href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">ElemPow::_IlElem</a></div><div class="ttdeci">static int _IlElem</div><div class="ttdoc">Zmienna oznaczajaca ilosc stworzonych elementow.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00023">ElemPow.hh:23</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_ad45ca209027ace75a732795162d0e016"><div class="ttname"><a href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">ElemPow::TransformujElement</a></div><div class="ttdeci">virtual bool TransformujElement(std::ifstream &amp;Plik_We, std::ofstream &amp;Plik_Wy) const =0</div><div class="ttdoc">Metoda transformujaca element.</div></div>
+<div class="ttc" id="aclass_elem_pow_html_adec35516611cc001b9d8dc8f0d69692b"><div class="ttname"><a href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">ElemPow::Oblicz_i_Zapisz_WspGlbElementu</a></div><div class="ttdeci">bool Oblicz_i_Zapisz_WspGlbElementu() const</div><div class="ttdoc">Metoda zapisujaca element w pliku.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8cpp_source.html#l00010">ElemPow.cpp:10</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_af6749994670c576a87586e30d7fcf6b1"><div class="ttname"><a href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">ElemPow::PrzypiszNrElem</a></div><div class="ttdeci">void PrzypiszNrElem()</div><div class="ttdoc">Metoda przypisujaca Elementowi jego numer.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00057">ElemPow.hh:57</a></div></div>
+<div class="ttc" id="aclass_elem_pow_html_af96ca3c06b4d1d94301787544ffa775c"><div class="ttname"><a href="class_elem_pow.html#af96ca3c06b4d1d94301787544ffa775c">ElemPow::ElemPow</a></div><div class="ttdeci">ElemPow(const std::string &amp;NazwaPlikuBrylaWzorcowa, const Wektor3D &amp;Skala, const Wektor3D &amp;Polozenie)</div><div class="ttdoc">Konstruktor parametryczny Elementu powierzchni.</div><div class="ttdef"><b>Definition:</b> <a href="_elem_pow_8hh_source.html#l00039">ElemPow.hh:39</a></div></div>
+<div class="ttc" id="aclass_obiekt_sc_html"><div class="ttname"><a href="class_obiekt_sc.html">ObiektSc</a></div><div class="ttdoc">Klasa definiuje pojęcie obiektu sceny.</div><div class="ttdef"><b>Definition:</b> <a href="_obiekt_sc_8hh_source.html#l00018">ObiektSc.hh:19</a></div></div>
+<div class="ttc" id="aclass_wektor_html"><div class="ttname"><a href="class_wektor.html">Wektor&lt; 3 &gt;</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

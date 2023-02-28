@@ -1,0 +1,5 @@
+<map id="SpisPlikow::DodajNazwe" name="SpisPlikow::DodajNazwe">
+<area shape="rect" id="node1" title="Metoda dodająca nazwę pliku, wykorzystana w innych funkcjach." alt="" coords="239,31,419,57"/>
+<area shape="rect" id="node2" href="$class_dron.html#ad420d44f192212ad39589668b0455165" title="Metoda dodająca nazwy plików finalnych Drona." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node3" href="$class_spis_plikow.html#af53c696ef2c2771c337d2794aa051121" title="Konstruktor klasy SpisPlikow, dodaje nazwe pliku płaszczyzny." alt="" coords="15,56,181,83"/>
+</map>

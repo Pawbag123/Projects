@@ -1,0 +1,12 @@
+<map id="Dron::Oblicz_i_Zapisz_WspGlbKorpusu" name="Dron::Oblicz_i_Zapisz_WspGlbKorpusu">
+<area shape="rect" id="node1" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="5,86,168,127"/>
+<area shape="rect" id="node2" href="$class_dron.html#aff573f1126bf56484b8165d872eccb6e" title="Metoda pozwala na transformacje bryly do Globalnego Ukladu Współrzędnych." alt="" coords="216,35,388,61"/>
+<area shape="rect" id="node9" href="$class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="219,86,385,127"/>
+<area shape="rect" id="node10" href="$class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe" title="Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową" alt="" coords="219,151,385,193"/>
+<area shape="rect" id="node3" href="$class_bryla.html#aefdf9009f66cebc6a9136d6639050a61" title="Metoda, która służy do skalowania wierzchołków bryły." alt="" coords="486,5,589,32"/>
+<area shape="rect" id="node4" href="$class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="436,57,639,98"/>
+<area shape="rect" id="node5" href="$class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="687,64,800,91"/>
+<area shape="rect" id="node6" href="$class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="848,13,959,40"/>
+<area shape="rect" id="node7" href="$class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="849,64,958,91"/>
+<area shape="rect" id="node8" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="848,115,959,141"/>
+</map>

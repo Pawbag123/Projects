@@ -1,0 +1,8 @@
+<map id="PzG::LaczeDoGNUPlota::UstawRotacjeX" name="PzG::LaczeDoGNUPlota::UstawRotacjeX">
+<area shape="rect" id="node1" title="Ustawia rotację wokół osi OX." alt="" coords="5,104,179,145"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa92b463e8cbae31b50dd797a4183bce8" title="Tworzy polecenie ustawiające punkt obserwacji." alt="" coords="227,104,453,145"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#addf0b844f626f3f5220de70efcbbdbb3" title="Wartość kąta rotacji względem osi OX." alt="" coords="501,5,675,47"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9dac73754fab10644b287756003e9c79" title="Wartość kąta rotacji względem osi OZ." alt="" coords="501,71,675,112"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a4b1eb252fd785a5aeff938e7b2dce2b1" title="Udostępnia skalę dla osi OX." alt="" coords="501,136,675,177"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a44f922ccbc508d6cd7809c669238dae3" title="Udostępnia skalę dla osi OZ." alt="" coords="501,201,675,243"/>
+</map>

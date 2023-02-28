@@ -1,0 +1,7 @@
+<map id="Gora_z_Dl_Grania::Gora_z_Dl_Grania" name="Gora_z_Dl_Grania::Gora_z_Dl_Grania">
+<area shape="rect" id="node1" title="Konstruktor parametryczny obiektu Gora_z_Dl_Grania." alt="" coords="5,86,183,127"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1" title="Metoda przypisujaca Elementowi jego numer." alt="" coords="231,5,421,32"/>
+<area shape="rect" id="node3" href="$class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4" title="Metoda ustalająca nazwę pliku zawierającego bryłę finalną" alt="" coords="239,57,413,98"/>
+<area shape="rect" id="node4" href="$class_elem_pow.html#a08fe6af641886d6a281a54af287a1330" title="Metoda zwracajaca prywatny atrybut Elementu powierzchni." alt="" coords="244,123,408,149"/>
+<area shape="rect" id="node5" href="$class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333" title="Metoda zwiekszajaca licznik ilosci elementow." alt="" coords="234,173,418,200"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ObiektSc::WezSrodek" name="ObiektSc::WezSrodek">
+<area shape="rect" id="node1" title="Metoda pozwalajaca na uzyskanie srodka obiektu." alt="" coords="284,93,444,120"/>
+<area shape="rect" id="node2" href="$class_dron.html#af4c252f650e0d321570d2f90d645efa9" title="Metoda sprawdzajaca czy dron nie koliduje z innym dronem." alt="" coords="29,5,212,32"/>
+<area shape="rect" id="node3" href="$class_gora__z___dl___grania.html#af1fd53ef28022edf15bf399e041c6702" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Dl_Grania." alt="" coords="20,57,221,98"/>
+<area shape="rect" id="node4" href="$class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Ostr." alt="" coords="5,123,236,149"/>
+<area shape="rect" id="node5" href="$class_plaskowyz.html#a1b4094eb7f5398bf3b7fc165ef7f50ae" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Plaskowyz." alt="" coords="11,173,230,200"/>
+</map>

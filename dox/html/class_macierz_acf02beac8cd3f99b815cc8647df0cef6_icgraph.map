@@ -1,0 +1,23 @@
+<map id="Macierz::setZ" name="Macierz::setZ">
+<area shape="rect" id="node1" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="1535,209,1645,236"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#a8f7d7b98126aba016023035a51b9a41b" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="1321,56,1487,83"/>
+<area shape="rect" id="node9" href="$class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="1347,209,1461,236"/>
+<area shape="rect" id="node14" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,348,237,375"/>
+<area shape="rect" id="node3" href="$class_sciezka.html#a834f9cb90322bf1fabb036335a74766c" title="Metoda tworząca nową ścieżkę drona wydłużoną o fragment potrzebny do ominięcia przeszkody." alt="" coords="1048,5,1273,32"/>
+<area shape="rect" id="node6" href="$class_sciezka.html#a0bcc0ca95bd9aa01212e075bc8c31d90" title="Metoda ustalająca ścieżkę drona za pomocą stworzonych wcześniej metod." alt="" coords="1079,56,1242,83"/>
+<area shape="rect" id="node4" href="$class_sciezka.html#abcf031bad1be90abd183c731331e2ff1" title="Metoda która na nowo rysuje ścieżkę drona poprawioną po kolizji." alt="" coords="796,5,975,32"/>
+<area shape="rect" id="node5" href="$class_dron.html#a20ea808d61c0754e30b0de915523f199" title="Metoda , majaca na celu dorysowanie dalszej sciezki drona w wypadku kolizji." alt="" coords="506,5,713,32"/>
+<area shape="rect" id="node7" href="$class_sciezka.html#ab976ec78d721529af43e600adb404c05" title="Metoda która pozwala na narysowanie ścieżki lotu." alt="" coords="796,56,975,83"/>
+<area shape="rect" id="node8" href="$class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="496,56,723,83"/>
+<area shape="rect" id="node10" href="$class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="1059,202,1262,243"/>
+<area shape="rect" id="node11" href="$class_dron.html#aff573f1126bf56484b8165d872eccb6e" title="Metoda pozwala na transformacje bryly do Globalnego Ukladu Współrzędnych." alt="" coords="799,289,971,316"/>
+<area shape="rect" id="node19" href="$class_gora__z___dl___grania.html#a97820ff68c86d78ffd53acf185c7f47c" title="Metoda transformująca bryłę wzorcową w górę z długą granią" alt="" coords="774,107,997,149"/>
+<area shape="rect" id="node20" href="$class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf" title="Metoda transformująca bryłę wzorcową w górę z ostrym szczytem." alt="" coords="792,173,979,214"/>
+<area shape="rect" id="node21" href="$class_plaskowyz.html#ae2a90a405a781169d60167e142ac344d" title="Metoda transformująca bryłę wzorcową w płaskowyż" alt="" coords="771,239,1000,265"/>
+<area shape="rect" id="node12" href="$class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="528,282,691,323"/>
+<area shape="rect" id="node18" href="$class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="528,217,691,258"/>
+<area shape="rect" id="node13" href="$class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,261,448,302"/>
+<area shape="rect" id="node15" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,247,198,273"/>
+<area shape="rect" id="node16" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,297,217,324"/>
+<area shape="rect" id="node17" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,196,218,223"/>
+</map>

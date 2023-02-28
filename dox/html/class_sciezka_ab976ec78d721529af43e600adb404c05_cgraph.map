@@ -1,0 +1,13 @@
+<map id="Sciezka::NarysujSciezke" name="Sciezka::NarysujSciezke">
+<area shape="rect" id="node1" title="Metoda która pozwala na narysowanie ścieżki lotu." alt="" coords="5,128,184,155"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="232,45,405,86"/>
+<area shape="rect" id="node4" href="$class_sciezka.html#a0bcc0ca95bd9aa01212e075bc8c31d90" title="Metoda ustalająca ścieżkę drona za pomocą stworzonych wcześniej metod." alt="" coords="237,157,400,184"/>
+<area shape="rect" id="node3" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="487,5,613,32"/>
+<area shape="rect" id="node5" href="$class_sciezka.html#af3ac46e80697021930e0b9a2f69a36bf" title="Metoda umieszczająca końcową pozycję drona na odpowiednim miejscu punktów ścieżki." alt="" coords="470,56,630,83"/>
+<area shape="rect" id="node6" href="$class_sciezka.html#a1d4867fced9fcc5ff35d65119ec9b805" title="Metoda umieszczajaca pozycje po wzniesieniu drona w gore na odpowiednim miejscu punktow sciezki." alt="" coords="477,107,623,133"/>
+<area shape="rect" id="node7" href="$class_sciezka.html#a8f7d7b98126aba016023035a51b9a41b" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="467,157,633,184"/>
+<area shape="rect" id="node9" href="$class_sciezka.html#a8a365028eebcebc9e4d339bdd5aae3fa" title="Metoda umieszczająca pozycję startową drona na początku punktow sciezki." alt="" coords="476,208,624,235"/>
+<area shape="rect" id="node10" href="$class_sciezka.html#af9e24807179d741666088432bb5f5bac" title="Metoda ustalająca długość lotu drona oraz parametry z nią związane." alt="" coords="453,259,647,285"/>
+<area shape="rect" id="node11" href="$class_sciezka.html#a39e30188c92a52a0c8de62f2a8bda925" title="Metoda ustalajaca kąt obrotu ścieżki oraz drona." alt="" coords="461,309,639,336"/>
+<area shape="rect" id="node8" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="695,157,805,184"/>
+</map>

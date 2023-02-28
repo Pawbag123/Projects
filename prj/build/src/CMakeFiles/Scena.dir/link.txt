@@ -1,0 +1,2 @@
+/usr/bin/ar qc libScena.a  CMakeFiles/Scena.dir/Scena.cpp.o
+/usr/bin/ranlib libScena.a

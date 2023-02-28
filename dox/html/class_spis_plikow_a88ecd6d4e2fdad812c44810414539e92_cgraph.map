@@ -1,0 +1,5 @@
+<map id="SpisPlikow::Wyswietl" name="SpisPlikow::Wyswietl">
+<area shape="rect" id="node1" title="Metoda wyświetlająca wszystkie nazwy dodanych plików." alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a" title="Metoda zwracająca całkowitą ilość plików." alt="" coords="219,5,374,32"/>
+<area shape="rect" id="node3" href="$class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb" title="Metoda zwracająca nazwę pliku znajdującą się w danym miejscu." alt="" coords="212,56,381,83"/>
+</map>

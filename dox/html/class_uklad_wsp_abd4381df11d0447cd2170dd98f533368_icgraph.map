@@ -1,0 +1,14 @@
+<map id="UkladWsp::TransfDoUklWspRodzica" name="UkladWsp::TransfDoUklWspRodzica">
+<area shape="rect" id="node1" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="984,165,1187,206"/>
+<area shape="rect" id="node2" href="$class_dron.html#aff573f1126bf56484b8165d872eccb6e" title="Metoda pozwala na transformacje bryly do Globalnego Ukladu Współrzędnych." alt="" coords="735,80,907,107"/>
+<area shape="rect" id="node10" href="$class_gora__z___dl___grania.html#a97820ff68c86d78ffd53acf185c7f47c" title="Metoda transformująca bryłę wzorcową w górę z długą granią" alt="" coords="710,131,933,173"/>
+<area shape="rect" id="node11" href="$class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf" title="Metoda transformująca bryłę wzorcową w górę z ostrym szczytem." alt="" coords="728,197,915,238"/>
+<area shape="rect" id="node12" href="$class_plaskowyz.html#ae2a90a405a781169d60167e142ac344d" title="Metoda transformująca bryłę wzorcową w płaskowyż" alt="" coords="707,263,936,289"/>
+<area shape="rect" id="node3" href="$class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="496,41,659,82"/>
+<area shape="rect" id="node9" href="$class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="496,106,659,147"/>
+<area shape="rect" id="node4" href="$class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,74,448,115"/>
+<area shape="rect" id="node5" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node6" href="$class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+<area shape="rect" id="node7" href="$class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,107,217,133"/>
+<area shape="rect" id="node8" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,157,218,184"/>
+</map>

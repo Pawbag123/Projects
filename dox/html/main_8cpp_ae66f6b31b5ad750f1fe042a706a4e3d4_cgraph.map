@@ -1,0 +1,52 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,741,60,768"/>
+<area shape="rect" id="node2" href="$class_scena.html#ae198d1c58cb88db0cf3af1d284095b60" title="Metoda, której zadaniem jest dodanie elementu powierzchni." alt="" coords="614,31,775,57"/>
+<area shape="rect" id="node23" href="$class_scena.html#abfa09a17e8374dee288140142e75d7e5" title="Metoda inicjalizująca łącze." alt="" coords="350,367,518,393"/>
+<area shape="rect" id="node34" href="$class_scena.html#a296cfc0d95b90f8818fc5a1bbd073929" title="Metoda inicjalizująca scenę" alt="" coords="108,665,279,692"/>
+<area shape="rect" id="node35" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="129,716,257,743"/>
+<area shape="rect" id="node44" href="$class_scena.html#a17869a6d7c7f682bb870d45af02feade" title="Metoda, której zadaniem jest usunięcie elementu powierzchni." alt="" coords="617,868,773,895"/>
+<area shape="rect" id="node46" href="$class_scena.html#ac14c1edb0c4a8cc24de59281dc7bc8c9" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="113,868,274,895"/>
+<area shape="rect" id="node47" href="$class_scena.html#af3ab2270aeeecd5b9785564880a4d25a" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="327,767,541,793"/>
+<area shape="rect" id="node49" href="$class_wektor.html#a1d1ee8ccc8e395beba03f1198707ff07" title=" " alt="" coords="332,919,536,945"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="875,206,1048,247"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a065f5b8402737cc62b0ad4f66d028335" title="Generuje polecenie rysowania i przesyła je do gnuplota." alt="" coords="875,599,1048,641"/>
+<area shape="rect" id="node21" href="$class_scena.html#a0b5df06bf42a02f7e5d5b344ed91a352" title="Metoda wczytująca dane elementu, który ma zostać stworzony." alt="" coords="853,56,1070,83"/>
+<area shape="rect" id="node22" href="$class_scena.html#ab1a253cfddb8e50f27bde49fefd4dc75" title="Metoda pozwalająca na wybranie rodzaju tworzonego elementu." alt="" coords="873,5,1049,32"/>
+<area shape="rect" id="node4" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="1195,213,1321,240"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a087d906ddd4b2e3db32ef61ce4cd5e60" title="Tworzy preambułę poprzedzającą polecenie rysowania." alt="" coords="1123,646,1393,687"/>
+<area shape="rect" id="node9" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#af8be8aeb3b1b524fab67d4411cba5b9e" title="Informuje, czy połączenie z gnuplot&#39;em jest zainicjalizowane." alt="" coords="1441,450,1676,491"/>
+<area shape="rect" id="node10" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a25585ec3f1bd3b6bf42f374c38b8d237" title="Tworzy listę parametrów umożliwiających rysowanie dodatkowych elementów." alt="" coords="1131,777,1385,818"/>
+<area shape="rect" id="node11" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ad3d7607946b82aa941d786dcd086d27e" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="1160,711,1356,753"/>
+<area shape="rect" id="node13" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aee10e48fe1b9fba6e2897b4ccfa27aef" title="Tworzy listę parametrów umożliwiających rysowanie brył z plików." alt="" coords="1125,581,1391,622"/>
+<area shape="rect" id="node17" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a200ce6bdb980c314a9eafe49e8f2dd5e" title="Inicjalizuje połączenie z programem gnuplot." alt="" coords="1171,389,1345,430"/>
+<area shape="rect" id="node18" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5063854b7232a7951d120a21df63f2b7" title="Przesyła polecenie do gnuplota." alt="" coords="1472,385,1645,426"/>
+<area shape="rect" id="node7" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#add41e4bb92ccf9991b1cb15699f8c3d6" title="Tworzy preambułę poprzedzającą polecenie rysowania w trybie 2D." alt="" coords="1472,763,1645,805"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae3b2f34035fdfbbcab696057022341ab" title="Tworzy preambułę poprzedzającą polecenie rysowania w trybie 3D." alt="" coords="1472,698,1645,739"/>
+<area shape="rect" id="node12" href="$namespace_pz_g.html#aa010184f31b26bb561b42f22438b821e" title="Funkcja pomocnicza, dopisuje do polecenia wpisy związane z rysowaniem z pliku." alt="" coords="1448,829,1669,856"/>
+<area shape="rect" id="node14" href="$namespace_pz_g.html#a85d3a77f67c2724ba3675bc3ef05eb81" title="Dopisuje do polecenia rysowania wpisy z nazwami plików, w których są współrzędne punktów." alt="" coords="1445,515,1672,557"/>
+<area shape="rect" id="node15" href="$namespace_pz_g.html#a7227cb39c785b1c746b6bb5515c0b781" title="Dodaje do listy rysowanych punktów, punkty o różnych rozmiarach." alt="" coords="1441,581,1676,622"/>
+<area shape="rect" id="node16" href="$namespace_pz_g.html#ae6b9705e199ad695b61b4e902eaf0d6c" title="Dopisuje do tworzonego polenia dla gnuplota wpisy ustawiające etykiety punktów." alt="" coords="1449,647,1668,673"/>
+<area shape="rect" id="node20" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1c7b9acc40de8d8bbb40fb0722512933" title="Uruchamia program gnuplot jako proces potomny." alt="" coords="1470,319,1647,361"/>
+<area shape="rect" id="node19" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae5f907633699e898710cce4351193330" title="Wyświetla komunika błędu." alt="" coords="1724,353,1897,394"/>
+<area shape="rect" id="node24" href="$class_scena.html#aca49d7ed66b0cfeb0a458d961770dbe3" title="Metoda dodająca nazwy plików do łącza." alt="" coords="598,447,791,473"/>
+<area shape="rect" id="node28" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ac48fed259e4ebf93072e3111264c9433" title="Ustawia rotację wokół osi OX i OZ." alt="" coords="608,330,781,371"/>
+<area shape="rect" id="node30" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9c91987dfc869d6fcea96205c581daef" title="Ustawia zakres osi OX." alt="" coords="608,549,781,590"/>
+<area shape="rect" id="node31" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a54c6e9cf9ab2eae479451fd953c2717c" title="Ustawia zakres osi OY." alt="" coords="608,82,781,123"/>
+<area shape="rect" id="node32" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a1dbbb2b86fb13b8632e6bad9df2a82e3" title="Ustawia zakres osi OZ." alt="" coords="608,147,781,189"/>
+<area shape="rect" id="node33" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ae92c65357bf682478cc68f77885b61d8" title="Zmienia tryb rysowania." alt="" coords="608,265,781,306"/>
+<area shape="rect" id="node25" href="$class_scena.html#a27888a732da383b6419ec82e419707a5" title="Metoda umieszczająca nazwy plików obu dronów w obiekcie SpisPlikow." alt="" coords="859,548,1063,575"/>
+<area shape="rect" id="node26" href="$class_spis_plikow.html#a7c969b1bdc179984aff3d7f942ad6c5a" title="Metoda zwracająca całkowitą ilość plików." alt="" coords="884,447,1039,473"/>
+<area shape="rect" id="node27" href="$class_spis_plikow.html#a718efff2bd0d8e83e895ce3c63dcc4fb" title="Metoda zwracająca nazwę pliku znajdującą się w danym miejscu." alt="" coords="877,497,1046,524"/>
+<area shape="rect" id="node29" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa92b463e8cbae31b50dd797a4183bce8" title="Tworzy polecenie ustawiające punkt obserwacji." alt="" coords="848,330,1075,371"/>
+<area shape="rect" id="node36" href="$class_dron.html#a8946f7b041d9c79c8776bd0fe5b1bf78" title="Metoda przekazujaca polozenie drona w celu dorysowania sciezki." alt="" coords="352,665,516,692"/>
+<area shape="rect" id="node39" href="$class_dron.html#a0e96e5238f928a17a942e349a3adf781" title="Metoda usuwająca ścieżkę" alt="" coords="363,615,505,641"/>
+<area shape="rect" id="node43" href="$class_scena.html#ad56272196623f54554fa4663e434359f" title="Metoda pozwalająca na użycie aktywnego drona." alt="" coords="589,767,800,793"/>
+<area shape="rect" id="node37" href="$class_sciezka.html#a0d8430a238b05ac1e1c53b0fad3cb31d" title="Metoda ustalająca początkowe położenie Drona." alt="" coords="609,665,781,692"/>
+<area shape="rect" id="node38" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="601,716,788,743"/>
+<area shape="rect" id="node40" href="$class_sciezka.html#af09fc5883348ae894cf64f4e44253dfc" title="Metoda, która usuwa ścieżkę z łącza do GNUPlota." alt="" coords="614,615,775,641"/>
+<area shape="rect" id="node41" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a7fa4e775e1aee74869fae174c567c2a6" title="Usuwa z listy nazw plików z danymi do rysowania usuwa wybraną nazwę." alt="" coords="875,821,1048,862"/>
+<area shape="rect" id="node42" href="$class_pz_g_1_1_info_pliku_do_rysowania.html#a714aaa4c8e7bbd167ccbb1e797ca158c" title="Udostępia nazwę pliku do rysowania." alt="" coords="1158,842,1358,883"/>
+<area shape="rect" id="node45" href="$class_scena.html#afb65dcc4a6cd96fba9b49b1c2fe112a5" title="Metoda pozwalająca na wyświetlenie elementów wraz z ich współrzędnymi." alt="" coords="866,887,1057,913"/>
+<area shape="rect" id="node50" href="$class_scena.html#a1604d88089e1d5866162f4c55db6ba93" title="Metoda wyświetlająca aktualne położenie dronóœ" alt="" coords="338,868,530,895"/>
+<area shape="rect" id="node48" href="$class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="603,817,787,844"/>
+</map>

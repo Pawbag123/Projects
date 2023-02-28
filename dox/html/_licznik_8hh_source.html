@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Plik źródłowy Licznik.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4aa64b0872d36146e049722e293482e3.html">prj</a></li><li class="navelem"><a class="el" href="dir_72345776cd6700fb0dedb8f1faaa0c00.html">inc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Licznik.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_licznik_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LICZNIK_HH</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LICZNIK_HH</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> Klasa&gt;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_licznik.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_licznik.html">Licznik</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">   25</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">_licz_suma</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">   30</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">_licz_akt</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_licznik.html#a8358491814cb0e73938ef1c0073019b4">   37</a></span>&#160;    <a class="code" href="class_licznik.html#a8358491814cb0e73938ef1c0073019b4">Licznik</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        ++<a class="code" href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">_licz_suma</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        ++<a class="code" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">_licz_akt</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_licznik.html#ae9bdc8f412a5e42446518900e45f9293">   47</a></span>&#160;    <a class="code" href="class_licznik.html#ae9bdc8f412a5e42446518900e45f9293">Licznik</a>(<span class="keyword">const</span> <a class="code" href="class_licznik.html">Licznik</a> &amp;)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        ++<a class="code" href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">_licz_suma</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        ++<a class="code" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">_licz_akt</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_licznik.html#a60632b4b183b1eaac67f7d85d06a9648">   57</a></span>&#160;    <a class="code" href="class_licznik.html#a60632b4b183b1eaac67f7d85d06a9648">~Licznik</a>()</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        --<a class="code" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">_licz_akt</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="class_licznik.html#a89e725dedc417cdb7ef78125c4ee09d9">   67</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="class_licznik.html#a89e725dedc417cdb7ef78125c4ee09d9">WezSume</a>()</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">_licz_suma</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="class_licznik.html#a152e2649c3a00092bca22c758c2125a1">   77</a></span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="class_licznik.html#a152e2649c3a00092bca22c758c2125a1">WezAkt</a>()</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">_licz_akt</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;};</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> klasa&gt;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_licznik.html">Licznik&lt;klasa&gt;::_licz_akt</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> klasa&gt;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_licznik.html">Licznik&lt;klasa&gt;::_licz_suma</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_licznik_html"><div class="ttname"><a href="class_licznik.html">Licznik</a></div><div class="ttdoc">Szablon licznik modelujący pojęcie licznika elementów danej klasy.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00019">Licznik.hh:20</a></div></div>
+<div class="ttc" id="aclass_licznik_html_a05ddfafc405e54dee45f25b4e4a06c6e"><div class="ttname"><a href="class_licznik.html#a05ddfafc405e54dee45f25b4e4a06c6e">Licznik::_licz_suma</a></div><div class="ttdeci">static int _licz_suma</div><div class="ttdoc">Zmienna statyczna ukazująca całkowitą ilość stworzonych obiektów.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00025">Licznik.hh:25</a></div></div>
+<div class="ttc" id="aclass_licznik_html_a152e2649c3a00092bca22c758c2125a1"><div class="ttname"><a href="class_licznik.html#a152e2649c3a00092bca22c758c2125a1">Licznik::WezAkt</a></div><div class="ttdeci">static int WezAkt()</div><div class="ttdoc">Metoda statyczna zwracająca liczbę aktualnie istniejących obiektów.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00077">Licznik.hh:77</a></div></div>
+<div class="ttc" id="aclass_licznik_html_a60632b4b183b1eaac67f7d85d06a9648"><div class="ttname"><a href="class_licznik.html#a60632b4b183b1eaac67f7d85d06a9648">Licznik::~Licznik</a></div><div class="ttdeci">~Licznik()</div><div class="ttdoc">Destruktor zmniejszający ilość aktualnych elementów.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00057">Licznik.hh:57</a></div></div>
+<div class="ttc" id="aclass_licznik_html_a8358491814cb0e73938ef1c0073019b4"><div class="ttname"><a href="class_licznik.html#a8358491814cb0e73938ef1c0073019b4">Licznik::Licznik</a></div><div class="ttdeci">Licznik()</div><div class="ttdoc">Konstruktor zwiększający ilości.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00037">Licznik.hh:37</a></div></div>
+<div class="ttc" id="aclass_licznik_html_a89e725dedc417cdb7ef78125c4ee09d9"><div class="ttname"><a href="class_licznik.html#a89e725dedc417cdb7ef78125c4ee09d9">Licznik::WezSume</a></div><div class="ttdeci">static int WezSume()</div><div class="ttdoc">Metoda statyczna zwracająca liczbę wszystkich utworzonych obiektów.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00067">Licznik.hh:67</a></div></div>
+<div class="ttc" id="aclass_licznik_html_ac37eb16cb38af6d25cfa96759946720c"><div class="ttname"><a href="class_licznik.html#ac37eb16cb38af6d25cfa96759946720c">Licznik::_licz_akt</a></div><div class="ttdeci">static int _licz_akt</div><div class="ttdoc">Zmienna statyczna ukazująca ilość aktualnie istniejących obiektów.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00030">Licznik.hh:30</a></div></div>
+<div class="ttc" id="aclass_licznik_html_ae9bdc8f412a5e42446518900e45f9293"><div class="ttname"><a href="class_licznik.html#ae9bdc8f412a5e42446518900e45f9293">Licznik::Licznik</a></div><div class="ttdeci">Licznik(const Licznik &amp;)</div><div class="ttdoc">Konstruktor kopiujący zwiększający ilości.</div><div class="ttdef"><b>Definition:</b> <a href="_licznik_8hh_source.html#l00047">Licznik.hh:47</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

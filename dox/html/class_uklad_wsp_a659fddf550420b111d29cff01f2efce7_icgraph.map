@@ -1,0 +1,5 @@
+<map id="UkladWsp::Przesun" name="UkladWsp::Przesun">
+<area shape="rect" id="node1" title="Metoda stworzona w celu animacji przesunięcia Drona o odpowiednie wartości." alt="" coords="285,31,432,57"/>
+<area shape="rect" id="node2" href="$class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,56,218,83"/>
+</map>

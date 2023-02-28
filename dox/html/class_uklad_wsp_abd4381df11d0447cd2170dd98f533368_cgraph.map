@@ -1,0 +1,7 @@
+<map id="UkladWsp::TransfDoUklWspRodzica" name="UkladWsp::TransfDoUklWspRodzica">
+<area shape="rect" id="node1" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="5,49,208,90"/>
+<area shape="rect" id="node2" href="$class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="256,56,369,83"/>
+<area shape="rect" id="node3" href="$class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="417,5,528,32"/>
+<area shape="rect" id="node4" href="$class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="418,56,527,83"/>
+<area shape="rect" id="node5" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="417,107,528,133"/>
+</map>

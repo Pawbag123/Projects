@@ -1,0 +1,6 @@
+<map id="Macierz::setM" name="Macierz::setM">
+<area shape="rect" id="node1" title="Ustalenie macierzy obrotu." alt="" coords="5,56,119,83"/>
+<area shape="rect" id="node2" href="$class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="167,5,277,32"/>
+<area shape="rect" id="node3" href="$class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="167,56,277,83"/>
+<area shape="rect" id="node4" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="167,107,277,133"/>
+</map>

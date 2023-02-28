@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Scena.dir/Scena.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Scena.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Scena.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Dron.dir/Dron.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Dron.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Dron.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Dron_Dragonfly.dir/main.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/main.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/main.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Plaskowyz.dir/Plaskowyz.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Plaskowyz.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Plaskowyz.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Gora_z_Ostr.dir/Gora_z_Ostr.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Gora_z_Ostr.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Gora_z_Ostr.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Gora_z_Dl_Grania.dir/Gora_z_Dl_Grania.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Gora_z_Dl_Grania.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Gora_z_Dl_Grania.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/ElemPow.dir/ElemPow.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/ElemPow.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/ElemPow.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/Sciezka.dir/Sciezka.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Sciezka.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Sciezka.cpp"
+},
+{
+  "directory": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/build",
+  "command": "/usr/bin/g++ -I../inc -g -Wall -Wextra -Wpedantic -pedantic -g -o src/CMakeFiles/lacze_do_gnuplota.dir/lacze_do_gnuplota.cpp.o -c /home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/lacze_do_gnuplota.cpp",
+  "file": "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/lacze_do_gnuplota.cpp"
+}
+]

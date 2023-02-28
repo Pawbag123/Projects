@@ -1,0 +1,10 @@
+<map id="PzG::LaczeDoGNUPlota::BudujPreambule_2D" name="PzG::LaczeDoGNUPlota::BudujPreambule_2D">
+<area shape="rect" id="node1" title="Tworzy preambułę poprzedzającą polecenie rysowania w trybie 2D." alt="" coords="5,169,179,211"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a4579aecf7b4777fdde0cae4e98c275c2" title="Tworzy polecenie ustawiające zakres dla danej współrzędnej." alt="" coords="227,169,425,211"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a8e23479629af3df3d352b7839ae396b8" title="Górną wartość zakresu dla osi OX." alt="" coords="473,5,647,47"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a66836c9749bf179420e4ca3e9447efd7" title="Dolna wartość zakresu dla osi OX." alt="" coords="473,71,647,112"/>
+<area shape="rect" id="node5" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ac54e4e7448ce3bd324efdc94a999f535" title="Górną wartość zakresu dla osi OY." alt="" coords="473,136,647,177"/>
+<area shape="rect" id="node6" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9352c0382bfaeaaba9f65399a7383164" title="Dolną wartość zakresu dla osi OY." alt="" coords="473,201,647,243"/>
+<area shape="rect" id="node7" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a20a5d03e1fc19c682032bffc54340f12" title="Górną wartość zakresu dla osi OZ." alt="" coords="473,267,647,308"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a9068bd9a9873ba9c6d70016f1ae7cd7f" title="Dolną wartość zakresu dla osi OZ." alt="" coords="473,332,647,373"/>
+</map>

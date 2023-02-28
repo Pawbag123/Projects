@@ -1,0 +1,8 @@
+<map id="Dron.hh" name="Dron.hh">
+<area shape="rect" id="node1" title="Plik zawiera definicję klasy Dron." alt="" coords="174,5,247,32"/>
+<area shape="rect" id="node2" href="$_dron_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Dron." alt="" coords="5,80,85,107"/>
+<area shape="rect" id="node3" href="$_scena_8hh.html" title="Plik zawierający definicję klasy Scena." alt="" coords="110,80,191,107"/>
+<area shape="rect" id="node6" href="$_spis_plikow_8hh.html" title="Plik zawiera definicję klasy SpisPlikow." alt="" coords="215,80,326,107"/>
+<area shape="rect" id="node4" href="$_scena_8cpp.html" title="Plik zawierający rozwinięcie metod klasy Scena." alt="" coords="52,155,140,181"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title="Główny plik programu." alt="" coords="164,155,247,181"/>
+</map>

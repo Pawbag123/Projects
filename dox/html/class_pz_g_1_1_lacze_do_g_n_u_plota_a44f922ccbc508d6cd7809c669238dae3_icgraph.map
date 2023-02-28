@@ -1,0 +1,13 @@
+<map id="PzG::LaczeDoGNUPlota::SkalaZ" name="PzG::LaczeDoGNUPlota::SkalaZ">
+<area shape="rect" id="node1" title="Udostępnia skalę dla osi OZ." alt="" coords="825,169,999,211"/>
+<area shape="rect" id="node2" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa92b463e8cbae31b50dd797a4183bce8" title="Tworzy polecenie ustawiające punkt obserwacji." alt="" coords="551,169,777,211"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#acb7456c930015c9a48f43b8618bd9391" title="Ustawia rotację wokół osi OX." alt="" coords="329,5,503,47"/>
+<area shape="rect" id="node4" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ac48fed259e4ebf93072e3111264c9433" title="Ustawia rotację wokół osi OX i OZ." alt="" coords="329,71,503,112"/>
+<area shape="rect" id="node8" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ab9c4c731e2cebe67e04221e0bb528809" title="Ustawia rotację wokół osi OZ." alt="" coords="329,136,503,177"/>
+<area shape="rect" id="node9" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a855b8338bfe3e5d294d719f24b11090e" title="Zadaje skalę wzdłuż osi OZ." alt="" coords="329,201,503,243"/>
+<area shape="rect" id="node10" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a4308151b54e105d302803146a3238699" title="Zadaje skalę wzdłuż osi OX i OZ." alt="" coords="329,267,503,308"/>
+<area shape="rect" id="node11" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#ab0486db3166d8db6580a221079af241f" title="Zadaje skalę wzdłuż osi OZ." alt="" coords="329,332,503,373"/>
+<area shape="rect" id="node5" href="$class_scena.html#abfa09a17e8374dee288140142e75d7e5" title="Metoda inicjalizująca łącze." alt="" coords="111,78,279,105"/>
+<area shape="rect" id="node7" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#a5845189b5ab8c3634acf57024e5deeaf" title=" " alt="" coords="108,197,281,239"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,78,60,105"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Plaskowyz::SprawdzCzyZajete" name="Plaskowyz::SprawdzCzyZajete">
+<area shape="rect" id="node1" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Plaskowyz." alt="" coords="5,107,224,133"/>
+<area shape="rect" id="node2" href="$class_plaskowyz.html#a652b7575fe816bad3fdb10689397f3ce" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Plaskowyz." alt="" coords="272,31,471,57"/>
+<area shape="rect" id="node5" href="$class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6" title="Metoda ustalająca odpowiednie paramery obiektu w celu sprawdzenia kolizji." alt="" coords="277,81,466,108"/>
+<area shape="rect" id="node6" href="$class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd" title="Metoda pozwalająca na uzyskanie promienia Drona." alt="" coords="287,132,456,159"/>
+<area shape="rect" id="node7" href="$class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e" title="Metoda pozwalajaca na uzyskanie srodka obiektu." alt="" coords="291,183,451,209"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="519,5,705,32"/>
+<area shape="rect" id="node4" href="$class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44" title=" " alt="" coords="549,56,675,83"/>
+</map>

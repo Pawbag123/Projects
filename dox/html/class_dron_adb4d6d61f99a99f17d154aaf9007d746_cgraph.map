@@ -1,0 +1,5 @@
+<map id="Dron::UstalParametry" name="Dron::UstalParametry">
+<area shape="rect" id="node1" title="Metoda ustalajaca parametry Drona w celu detekcji kolizji." alt="" coords="5,31,168,57"/>
+<area shape="rect" id="node2" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="216,5,403,32"/>
+<area shape="rect" id="node3" href="$class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44" title=" " alt="" coords="246,56,373,83"/>
+</map>

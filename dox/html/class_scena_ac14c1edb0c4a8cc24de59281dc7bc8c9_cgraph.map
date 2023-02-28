@@ -1,0 +1,8 @@
+<map id="Scena::WybierzDrona" name="Scena::WybierzDrona">
+<area shape="rect" id="node1" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="5,81,167,108"/>
+<area shape="rect" id="node2" href="$class_scena.html#af3ab2270aeeecd5b9785564880a4d25a" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="215,31,429,57"/>
+<area shape="rect" id="node5" href="$class_wektor.html#a1d1ee8ccc8e395beba03f1198707ff07" title=" " alt="" coords="220,81,424,108"/>
+<area shape="rect" id="node6" href="$class_scena.html#a1604d88089e1d5866162f4c55db6ba93" title="Metoda wyświetlająca aktualne położenie dronóœ" alt="" coords="226,132,418,159"/>
+<area shape="rect" id="node3" href="$class_scena.html#ad56272196623f54554fa4663e434359f" title="Metoda pozwalająca na użycie aktywnego drona." alt="" coords="477,5,688,32"/>
+<area shape="rect" id="node4" href="$class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="491,56,675,83"/>
+</map>

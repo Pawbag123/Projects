@@ -1,0 +1,7 @@
+<map id="Gora_z_Ostr" name="Gora_z_Ostr">
+<area shape="rect" id="node1" title="Klasa modeluje pojęcie góry z ostrym szczytem." alt="" coords="44,229,145,256"/>
+<area shape="rect" id="node2" href="$class_elem_pow.html" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="53,155,136,181"/>
+<area shape="rect" id="node3" href="$class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="21,80,77,107"/>
+<area shape="rect" id="node4" href="$class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node5" href="$class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="101,80,181,107"/>
+</map>

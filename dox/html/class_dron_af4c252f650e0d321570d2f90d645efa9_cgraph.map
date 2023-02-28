@@ -1,0 +1,9 @@
+<map id="Dron::SprawdzCzyZajete" name="Dron::SprawdzCzyZajete">
+<area shape="rect" id="node1" title="Metoda sprawdzajaca czy dron nie koliduje z innym dronem." alt="" coords="5,107,188,133"/>
+<area shape="rect" id="node2" href="$class_dron.html#adb4d6d61f99a99f17d154aaf9007d746" title="Metoda ustalajaca parametry Drona w celu detekcji kolizji." alt="" coords="249,31,412,57"/>
+<area shape="rect" id="node5" href="$class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6" title="Metoda ustalająca odpowiednie paramery obiektu w celu sprawdzenia kolizji." alt="" coords="236,81,425,108"/>
+<area shape="rect" id="node6" href="$class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd" title="Metoda pozwalająca na uzyskanie promienia Drona." alt="" coords="246,132,415,159"/>
+<area shape="rect" id="node7" href="$class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e" title="Metoda pozwalajaca na uzyskanie srodka obiektu." alt="" coords="251,183,411,209"/>
+<area shape="rect" id="node3" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="473,5,660,32"/>
+<area shape="rect" id="node4" href="$class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44" title=" " alt="" coords="503,56,630,83"/>
+</map>

@@ -1,0 +1,692 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Dokumentacja klasy UkladWsp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pro-methods">Metody chronione</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_uklad_wsp-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy UkladWsp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa <a class="el" href="class_uklad_wsp.html" title="Klasa UkladWsp.">UkladWsp</a>.  
+ <a href="class_uklad_wsp.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla UkladWsp</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp__inherit__graph.png" border="0" usemap="#a_uklad_wsp_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_uklad_wsp_inherit__map" id="a_uklad_wsp_inherit__map">
+<area shape="rect" title="Klasa UkladWsp." alt="" coords="335,5,423,32"/>
+<area shape="rect" href="class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="312,80,368,107"/>
+<area shape="rect" href="class_dron.html" title="Klasa modeluje pojęcie drona." alt="" coords="392,80,445,107"/>
+<area shape="rect" href="class_elem_pow.html" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="177,155,260,181"/>
+<area shape="rect" href="class_graniastoslup.html" title="Klasa modelująca pojęcie graniastosłupa." alt="" coords="284,155,396,181"/>
+<area shape="rect" href="class_prostopadloscian.html" title="Klasa modelująca pojęcie Prostopadłościanu." alt="" coords="420,155,553,181"/>
+<area shape="rect" href="class_gora__z___dl___grania.html" title="Klasa modeluje pojecie Góry z długą Granią" alt="" coords="5,229,144,256"/>
+<area shape="rect" href="class_gora__z___ostr.html" title="Klasa modeluje pojęcie góry z ostrym szczytem." alt="" coords="168,229,269,256"/>
+<area shape="rect" href="class_plaskowyz.html" title="Klasa modeluje pojęcie Płaskowyżu." alt="" coords="293,229,384,256"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla UkladWsp:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp__coll__graph.png" border="0" usemap="#a_uklad_wsp_coll__map" alt="Collaboration graph"/></div>
+<map name="a_uklad_wsp_coll__map" id="a_uklad_wsp_coll__map">
+<area shape="rect" title="Klasa UkladWsp." alt="" coords="57,349,145,376"/>
+<area shape="rect" href="class_wektor.html" title=" " alt="" coords="48,260,155,287"/>
+<area shape="rect" href="class_licznik.html" title=" " alt="" coords="5,95,187,121"/>
+<area shape="rect" href="class_wektor.html" title="Szablon klasy Wektor." alt="" coords="117,171,267,197"/>
+<area shape="rect" href="class_licznik.html" title="Szablon licznik modelujący pojęcie licznika elementów danej klasy." alt="" coords="29,5,163,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a46e8768fe87f886374dc763f2505a68f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">WezPolozenie</a> () const</td></tr>
+<tr class="memdesc:a46e8768fe87f886374dc763f2505a68f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca położenie układu w celu dalszego działania.  <a href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">Więcej...</a><br /></td></tr>
+<tr class="separator:a46e8768fe87f886374dc763f2505a68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bb3734c52b05ef9c46a904bad2684f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">DodajKat</a> (const double alfa)</td></tr>
+<tr class="memdesc:a58bb3734c52b05ef9c46a904bad2684f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwiększenie kąta orientacji.  <a href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">Więcej...</a><br /></td></tr>
+<tr class="separator:a58bb3734c52b05ef9c46a904bad2684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab46e5eb35b7a39e1b4cb28aee81e3717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">WyswietlWsp</a> ()</td></tr>
+<tr class="memdesc:ab46e5eb35b7a39e1b4cb28aee81e3717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wyświetlenie współrzędnych X i Y Układu.  <a href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">Więcej...</a><br /></td></tr>
+<tr class="separator:ab46e5eb35b7a39e1b4cb28aee81e3717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d3b34d674cdd42bbc3b024c9902737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a02d3b34d674cdd42bbc3b024c9902737">WyswietlWsp_Dla_Elem</a> ()</td></tr>
+<tr class="separator:a02d3b34d674cdd42bbc3b024c9902737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4381df11d0447cd2170dd98f533368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">TransfDoUklWspRodzica</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Wierz) const</td></tr>
+<tr class="memdesc:abd4381df11d0447cd2170dd98f533368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica.  <a href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">Więcej...</a><br /></td></tr>
+<tr class="separator:abd4381df11d0447cd2170dd98f533368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Metody chronione</h2></td></tr>
+<tr class="memitem:ad1062ba3c1b2a0ca4a6b7c9a28779eb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">UkladWsp</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie, const double KatOrientacji)</td></tr>
+<tr class="memdesc:ad1062ba3c1b2a0ca4a6b7c9a28779eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor Ukladu wspolrzednych o dwóch parametrach.  <a href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">Więcej...</a><br /></td></tr>
+<tr class="separator:ad1062ba3c1b2a0ca4a6b7c9a28779eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54d639318666950968000c2decd8e66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">UkladWsp</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie)</td></tr>
+<tr class="memdesc:aa54d639318666950968000c2decd8e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor układu współrzędnych o jednym parametrze.  <a href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">Więcej...</a><br /></td></tr>
+<tr class="separator:aa54d639318666950968000c2decd8e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fc602001a089eb00674325afdc47e6"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">WezKat</a> ()</td></tr>
+<tr class="memdesc:a90fc602001a089eb00674325afdc47e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach.  <a href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">Więcej...</a><br /></td></tr>
+<tr class="separator:a90fc602001a089eb00674325afdc47e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8421da5a59c50db2f9bccf3b1bf39ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">UstawKat</a> (const double alfa)</td></tr>
+<tr class="memdesc:ae8421da5a59c50db2f9bccf3b1bf39ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ustalenie kąta orientacji.  <a href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">Więcej...</a><br /></td></tr>
+<tr class="separator:ae8421da5a59c50db2f9bccf3b1bf39ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a304c5fec392b1650414c792181f5eea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">Wznies</a> (const double wys)</td></tr>
+<tr class="memdesc:a304c5fec392b1650414c792181f5eea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zmieniająca współrzędną Z położenia (w celu zmiany wysokości)  <a href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">Więcej...</a><br /></td></tr>
+<tr class="separator:a304c5fec392b1650414c792181f5eea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659fddf550420b111d29cff01f2efce7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">Przesun</a> (const double Dl[2], const double CalkDl)</td></tr>
+<tr class="memdesc:a659fddf550420b111d29cff01f2efce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda stworzona w celu animacji przesunięcia Drona o odpowiednie wartości.  <a href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">Więcej...</a><br /></td></tr>
+<tr class="separator:a659fddf550420b111d29cff01f2efce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:ab79d59974e4f9abd9246fc5ceb13e572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">_Polozenie</a></td></tr>
+<tr class="memdesc:ab79d59974e4f9abd9246fc5ceb13e572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wektor3D zawierający współrzędne polozenia obiektu.  <a href="class_uklad_wsp.html#ab79d59974e4f9abd9246fc5ceb13e572">Więcej...</a><br /></td></tr>
+<tr class="separator:ab79d59974e4f9abd9246fc5ceb13e572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5eb8074532cd95c42ad46d48c0609b0e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">_KatOrientacji_stopnie</a></td></tr>
+<tr class="memdesc:a5eb8074532cd95c42ad46d48c0609b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liczba typu double przechowujaca dane na temat kata orientacji obiektu.  <a href="class_uklad_wsp.html#a5eb8074532cd95c42ad46d48c0609b0e">Więcej...</a><br /></td></tr>
+<tr class="separator:a5eb8074532cd95c42ad46d48c0609b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p class="">Klasa modeluje pojecie ukladu wspolrzednych danej bryly lub drona </p>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00023">23</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="ad1062ba3c1b2a0ca4a6b7c9a28779eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">&#9670;&nbsp;</a></span>UkladWsp() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UkladWsp::UkladWsp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>Polozenie</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>KatOrientacji</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Polozenie</td><td>- Polozenie obiektu </td></tr>
+    <tr><td class="paramname">KatOrientacji</td><td>- Kąt orientacji obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00043">43</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+
+</div>
+</div>
+<a id="aa54d639318666950968000c2decd8e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54d639318666950968000c2decd8e66">&#9670;&nbsp;</a></span>UkladWsp() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UkladWsp::UkladWsp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>Polozenie</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Polozenie</td><td>- Położenie obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00052">52</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a58bb3734c52b05ef9c46a904bad2684f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58bb3734c52b05ef9c46a904bad2684f">&#9670;&nbsp;</a></span>DodajKat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::DodajKat </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>alfa</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alfa</td><td>- Liczba typu double, zawierająca kąt, o który zostanie zwiększony kąt zawarty w układzie </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00119">119</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a58bb3734c52b05ef9c46a904bad2684f_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a58bb3734c52b05ef9c46a904bad2684f_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a58bb3734c52b05ef9c46a904bad2684f_icgraph" id="aclass_uklad_wsp_a58bb3734c52b05ef9c46a904bad2684f_icgraph">
+<area shape="rect" title="Zwiększenie kąta orientacji." alt="" coords="476,81,632,108"/>
+<area shape="rect" href="class_dron.html#addc6bf84d3b3044d5f80c2cf24b534ab" title="Metoda która pozwala na obrót rotorów poprzez dodanie im kąta rotacji." alt="" coords="285,81,428,108"/>
+<area shape="rect" href="class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" href="class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+<area shape="rect" href="class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,107,217,133"/>
+<area shape="rect" href="class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,157,218,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a659fddf550420b111d29cff01f2efce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659fddf550420b111d29cff01f2efce7">&#9670;&nbsp;</a></span>Przesun()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::Przesun </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>Dl</em>[2], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>CalkDl</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Dl</td><td>- Tablica liczb typu double, które przechowują współrzędne X,Y wektora, o jaki ma zostać przesunięty <a class="el" href="class_dron.html" title="Klasa modeluje pojęcie drona.">Dron</a> </td></tr>
+    <tr><td class="paramname">CalkDl</td><td>- Liczba typu double, zawierająca całkowitą długość lotu Drona </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00091">91</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a659fddf550420b111d29cff01f2efce7_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a659fddf550420b111d29cff01f2efce7_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a659fddf550420b111d29cff01f2efce7_icgraph" id="aclass_uklad_wsp_a659fddf550420b111d29cff01f2efce7_icgraph">
+<area shape="rect" title="Metoda stworzona w celu animacji przesunięcia Drona o odpowiednie wartości." alt="" coords="285,31,432,57"/>
+<area shape="rect" href="class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" href="class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,56,218,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abd4381df11d0447cd2170dd98f533368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd4381df11d0447cd2170dd98f533368">&#9670;&nbsp;</a></span>TransfDoUklWspRodzica()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> UkladWsp::TransfDoUklWspRodzica </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>Wierz</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Wierz</td><td>- Wektor3D zawierający współrzędne wierzchołka </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>Wektor3D - Obiekt zawierający współrzędne punktu po jego rotacji o odpowiedni kąt oraz przesunięciu o odpowiedni wektor </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00145">145</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_abd4381df11d0447cd2170dd98f533368_cgraph.png" border="0" usemap="#aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_cgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_cgraph" id="aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_cgraph">
+<area shape="rect" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="5,49,208,90"/>
+<area shape="rect" href="class_macierz.html#a7c4bbd016dd743cd6c5fa421c674220b" title="Ustalenie macierzy obrotu." alt="" coords="256,56,369,83"/>
+<area shape="rect" href="class_macierz.html#a1c95b9e60baed1c837d0ffaaffdb0e58" title="Utworzenie macierzy obrotu wokół osi X." alt="" coords="417,5,528,32"/>
+<area shape="rect" href="class_macierz.html#a386734fb46ce1b5fe995a5d44e398475" title="Utworzenie macierzy obrotu wokół osi Y." alt="" coords="418,56,527,83"/>
+<area shape="rect" href="class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="417,107,528,133"/>
+</map>
+</div>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_abd4381df11d0447cd2170dd98f533368_icgraph.png" border="0" usemap="#aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_icgraph" id="aclass_uklad_wsp_abd4381df11d0447cd2170dd98f533368_icgraph">
+<area shape="rect" title="Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica." alt="" coords="984,165,1187,206"/>
+<area shape="rect" href="class_dron.html#aff573f1126bf56484b8165d872eccb6e" title="Metoda pozwala na transformacje bryly do Globalnego Ukladu Współrzędnych." alt="" coords="735,80,907,107"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a97820ff68c86d78ffd53acf185c7f47c" title="Metoda transformująca bryłę wzorcową w górę z długą granią" alt="" coords="710,131,933,173"/>
+<area shape="rect" href="class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf" title="Metoda transformująca bryłę wzorcową w górę z ostrym szczytem." alt="" coords="728,197,915,238"/>
+<area shape="rect" href="class_plaskowyz.html#ae2a90a405a781169d60167e142ac344d" title="Metoda transformująca bryłę wzorcową w płaskowyż" alt="" coords="707,263,936,289"/>
+<area shape="rect" href="class_dron.html#af6d841c2f7984baf6cc2fbdacdc23666" title="Metoda pozwala na transformację korpusu Drona do Globalnego Układu Współrzędnych." alt="" coords="496,41,659,82"/>
+<area shape="rect" href="class_dron.html#a3050eed982c6ac5bf56fa2f41a5f54da" title="Metoda pozwala na transformację rotorów Drona do Globalnego Układu Współrzędnych." alt="" coords="496,106,659,147"/>
+<area shape="rect" href="class_dron.html#a93d08cb51d9659816e87e08f21b71a49" title="Metoda transformująca współrzędne Drona do Sceny." alt="" coords="285,74,448,115"/>
+<area shape="rect" href="class_dron.html#ae8270dd314c1298887863777fc5d477d" title="Metoda umożliwiająca dodatkowy przelot nad przeszkodą" alt="" coords="5,5,237,32"/>
+<area shape="rect" href="class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="45,56,198,83"/>
+<area shape="rect" href="class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="25,107,217,133"/>
+<area shape="rect" href="class_dron.html#ad6d978005cdc7831dd77925bd635c698" title="Metoda wykonująca poziomy lot Drona." alt="" coords="25,157,218,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae8421da5a59c50db2f9bccf3b1bf39ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8421da5a59c50db2f9bccf3b1bf39ab">&#9670;&nbsp;</a></span>UstawKat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::UstawKat </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>alfa</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alfa</td><td>- Liczba typu double, zawierająca kąt, który zostanie przypisany Układowi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00069">69</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_ae8421da5a59c50db2f9bccf3b1bf39ab_icgraph.png" border="0" usemap="#aclass_uklad_wsp_ae8421da5a59c50db2f9bccf3b1bf39ab_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_ae8421da5a59c50db2f9bccf3b1bf39ab_icgraph" id="aclass_uklad_wsp_ae8421da5a59c50db2f9bccf3b1bf39ab_icgraph">
+<area shape="rect" title="Ustalenie kąta orientacji." alt="" coords="207,5,365,32"/>
+<area shape="rect" href="class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="5,5,159,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a90fc602001a089eb00674325afdc47e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90fc602001a089eb00674325afdc47e6">&#9670;&nbsp;</a></span>WezKat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double&amp; UkladWsp::WezKat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>double&amp; - Liczba typu double przechowująca wartość kąta orientacji w stopniach </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00059">59</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a90fc602001a089eb00674325afdc47e6_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a90fc602001a089eb00674325afdc47e6_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a90fc602001a089eb00674325afdc47e6_icgraph" id="aclass_uklad_wsp_a90fc602001a089eb00674325afdc47e6_icgraph">
+<area shape="rect" title="Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach." alt="" coords="280,31,425,57"/>
+<area shape="rect" href="class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="5,5,232,32"/>
+<area shape="rect" href="class_dron.html#a5cf591419806f1091a039dafb6f13fa1" title="Metoda wykonująca rotację Drona." alt="" coords="42,56,195,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a46e8768fe87f886374dc763f2505a68f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46e8768fe87f886374dc763f2505a68f">&#9670;&nbsp;</a></span>WezPolozenie()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> UkladWsp::WezPolozenie </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>Wektor3D - Wektor3D zawierający położenie, które zostanie użyte w kolejnych funkcjach </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00107">107</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a46e8768fe87f886374dc763f2505a68f_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a46e8768fe87f886374dc763f2505a68f_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a46e8768fe87f886374dc763f2505a68f_icgraph" id="aclass_uklad_wsp_a46e8768fe87f886374dc763f2505a68f_icgraph">
+<area shape="rect" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="681,132,868,159"/>
+<area shape="rect" href="class_dron.html#a5aa2ec120ac2e7ecb6b6b9d05275ab6a" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="397,5,623,32"/>
+<area shape="rect" href="class_dron.html#adb4d6d61f99a99f17d154aaf9007d746" title="Metoda ustalajaca parametry Drona w celu detekcji kolizji." alt="" coords="429,56,591,83"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a8acdf32b0d90c1e4b07c9e5ad5dd2e88" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Dl_Grania." alt="" coords="387,107,633,133"/>
+<area shape="rect" href="class_gora__z___ostr.html#a251b3f43c9f3d42ab808b96b6bb76513" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Gora_z_Ostr." alt="" coords="405,157,615,184"/>
+<area shape="rect" href="class_plaskowyz.html#a652b7575fe816bad3fdb10689397f3ce" title="Metoda ustalająca parametry potrzebne do sprawdzenia kolizji dla klasy Plaskowyz." alt="" coords="411,208,609,235"/>
+<area shape="rect" href="class_dron.html#a8946f7b041d9c79c8776bd0fe5b1bf78" title="Metoda przekazujaca polozenie drona w celu dorysowania sciezki." alt="" coords="428,259,592,285"/>
+<area shape="rect" href="class_dron.html#af4c252f650e0d321570d2f90d645efa9" title="Metoda sprawdzajaca czy dron nie koliduje z innym dronem." alt="" coords="132,40,315,67"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#af1fd53ef28022edf15bf399e041c6702" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Dl_Grania." alt="" coords="123,91,324,133"/>
+<area shape="rect" href="class_gora__z___ostr.html#a0d6cacbce25132cf644c96b19085a283" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Gora_z_Ostr." alt="" coords="108,157,339,184"/>
+<area shape="rect" href="class_plaskowyz.html#a1b4094eb7f5398bf3b7fc165ef7f50ae" title="Metoda sprawdzająca kolizję Drona z obiektem klasy Plaskowyz." alt="" coords="114,208,333,235"/>
+<area shape="rect" href="class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="159,259,287,285"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,259,60,285"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab46e5eb35b7a39e1b4cb28aee81e3717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab46e5eb35b7a39e1b4cb28aee81e3717">&#9670;&nbsp;</a></span>WyswietlWsp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::WyswietlWsp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00128">128</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_ab46e5eb35b7a39e1b4cb28aee81e3717_icgraph.png" border="0" usemap="#aclass_uklad_wsp_ab46e5eb35b7a39e1b4cb28aee81e3717_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_ab46e5eb35b7a39e1b4cb28aee81e3717_icgraph" id="aclass_uklad_wsp_ab46e5eb35b7a39e1b4cb28aee81e3717_icgraph">
+<area shape="rect" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="580,31,764,57"/>
+<area shape="rect" href="class_scena.html#af3ab2270aeeecd5b9785564880a4d25a" title="Metoda pozwalająca na wyświetlenie położenia aktywnego drona." alt="" coords="317,5,532,32"/>
+<area shape="rect" href="class_dron.html#a2572b34c50a2b321109eee797fd9ac98" title="Metoda wyświetla aktualne położenie drona, tj. jego współrzędne X, Y." alt="" coords="354,56,495,83"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" href="class_scena.html#ac14c1edb0c4a8cc24de59281dc7bc8c9" title="Metoda pozwalająca na wybranie aktywnego drona." alt="" coords="108,31,269,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a02d3b34d674cdd42bbc3b024c9902737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d3b34d674cdd42bbc3b024c9902737">&#9670;&nbsp;</a></span>WyswietlWsp_Dla_Elem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::WyswietlWsp_Dla_Elem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00133">133</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a02d3b34d674cdd42bbc3b024c9902737_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a02d3b34d674cdd42bbc3b024c9902737_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a02d3b34d674cdd42bbc3b024c9902737_icgraph" id="aclass_uklad_wsp_a02d3b34d674cdd42bbc3b024c9902737_icgraph">
+<area shape="rect" title=" " alt="" coords="264,64,448,105"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a3f16e5c599d1da77235f6c02f2e71bd6" title="Metoda wypisująca nazwę elementu oraz jej współrzędne na standardowym wyjściu." alt="" coords="14,5,207,47"/>
+<area shape="rect" href="class_gora__z___ostr.html#a9b8cdcd304679d69fac1ac0eaff9755e" title="Metoda wypisująca nazwę elementu oraz jej współrzędne na standardowym wyjściu." alt="" coords="5,71,216,98"/>
+<area shape="rect" href="class_plaskowyz.html#a31ea655a4d89a337bc5acc85ba3ccf13" title="Metoda wypisująca nazwę elementu oraz jej współrzędne na standardowym wyjściu." alt="" coords="11,122,210,149"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a304c5fec392b1650414c792181f5eea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a304c5fec392b1650414c792181f5eea7">&#9670;&nbsp;</a></span>Wznies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UkladWsp::Wznies </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>wys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wys</td><td>- Liczba typu double która zostanie przypisana współrzędnej Z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00079">79</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_uklad_wsp_a304c5fec392b1650414c792181f5eea7_icgraph.png" border="0" usemap="#aclass_uklad_wsp_a304c5fec392b1650414c792181f5eea7_icgraph" alt=""/></div>
+<map name="aclass_uklad_wsp_a304c5fec392b1650414c792181f5eea7_icgraph" id="aclass_uklad_wsp_a304c5fec392b1650414c792181f5eea7_icgraph">
+<area shape="rect" title="Metoda zmieniająca współrzędną Z położenia (w celu zmiany wysokości)" alt="" coords="245,5,388,32"/>
+<area shape="rect" href="class_dron.html#a7806d0312e7e58912780d0f016d58c79" title="Metoda wykonująca pionowy lot Drona." alt="" coords="5,5,197,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a5eb8074532cd95c42ad46d48c0609b0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5eb8074532cd95c42ad46d48c0609b0e">&#9670;&nbsp;</a></span>_KatOrientacji_stopnie</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double UkladWsp::_KatOrientacji_stopnie</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00034">34</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+
+</div>
+</div>
+<a id="ab79d59974e4f9abd9246fc5ceb13e572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab79d59974e4f9abd9246fc5ceb13e572">&#9670;&nbsp;</a></span>_Polozenie</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> UkladWsp::_Polozenie</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_uklad_wsp_8hh_source.html#l00029">29</a> pliku <a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z pliku:<ul>
+<li><a class="el" href="_uklad_wsp_8hh_source.html">UkladWsp.hh</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

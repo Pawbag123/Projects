@@ -1,0 +1,607 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dron Dragonfly: Dokumentacja klasy ElemPow</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="197319098_847142375900527_4085413340640242325_n.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Dron Dragonfly<span id="projectnumber">&#160;3.5</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pro-methods">Metody chronione</a> &#124;
+<a href="#pro-static-methods">Statyczne metody chronione</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="#pri-static-attribs">Statyczne atrybuty prywatne</a> &#124;
+<a href="class_elem_pow-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy ElemPow<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa modeluje pojecie elementu powierzchni.  
+ <a href="class_elem_pow.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla ElemPow</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow__inherit__graph.png" border="0" usemap="#a_elem_pow_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_elem_pow_inherit__map" id="a_elem_pow_inherit__map">
+<area shape="rect" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="177,155,260,181"/>
+<area shape="rect" href="class_gora__z___dl___grania.html" title="Klasa modeluje pojecie Góry z długą Granią" alt="" coords="5,229,144,256"/>
+<area shape="rect" href="class_gora__z___ostr.html" title="Klasa modeluje pojęcie góry z ostrym szczytem." alt="" coords="168,229,269,256"/>
+<area shape="rect" href="class_plaskowyz.html" title="Klasa modeluje pojęcie Płaskowyżu." alt="" coords="293,229,384,256"/>
+<area shape="rect" href="class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="145,80,201,107"/>
+<area shape="rect" href="class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="129,5,217,32"/>
+<area shape="rect" href="class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="225,80,305,107"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla ElemPow:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow__coll__graph.png" border="0" usemap="#a_elem_pow_coll__map" alt="Collaboration graph"/></div>
+<map name="a_elem_pow_coll__map" id="a_elem_pow_coll__map">
+<area shape="rect" title="Klasa modeluje pojecie elementu powierzchni." alt="" coords="120,527,203,553"/>
+<area shape="rect" href="class_bryla.html" title="Klasa modeluje pojęcie bryły." alt="" coords="97,451,153,477"/>
+<area shape="rect" href="class_uklad_wsp.html" title="Klasa UkladWsp." alt="" coords="81,349,169,376"/>
+<area shape="rect" href="class_wektor.html" title=" " alt="" coords="48,260,155,287"/>
+<area shape="rect" href="class_obiekt_sc.html" title="Klasa definiuje pojęcie obiektu sceny." alt="" coords="163,400,243,427"/>
+<area shape="rect" href="class_licznik.html" title=" " alt="" coords="5,95,187,121"/>
+<area shape="rect" href="class_wektor.html" title="Szablon klasy Wektor." alt="" coords="117,171,267,197"/>
+<area shape="rect" href="class_licznik.html" title="Szablon licznik modelujący pojęcie licznika elementów danej klasy." alt="" coords="29,5,163,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:adec35516611cc001b9d8dc8f0d69692b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">Oblicz_i_Zapisz_WspGlbElementu</a> () const</td></tr>
+<tr class="memdesc:adec35516611cc001b9d8dc8f0d69692b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zapisujaca element w pliku.  <a href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b">Więcej...</a><br /></td></tr>
+<tr class="separator:adec35516611cc001b9d8dc8f0d69692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80639ceac0f87a229671445771436131"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a80639ceac0f87a229671445771436131">WypiszElement</a> ()=0</td></tr>
+<tr class="memdesc:a80639ceac0f87a229671445771436131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda wypisująca nazwę elementu oraz jej współrzędne na standardowym wyjściu.  <a href="class_elem_pow.html#a80639ceac0f87a229671445771436131">Więcej...</a><br /></td></tr>
+<tr class="separator:a80639ceac0f87a229671445771436131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a11f7fd12c10ee835c42f06450c423e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e">~ElemPow</a> ()</td></tr>
+<tr class="memdesc:a5a11f7fd12c10ee835c42f06450c423e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor obiektu <a class="el" href="class_elem_pow.html" title="Klasa modeluje pojecie elementu powierzchni.">ElemPow</a>, usuwa plik finalny elementu powierzchni.  <a href="class_elem_pow.html#a5a11f7fd12c10ee835c42f06450c423e">Więcej...</a><br /></td></tr>
+<tr class="separator:a5a11f7fd12c10ee835c42f06450c423e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_bryla"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_bryla')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_bryla.html">Bryla</a></td></tr>
+<tr class="memitem:aefdf9009f66cebc6a9136d6639050a61 inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Skaluj</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Wierz) const</td></tr>
+<tr class="memdesc:aefdf9009f66cebc6a9136d6639050a61 inherit pub_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda, która służy do skalowania wierzchołków bryły.  <a href="class_bryla.html#aefdf9009f66cebc6a9136d6639050a61">Więcej...</a><br /></td></tr>
+<tr class="separator:aefdf9009f66cebc6a9136d6639050a61 inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedea7005cad4a1a8e8b6f2bdfa5d2d44 inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#aedea7005cad4a1a8e8b6f2bdfa5d2d44">WezSkale</a> () const</td></tr>
+<tr class="separator:aedea7005cad4a1a8e8b6f2bdfa5d2d44 inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1aa0ebfd11c8d0258a55ad3b83d2fe inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">WezNazwePliku_BrylaWzorcowa</a> () const</td></tr>
+<tr class="memdesc:aab1aa0ebfd11c8d0258a55ad3b83d2fe inherit pub_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową  <a href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe">Więcej...</a><br /></td></tr>
+<tr class="separator:aab1aa0ebfd11c8d0258a55ad3b83d2fe inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13c6c416b92fcc50c656bf37adab74d9 inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">WezNazwePliku_BrylaFinalna</a> () const</td></tr>
+<tr class="memdesc:a13c6c416b92fcc50c656bf37adab74d9 inherit pub_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca nazwę pliku zawierającego bryłę finalną  <a href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9">Więcej...</a><br /></td></tr>
+<tr class="separator:a13c6c416b92fcc50c656bf37adab74d9 inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272cd76773d897b7b3521c27eb09ffa4 inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">UstalNazwePliku_BrylaFinalna</a> (const std::string &amp;Nazwa)</td></tr>
+<tr class="memdesc:a272cd76773d897b7b3521c27eb09ffa4 inherit pub_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda ustalająca nazwę pliku zawierającego bryłę finalną  <a href="class_bryla.html#a272cd76773d897b7b3521c27eb09ffa4">Więcej...</a><br /></td></tr>
+<tr class="separator:a272cd76773d897b7b3521c27eb09ffa4 inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3480603f549502406e17c9807bd66d8 inherit pub_methods_class_bryla"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#ad3480603f549502406e17c9807bd66d8">~Bryla</a> ()</td></tr>
+<tr class="memdesc:ad3480603f549502406e17c9807bd66d8 inherit pub_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor obiektu <a class="el" href="class_bryla.html" title="Klasa modeluje pojęcie bryły.">Bryla</a>, usuwa plik finalny zmodyfikowanej bryly.  <a href="class_bryla.html#ad3480603f549502406e17c9807bd66d8">Więcej...</a><br /></td></tr>
+<tr class="separator:ad3480603f549502406e17c9807bd66d8 inherit pub_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_uklad_wsp"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_uklad_wsp')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_uklad_wsp.html">UkladWsp</a></td></tr>
+<tr class="memitem:a46e8768fe87f886374dc763f2505a68f inherit pub_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">WezPolozenie</a> () const</td></tr>
+<tr class="memdesc:a46e8768fe87f886374dc763f2505a68f inherit pub_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca położenie układu w celu dalszego działania.  <a href="class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f">Więcej...</a><br /></td></tr>
+<tr class="separator:a46e8768fe87f886374dc763f2505a68f inherit pub_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bb3734c52b05ef9c46a904bad2684f inherit pub_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">DodajKat</a> (const double alfa)</td></tr>
+<tr class="memdesc:a58bb3734c52b05ef9c46a904bad2684f inherit pub_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zwiększenie kąta orientacji.  <a href="class_uklad_wsp.html#a58bb3734c52b05ef9c46a904bad2684f">Więcej...</a><br /></td></tr>
+<tr class="separator:a58bb3734c52b05ef9c46a904bad2684f inherit pub_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab46e5eb35b7a39e1b4cb28aee81e3717 inherit pub_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">WyswietlWsp</a> ()</td></tr>
+<tr class="memdesc:ab46e5eb35b7a39e1b4cb28aee81e3717 inherit pub_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wyświetlenie współrzędnych X i Y Układu.  <a href="class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717">Więcej...</a><br /></td></tr>
+<tr class="separator:ab46e5eb35b7a39e1b4cb28aee81e3717 inherit pub_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d3b34d674cdd42bbc3b024c9902737 inherit pub_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a02d3b34d674cdd42bbc3b024c9902737">WyswietlWsp_Dla_Elem</a> ()</td></tr>
+<tr class="separator:a02d3b34d674cdd42bbc3b024c9902737 inherit pub_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd4381df11d0447cd2170dd98f533368 inherit pub_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">TransfDoUklWspRodzica</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Wierz) const</td></tr>
+<tr class="memdesc:abd4381df11d0447cd2170dd98f533368 inherit pub_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda transformująca wierzchołek bryły do układu współrzędnych rodzica.  <a href="class_uklad_wsp.html#abd4381df11d0447cd2170dd98f533368">Więcej...</a><br /></td></tr>
+<tr class="separator:abd4381df11d0447cd2170dd98f533368 inherit pub_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_obiekt_sc"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_obiekt_sc')"><img src="closed.png" alt="-"/>&#160;Metody publiczne dziedziczone z <a class="el" href="class_obiekt_sc.html">ObiektSc</a></td></tr>
+<tr class="memitem:a2f1b072291df4e43589e73c0d49e4f3e inherit pub_methods_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e">WezSrodek</a> () const</td></tr>
+<tr class="memdesc:a2f1b072291df4e43589e73c0d49e4f3e inherit pub_methods_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalajaca na uzyskanie srodka obiektu.  <a href="class_obiekt_sc.html#a2f1b072291df4e43589e73c0d49e4f3e">Więcej...</a><br /></td></tr>
+<tr class="separator:a2f1b072291df4e43589e73c0d49e4f3e inherit pub_methods_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a67d7d300e60519b2ba83143bd23cd inherit pub_methods_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd">WezPromien</a> () const</td></tr>
+<tr class="memdesc:a10a67d7d300e60519b2ba83143bd23cd inherit pub_methods_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda pozwalająca na uzyskanie promienia Drona.  <a href="class_obiekt_sc.html#a10a67d7d300e60519b2ba83143bd23cd">Więcej...</a><br /></td></tr>
+<tr class="separator:a10a67d7d300e60519b2ba83143bd23cd inherit pub_methods_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b97f9a72481fe3003ae59ecc2444f2 inherit pub_methods_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#a14b97f9a72481fe3003ae59ecc2444f2">SprawdzCzyZajete</a> (<a class="el" href="class_obiekt_sc.html">ObiektSc</a> *Obiekt)=0</td></tr>
+<tr class="memdesc:a14b97f9a72481fe3003ae59ecc2444f2 inherit pub_methods_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda wirtualna, sprawdzająca czy <a class="el" href="class_dron.html" title="Klasa modeluje pojęcie drona.">Dron</a> koliduje z obiektem.  <a href="class_obiekt_sc.html#a14b97f9a72481fe3003ae59ecc2444f2">Więcej...</a><br /></td></tr>
+<tr class="separator:a14b97f9a72481fe3003ae59ecc2444f2 inherit pub_methods_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c55591b182c972398772f1f84431e6 inherit pub_methods_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6">UstalParametry</a> ()=0</td></tr>
+<tr class="memdesc:ae9c55591b182c972398772f1f84431e6 inherit pub_methods_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda ustalająca odpowiednie paramery obiektu w celu sprawdzenia kolizji.  <a href="class_obiekt_sc.html#ae9c55591b182c972398772f1f84431e6">Więcej...</a><br /></td></tr>
+<tr class="separator:ae9c55591b182c972398772f1f84431e6 inherit pub_methods_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2ed02ee0970be01d4c8009514b32c6a inherit pub_methods_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#ac2ed02ee0970be01d4c8009514b32c6a">DajNazwe</a> ()=0</td></tr>
+<tr class="memdesc:ac2ed02ee0970be01d4c8009514b32c6a inherit pub_methods_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda, która w wypadku kolizji wypisuje nazwę przeszkody.  <a href="class_obiekt_sc.html#ac2ed02ee0970be01d4c8009514b32c6a">Więcej...</a><br /></td></tr>
+<tr class="separator:ac2ed02ee0970be01d4c8009514b32c6a inherit pub_methods_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Metody chronione</h2></td></tr>
+<tr class="memitem:af96ca3c06b4d1d94301787544ffa775c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#af96ca3c06b4d1d94301787544ffa775c">ElemPow</a> (const std::string &amp;NazwaPlikuBrylaWzorcowa, const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Skala, const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie)</td></tr>
+<tr class="memdesc:af96ca3c06b4d1d94301787544ffa775c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor parametryczny Elementu powierzchni.  <a href="class_elem_pow.html#af96ca3c06b4d1d94301787544ffa775c">Więcej...</a><br /></td></tr>
+<tr class="separator:af96ca3c06b4d1d94301787544ffa775c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6749994670c576a87586e30d7fcf6b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">PrzypiszNrElem</a> ()</td></tr>
+<tr class="memdesc:af6749994670c576a87586e30d7fcf6b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda przypisujaca Elementowi jego numer.  <a href="class_elem_pow.html#af6749994670c576a87586e30d7fcf6b1">Więcej...</a><br /></td></tr>
+<tr class="separator:af6749994670c576a87586e30d7fcf6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08fe6af641886d6a281a54af287a1330"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">WezNrElem</a> ()</td></tr>
+<tr class="memdesc:a08fe6af641886d6a281a54af287a1330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracajaca prywatny atrybut Elementu powierzchni.  <a href="class_elem_pow.html#a08fe6af641886d6a281a54af287a1330">Więcej...</a><br /></td></tr>
+<tr class="separator:a08fe6af641886d6a281a54af287a1330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad45ca209027ace75a732795162d0e016"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">TransformujElement</a> (std::ifstream &amp;Plik_We, std::ofstream &amp;Plik_Wy) const =0</td></tr>
+<tr class="memdesc:ad45ca209027ace75a732795162d0e016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda transformujaca element.  <a href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016">Więcej...</a><br /></td></tr>
+<tr class="separator:ad45ca209027ace75a732795162d0e016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_bryla"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_bryla')"><img src="closed.png" alt="-"/>&#160;Metody chronione dziedziczone z <a class="el" href="class_bryla.html">Bryla</a></td></tr>
+<tr class="memitem:a1f7aa61e91e8e9bac207506223ddee87 inherit pro_methods_class_bryla"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_bryla.html#a1f7aa61e91e8e9bac207506223ddee87">Bryla</a> (const std::string &amp;NazwaPlikuBrylaWzorcowa, const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Skala, const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie)</td></tr>
+<tr class="memdesc:a1f7aa61e91e8e9bac207506223ddee87 inherit pro_methods_class_bryla"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor Bryły.  <a href="class_bryla.html#a1f7aa61e91e8e9bac207506223ddee87">Więcej...</a><br /></td></tr>
+<tr class="separator:a1f7aa61e91e8e9bac207506223ddee87 inherit pro_methods_class_bryla"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_uklad_wsp"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_uklad_wsp')"><img src="closed.png" alt="-"/>&#160;Metody chronione dziedziczone z <a class="el" href="class_uklad_wsp.html">UkladWsp</a></td></tr>
+<tr class="memitem:ad1062ba3c1b2a0ca4a6b7c9a28779eb4 inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">UkladWsp</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie, const double KatOrientacji)</td></tr>
+<tr class="memdesc:ad1062ba3c1b2a0ca4a6b7c9a28779eb4 inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor Ukladu wspolrzednych o dwóch parametrach.  <a href="class_uklad_wsp.html#ad1062ba3c1b2a0ca4a6b7c9a28779eb4">Więcej...</a><br /></td></tr>
+<tr class="separator:ad1062ba3c1b2a0ca4a6b7c9a28779eb4 inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54d639318666950968000c2decd8e66 inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">UkladWsp</a> (const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;Polozenie)</td></tr>
+<tr class="memdesc:aa54d639318666950968000c2decd8e66 inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor układu współrzędnych o jednym parametrze.  <a href="class_uklad_wsp.html#aa54d639318666950968000c2decd8e66">Więcej...</a><br /></td></tr>
+<tr class="separator:aa54d639318666950968000c2decd8e66 inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fc602001a089eb00674325afdc47e6 inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">WezKat</a> ()</td></tr>
+<tr class="memdesc:a90fc602001a089eb00674325afdc47e6 inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach.  <a href="class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6">Więcej...</a><br /></td></tr>
+<tr class="separator:a90fc602001a089eb00674325afdc47e6 inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8421da5a59c50db2f9bccf3b1bf39ab inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">UstawKat</a> (const double alfa)</td></tr>
+<tr class="memdesc:ae8421da5a59c50db2f9bccf3b1bf39ab inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ustalenie kąta orientacji.  <a href="class_uklad_wsp.html#ae8421da5a59c50db2f9bccf3b1bf39ab">Więcej...</a><br /></td></tr>
+<tr class="separator:ae8421da5a59c50db2f9bccf3b1bf39ab inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a304c5fec392b1650414c792181f5eea7 inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">Wznies</a> (const double wys)</td></tr>
+<tr class="memdesc:a304c5fec392b1650414c792181f5eea7 inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zmieniająca współrzędną Z położenia (w celu zmiany wysokości)  <a href="class_uklad_wsp.html#a304c5fec392b1650414c792181f5eea7">Więcej...</a><br /></td></tr>
+<tr class="separator:a304c5fec392b1650414c792181f5eea7 inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659fddf550420b111d29cff01f2efce7 inherit pro_methods_class_uklad_wsp"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">Przesun</a> (const double Dl[2], const double CalkDl)</td></tr>
+<tr class="memdesc:a659fddf550420b111d29cff01f2efce7 inherit pro_methods_class_uklad_wsp"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda stworzona w celu animacji przesunięcia Drona o odpowiednie wartości.  <a href="class_uklad_wsp.html#a659fddf550420b111d29cff01f2efce7">Więcej...</a><br /></td></tr>
+<tr class="separator:a659fddf550420b111d29cff01f2efce7 inherit pro_methods_class_uklad_wsp"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Statyczne metody chronione</h2></td></tr>
+<tr class="memitem:a0094cdb6bccb9b15c75d43a9ade92333"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">ZwiekszIlElem</a> ()</td></tr>
+<tr class="memdesc:a0094cdb6bccb9b15c75d43a9ade92333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda zwiekszajaca licznik ilosci elementow.  <a href="class_elem_pow.html#a0094cdb6bccb9b15c75d43a9ade92333">Więcej...</a><br /></td></tr>
+<tr class="separator:a0094cdb6bccb9b15c75d43a9ade92333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a3f9dd8d7903e8e00b1f5f04f84ea62c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">_NrElem</a></td></tr>
+<tr class="memdesc:a3f9dd8d7903e8e00b1f5f04f84ea62c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zmienna stworzona w celu przypisania numeru elementu.  <a href="class_elem_pow.html#a3f9dd8d7903e8e00b1f5f04f84ea62c7">Więcej...</a><br /></td></tr>
+<tr class="separator:a3f9dd8d7903e8e00b1f5f04f84ea62c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Statyczne atrybuty prywatne</h2></td></tr>
+<tr class="memitem:a99287b832abddab630f17a513afbfca8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">_IlElem</a> = 0</td></tr>
+<tr class="memdesc:a99287b832abddab630f17a513afbfca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zmienna oznaczajaca ilosc stworzonych elementow.  <a href="class_elem_pow.html#a99287b832abddab630f17a513afbfca8">Więcej...</a><br /></td></tr>
+<tr class="separator:a99287b832abddab630f17a513afbfca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Dodatkowe Dziedziczone Składowe</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_obiekt_sc"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_obiekt_sc')"><img src="closed.png" alt="-"/>&#160;Atrybuty chronione dziedziczone z <a class="el" href="class_obiekt_sc.html">ObiektSc</a></td></tr>
+<tr class="memitem:a57754ccd799921162112b78452dcf001 inherit pro_attribs_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#a57754ccd799921162112b78452dcf001">_SrodekObiektu</a></td></tr>
+<tr class="memdesc:a57754ccd799921162112b78452dcf001 inherit pro_attribs_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obiekt typu Wektor3D przechowujacy środek położenia obiektu.  <a href="class_obiekt_sc.html#a57754ccd799921162112b78452dcf001">Więcej...</a><br /></td></tr>
+<tr class="separator:a57754ccd799921162112b78452dcf001 inherit pro_attribs_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12c8e9a5702e783581fb7d3d7cdb925 inherit pro_attribs_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#ad12c8e9a5702e783581fb7d3d7cdb925">_Promien</a></td></tr>
+<tr class="memdesc:ad12c8e9a5702e783581fb7d3d7cdb925 inherit pro_attribs_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">liczba typu double przechowująca promień okręgu, w którym jest wrysowany <a class="el" href="class_dron.html" title="Klasa modeluje pojęcie drona.">Dron</a>  <a href="class_obiekt_sc.html#ad12c8e9a5702e783581fb7d3d7cdb925">Więcej...</a><br /></td></tr>
+<tr class="separator:ad12c8e9a5702e783581fb7d3d7cdb925 inherit pro_attribs_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae757b746ad65f7515ae546e63f669715 inherit pro_attribs_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">_BokX</a></td></tr>
+<tr class="memdesc:ae757b746ad65f7515ae546e63f669715 inherit pro_attribs_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liczba typu double przechowująca połowę wartości boku X elementu powierzchni.  <a href="class_obiekt_sc.html#ae757b746ad65f7515ae546e63f669715">Więcej...</a><br /></td></tr>
+<tr class="separator:ae757b746ad65f7515ae546e63f669715 inherit pro_attribs_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5803a0992fe3495255e917182997404c inherit pro_attribs_class_obiekt_sc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">_BokY</a></td></tr>
+<tr class="memdesc:a5803a0992fe3495255e917182997404c inherit pro_attribs_class_obiekt_sc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Liczba typu double przechowująca połowę wartości boku Y elementu powierzchni.  <a href="class_obiekt_sc.html#a5803a0992fe3495255e917182997404c">Więcej...</a><br /></td></tr>
+<tr class="separator:a5803a0992fe3495255e917182997404c inherit pro_attribs_class_obiekt_sc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock">
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00017">17</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="af96ca3c06b4d1d94301787544ffa775c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96ca3c06b4d1d94301787544ffa775c">&#9670;&nbsp;</a></span>ElemPow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ElemPow::ElemPow </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>NazwaPlikuBrylaWzorcowa</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>Skala</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="_wektor3_d_8hh.html#ac353a272b38b4ad342f7181ad7bdb91a">Wektor3D</a> &amp;&#160;</td>
+          <td class="paramname"><em>Polozenie</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">NazwaPlikuBrylaWzorcowa</td><td>- Nazwa pliku bryły wzorcowej </td></tr>
+    <tr><td class="paramname">Skala</td><td>- Wektor3D zawierający dane odnośnie skali obiektu </td></tr>
+    <tr><td class="paramname">Polozenie</td><td>- Wektor3D zawierający dane odnośnie położenia obiektu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00039">39</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+
+</div>
+</div>
+<a id="a5a11f7fd12c10ee835c42f06450c423e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a11f7fd12c10ee835c42f06450c423e">&#9670;&nbsp;</a></span>~ElemPow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ElemPow::~ElemPow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00105">105</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_a5a11f7fd12c10ee835c42f06450c423e_cgraph.png" border="0" usemap="#aclass_elem_pow_a5a11f7fd12c10ee835c42f06450c423e_cgraph" alt=""/></div>
+<map name="aclass_elem_pow_a5a11f7fd12c10ee835c42f06450c423e_cgraph" id="aclass_elem_pow_a5a11f7fd12c10ee835c42f06450c423e_cgraph">
+<area shape="rect" title="Destruktor obiektu ElemPow, usuwa plik finalny elementu powierzchni." alt="" coords="5,13,165,39"/>
+<area shape="rect" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="213,5,380,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="adec35516611cc001b9d8dc8f0d69692b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec35516611cc001b9d8dc8f0d69692b">&#9670;&nbsp;</a></span>Oblicz_i_Zapisz_WspGlbElementu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ElemPow::Oblicz_i_Zapisz_WspGlbElementu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>true - gdy operacja sie powiedzie </dd>
+<dd>
+false - jezeli nastapi problem z otwarciem plikow </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8cpp_source.html#l00010">10</a> pliku <a class="el" href="_elem_pow_8cpp_source.html">ElemPow.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_adec35516611cc001b9d8dc8f0d69692b_cgraph.png" border="0" usemap="#aclass_elem_pow_adec35516611cc001b9d8dc8f0d69692b_cgraph" alt=""/></div>
+<map name="aclass_elem_pow_adec35516611cc001b9d8dc8f0d69692b_cgraph" id="aclass_elem_pow_adec35516611cc001b9d8dc8f0d69692b_cgraph">
+<area shape="rect" title="Metoda zapisujaca element w pliku." alt="" coords="5,57,196,98"/>
+<area shape="rect" href="class_elem_pow.html#ad45ca209027ace75a732795162d0e016" title="Metoda transformujaca element." alt="" coords="244,5,464,32"/>
+<area shape="rect" href="class_bryla.html#a13c6c416b92fcc50c656bf37adab74d9" title="Metoda zwracająca nazwę pliku zawierającego bryłę finalną" alt="" coords="271,57,437,98"/>
+<area shape="rect" href="class_bryla.html#aab1aa0ebfd11c8d0258a55ad3b83d2fe" title="Metoda zwracająca nazwę pliku zawierającego bryłę wzorcową" alt="" coords="271,122,437,163"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af6749994670c576a87586e30d7fcf6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6749994670c576a87586e30d7fcf6b1">&#9670;&nbsp;</a></span>PrzypiszNrElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElemPow::PrzypiszNrElem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00057">57</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_af6749994670c576a87586e30d7fcf6b1_icgraph.png" border="0" usemap="#aclass_elem_pow_af6749994670c576a87586e30d7fcf6b1_icgraph" alt=""/></div>
+<map name="aclass_elem_pow_af6749994670c576a87586e30d7fcf6b1_icgraph" id="aclass_elem_pow_af6749994670c576a87586e30d7fcf6b1_icgraph">
+<area shape="rect" title="Metoda przypisujaca Elementowi jego numer." alt="" coords="241,71,432,98"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a7a7ba6c05869cb9660a239ed191cbdaa" title="Konstruktor parametryczny obiektu Gora_z_Dl_Grania." alt="" coords="11,5,188,47"/>
+<area shape="rect" href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0" title="Konstruktor parametryczny obiektu Gora_z_Ostr." alt="" coords="5,71,193,98"/>
+<area shape="rect" href="class_plaskowyz.html#a9fd100c3f497a523093015b15b1847dd" title="Konstruktor parametryczny obiektu Plaskowyz." alt="" coords="16,122,183,149"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad45ca209027ace75a732795162d0e016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad45ca209027ace75a732795162d0e016">&#9670;&nbsp;</a></span>TransformujElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ElemPow::TransformujElement </td>
+          <td>(</td>
+          <td class="paramtype">std::ifstream &amp;&#160;</td>
+          <td class="paramname"><em>Plik_We</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ofstream &amp;&#160;</td>
+          <td class="paramname"><em>Plik_Wy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Metoda wirtualna, ktora ma na celu przeksztalcenie danych wejsciowych pobranych z pliku bryl wzorcowych na odpowiednie elementy powierzchni</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Plik_We</td><td>- plik zawierajacy bryle wzorcowa </td></tr>
+    <tr><td class="paramname">Plik_Wy</td><td>- plik zawierajacy stworzony element </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>true - gdy operacja sie powiedzie </dd>
+<dd>
+false - gdy nastapi problem w otwarciu plikow </dd></dl>
+
+<p>Implementowany w <a class="el" href="class_gora__z___dl___grania.html#a97820ff68c86d78ffd53acf185c7f47c">Gora_z_Dl_Grania</a>, <a class="el" href="class_gora__z___ostr.html#ab65a0a797ae24882b973644e91c1c9cf">Gora_z_Ostr</a> i <a class="el" href="class_plaskowyz.html#ae2a90a405a781169d60167e142ac344d">Plaskowyz</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_ad45ca209027ace75a732795162d0e016_icgraph.png" border="0" usemap="#aclass_elem_pow_ad45ca209027ace75a732795162d0e016_icgraph" alt=""/></div>
+<map name="aclass_elem_pow_ad45ca209027ace75a732795162d0e016_icgraph" id="aclass_elem_pow_ad45ca209027ace75a732795162d0e016_icgraph">
+<area shape="rect" title="Metoda transformujaca element." alt="" coords="244,13,464,39"/>
+<area shape="rect" href="class_elem_pow.html#adec35516611cc001b9d8dc8f0d69692b" title="Metoda zapisujaca element w pliku." alt="" coords="5,5,196,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a08fe6af641886d6a281a54af287a1330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08fe6af641886d6a281a54af287a1330">&#9670;&nbsp;</a></span>WezNrElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ElemPow::WezNrElem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Zwraca</dt><dd>int - numer elementu </dd></dl>
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00067">67</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_a08fe6af641886d6a281a54af287a1330_icgraph.png" border="0" usemap="#aclass_elem_pow_a08fe6af641886d6a281a54af287a1330_icgraph" alt=""/></div>
+<map name="aclass_elem_pow_a08fe6af641886d6a281a54af287a1330_icgraph" id="aclass_elem_pow_a08fe6af641886d6a281a54af287a1330_icgraph">
+<area shape="rect" title="Metoda zwracajaca prywatny atrybut Elementu powierzchni." alt="" coords="241,71,405,98"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a7a7ba6c05869cb9660a239ed191cbdaa" title="Konstruktor parametryczny obiektu Gora_z_Dl_Grania." alt="" coords="11,5,188,47"/>
+<area shape="rect" href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0" title="Konstruktor parametryczny obiektu Gora_z_Ostr." alt="" coords="5,71,193,98"/>
+<area shape="rect" href="class_plaskowyz.html#a9fd100c3f497a523093015b15b1847dd" title="Konstruktor parametryczny obiektu Plaskowyz." alt="" coords="16,122,183,149"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a80639ceac0f87a229671445771436131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80639ceac0f87a229671445771436131">&#9670;&nbsp;</a></span>WypiszElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ElemPow::WypiszElement </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementowany w <a class="el" href="class_gora__z___dl___grania.html#a3f16e5c599d1da77235f6c02f2e71bd6">Gora_z_Dl_Grania</a>, <a class="el" href="class_gora__z___ostr.html#a9b8cdcd304679d69fac1ac0eaff9755e">Gora_z_Ostr</a> i <a class="el" href="class_plaskowyz.html#a31ea655a4d89a337bc5acc85ba3ccf13">Plaskowyz</a>.</p>
+
+</div>
+</div>
+<a id="a0094cdb6bccb9b15c75d43a9ade92333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0094cdb6bccb9b15c75d43a9ade92333">&#9670;&nbsp;</a></span>ZwiekszIlElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ElemPow::ZwiekszIlElem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00048">48</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+<div class="dynheader">
+Oto graf wywoływań tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_elem_pow_a0094cdb6bccb9b15c75d43a9ade92333_icgraph.png" border="0" usemap="#aclass_elem_pow_a0094cdb6bccb9b15c75d43a9ade92333_icgraph" alt=""/></div>
+<map name="aclass_elem_pow_a0094cdb6bccb9b15c75d43a9ade92333_icgraph" id="aclass_elem_pow_a0094cdb6bccb9b15c75d43a9ade92333_icgraph">
+<area shape="rect" title="Metoda zwiekszajaca licznik ilosci elementow." alt="" coords="241,71,425,98"/>
+<area shape="rect" href="class_gora__z___dl___grania.html#a7a7ba6c05869cb9660a239ed191cbdaa" title="Konstruktor parametryczny obiektu Gora_z_Dl_Grania." alt="" coords="11,5,188,47"/>
+<area shape="rect" href="class_gora__z___ostr.html#a0930b15784a904ab3ddd82b9fe1546c0" title="Konstruktor parametryczny obiektu Gora_z_Ostr." alt="" coords="5,71,193,98"/>
+<area shape="rect" href="class_plaskowyz.html#a9fd100c3f497a523093015b15b1847dd" title="Konstruktor parametryczny obiektu Plaskowyz." alt="" coords="16,122,183,149"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a99287b832abddab630f17a513afbfca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99287b832abddab630f17a513afbfca8">&#9670;&nbsp;</a></span>_IlElem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ElemPow::_IlElem = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00023">23</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+
+</div>
+</div>
+<a id="a3f9dd8d7903e8e00b1f5f04f84ea62c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f9dd8d7903e8e00b1f5f04f84ea62c7">&#9670;&nbsp;</a></span>_NrElem</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ElemPow::_NrElem</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="_elem_pow_8hh_source.html#l00029">29</a> pliku <a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li><a class="el" href="_elem_pow_8hh_source.html">ElemPow.hh</a></li>
+<li><a class="el" href="_elem_pow_8cpp_source.html">ElemPow.cpp</a></li>
+<li><a class="el" href="main_8cpp_source.html">main.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

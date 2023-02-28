@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGraniastoslup.a  CMakeFiles/Graniastoslup.dir/Graniastoslup.cpp.o
+/usr/bin/ranlib libGraniastoslup.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Scena.hh
+
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Scena.cpp
+Scena.hh
+/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/src/Scena.hh
+

@@ -1,0 +1,16 @@
+<map id="Dron::PlanujPoczatkowaSciezke" name="Dron::PlanujPoczatkowaSciezke">
+<area shape="rect" id="node1" title="Metoda planująca oraz rysująca ścieżkę Drona." alt="" coords="5,155,232,181"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#ab976ec78d721529af43e600adb404c05" title="Metoda która pozwala na narysowanie ścieżki lotu." alt="" coords="284,104,463,131"/>
+<area shape="rect" id="node13" href="$class_uklad_wsp.html#a90fc602001a089eb00674325afdc47e6" title="Metoda zwracająca kąt orientacji w celu użycia w innych funkcjach." alt="" coords="301,155,446,181"/>
+<area shape="rect" id="node14" href="$class_uklad_wsp.html#a46e8768fe87f886374dc763f2505a68f" title="Metoda zwracająca położenie układu w celu dalszego działania." alt="" coords="280,205,467,232"/>
+<area shape="rect" id="node3" href="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e" title="Dodaje nazwę pliku." alt="" coords="515,45,688,86"/>
+<area shape="rect" id="node5" href="$class_sciezka.html#a0bcc0ca95bd9aa01212e075bc8c31d90" title="Metoda ustalająca ścieżkę drona za pomocą stworzonych wcześniej metod." alt="" coords="520,157,683,184"/>
+<area shape="rect" id="node4" href="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102" title="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku." alt="" coords="769,5,896,32"/>
+<area shape="rect" id="node6" href="$class_sciezka.html#af3ac46e80697021930e0b9a2f69a36bf" title="Metoda umieszczająca końcową pozycję drona na odpowiednim miejscu punktów ścieżki." alt="" coords="753,56,913,83"/>
+<area shape="rect" id="node7" href="$class_sciezka.html#a1d4867fced9fcc5ff35d65119ec9b805" title="Metoda umieszczajaca pozycje po wzniesieniu drona w gore na odpowiednim miejscu punktow sciezki." alt="" coords="760,107,905,133"/>
+<area shape="rect" id="node8" href="$class_sciezka.html#a8f7d7b98126aba016023035a51b9a41b" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="750,157,915,184"/>
+<area shape="rect" id="node10" href="$class_sciezka.html#a8a365028eebcebc9e4d339bdd5aae3fa" title="Metoda umieszczająca pozycję startową drona na początku punktow sciezki." alt="" coords="759,208,907,235"/>
+<area shape="rect" id="node11" href="$class_sciezka.html#af9e24807179d741666088432bb5f5bac" title="Metoda ustalająca długość lotu drona oraz parametry z nią związane." alt="" coords="736,259,929,285"/>
+<area shape="rect" id="node12" href="$class_sciezka.html#a39e30188c92a52a0c8de62f2a8bda925" title="Metoda ustalajaca kąt obrotu ścieżki oraz drona." alt="" coords="743,309,922,336"/>
+<area shape="rect" id="node9" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="977,157,1088,184"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Sciezka::DorysujSciezke" name="Sciezka::DorysujSciezke">
+<area shape="rect" id="node1" title="Metoda która na nowo rysuje ścieżkę drona poprawioną po kolizji." alt="" coords="5,107,184,133"/>
+<area shape="rect" id="node2" href="$class_sciezka.html#a834f9cb90322bf1fabb036335a74766c" title="Metoda tworząca nową ścieżkę drona wydłużoną o fragment potrzebny do ominięcia przeszkody." alt="" coords="232,107,457,133"/>
+<area shape="rect" id="node3" href="$class_sciezka.html#ac2d3cd615dbd67953f4694071d0522b3" title="Metoda wydłużająca długość lotu o wartość potrzebną do ominięcia przeszkody." alt="" coords="505,5,712,32"/>
+<area shape="rect" id="node4" href="$class_sciezka.html#af3ac46e80697021930e0b9a2f69a36bf" title="Metoda umieszczająca końcową pozycję drona na odpowiednim miejscu punktów ścieżki." alt="" coords="529,56,689,83"/>
+<area shape="rect" id="node5" href="$class_sciezka.html#a1d4867fced9fcc5ff35d65119ec9b805" title="Metoda umieszczajaca pozycje po wzniesieniu drona w gore na odpowiednim miejscu punktow sciezki." alt="" coords="536,107,681,133"/>
+<area shape="rect" id="node6" href="$class_sciezka.html#a8f7d7b98126aba016023035a51b9a41b" title="Metoda umieszczająca pozycję drona po locie poziomym na odpowiednim miejscu punktów ścieżki." alt="" coords="526,157,691,184"/>
+<area shape="rect" id="node8" href="$class_sciezka.html#a8a365028eebcebc9e4d339bdd5aae3fa" title="Metoda umieszczająca pozycję startową drona na początku punktow sciezki." alt="" coords="535,208,683,235"/>
+<area shape="rect" id="node7" href="$class_macierz.html#acf02beac8cd3f99b815cc8647df0cef6" title="Utworzenie macierzy obrotu wokół osi Z." alt="" coords="760,157,871,184"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Sciezka::UstalPolDrona" name="Sciezka::UstalPolDrona">
+<area shape="rect" id="node1" title="Metoda ustalająca początkowe położenie Drona." alt="" coords="496,5,668,32"/>
+<area shape="rect" id="node2" href="$class_dron.html#a8946f7b041d9c79c8776bd0fe5b1bf78" title="Metoda przekazujaca polozenie drona w celu dorysowania sciezki." alt="" coords="284,5,448,32"/>
+<area shape="rect" id="node3" href="$class_scena.html#a8c228e8583b10f6e2f8fedfe7934cf89" title="Metoda pozwalająca na lot drona." alt="" coords="108,5,236,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

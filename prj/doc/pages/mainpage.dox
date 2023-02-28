@@ -1,0 +1,19 @@
+/*!
+\mainpage %Dron Dragonfly - Faza 3
+\section Opis
+
+Program %Dron Dragonfly pozwala na wykonywanie operacji na Dronach rysowanych za pomocą programu GNUplot.
+Do najważniejszych operacji zalicza się wybranie aktywnego Drona spośród dwóch dostępnych oraz jego animacja,
+to jest rysowanie ścieżki lotu, lub wykonanie lotu wraz z jego rotacją. Program ponadto pozwala na Wyświetlenie
+odpowiednich parametrów oraz zliczanie obiektów klas (głównie klasy Wektor3D). Ponadto, w fazie 2 programu
+został on ulepszony o możliwość dodawania, oraz usuwania odpowiednich elementów powierzchni. Faza 3 programu -
+ostatnia, umożliwiła detekcję kolizji lądującego drona oraz elementów powierzchni. Gdy takowa nastąpi,
+%Dron wydłuża swoją ścieżkę lotu aż do momentu, gdy powierzchnia, na której ma lądować, nie będzie zajęta.
+
+\section Kompilacja
+
+Program jest kompilowany przy użyciu kompilatora CMake.
+
+\author Paweł Bagiński
+*/
+

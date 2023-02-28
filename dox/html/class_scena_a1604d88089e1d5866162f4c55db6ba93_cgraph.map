@@ -1,0 +1,6 @@
+<map id="Scena::WyswietlPolozenie" name="Scena::WyswietlPolozenie">
+<area shape="rect" id="node1" title="Metoda wyświetlająca aktualne położenie dronóœ" alt="" coords="5,31,197,57"/>
+<area shape="rect" id="node2" href="$class_dron.html#ad1273a5eda7b16f7373eda5d9d51bd48" title="Metoda wyświetla komunikat, że dany dron jest aktywny." alt="" coords="245,5,388,32"/>
+<area shape="rect" id="node3" href="$class_dron.html#a2572b34c50a2b321109eee797fd9ac98" title="Metoda wyświetla aktualne położenie drona, tj. jego współrzędne X, Y." alt="" coords="246,56,387,83"/>
+<area shape="rect" id="node4" href="$class_uklad_wsp.html#ab46e5eb35b7a39e1b4cb28aee81e3717" title="Wyświetlenie współrzędnych X i Y Układu." alt="" coords="436,56,620,83"/>
+</map>

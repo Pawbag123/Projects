@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Dron_Dragonfly.dir/main.cpp.o  -o ../../Dron_Dragonfly  libScena.a libDron.a libProstopadloscian.a libGraniastoslup.a libBryla.a liblacze_do_gnuplota.a 
