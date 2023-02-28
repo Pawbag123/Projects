@@ -1,0 +1,211 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/Dron_Dragonfly"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/inc"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Scena::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Dron::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Plaskowyz::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Gora_z_Ostr::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Gora_z_Dl_Grania::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ElemPow::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Sciezka::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "lacze_do_gnuplota::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "Dron_Dragonfly::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libScena.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libDron.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libSciezka.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "liblacze_do_gnuplota.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libGora_z_Ostr.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libGora_z_Dl_Grania.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libPlaskowyz.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libElemPow.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Dron_Dragonfly",
+	"nameOnDisk" : "Dron_Dragonfly",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

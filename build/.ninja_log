@@ -1,0 +1,25 @@
+# ninja log v5
+9272	9356	1624204907223010115	src/libScena.a	4c607fec41f7cb1f
+9217	9272	1624204907139023036	src/libDron.a	a234fd2d7f0d6dfa
+9089	9138	1624204907007043340	src/liblacze_do_gnuplota.a	3428b70d135e5dcb
+9	5395	1624204903263702627	src/CMakeFiles/Gora_z_Dl_Grania.dir/Gora_z_Dl_Grania.cpp.o	fe5b916a8ab814e4
+2	5983	1624204903847590262	src/CMakeFiles/Dron_Dragonfly.dir/main.cpp.o	6e558b70c684daf
+1	7131	1624204904999379154	src/CMakeFiles/Scena.dir/Scena.cpp.o	3dad89502b248529
+8275	8381	1624204906251166214	src/libGora_z_Ostr.a	9cb963a569da864d
+5983	9089	1624204906955051773	src/CMakeFiles/lacze_do_gnuplota.dir/lacze_do_gnuplota.cpp.o	a6bd0dfc0ff2afc7
+9138	9217	1624204907083031650	src/libSciezka.a	e7813291ffc4e275
+4	5855	1624204903723614121	src/CMakeFiles/Plaskowyz.dir/Plaskowyz.cpp.o	1ba5e435ed1feb7e
+5397	8119	1624204905987209293	src/CMakeFiles/ElemPow.dir/ElemPow.cpp.o	43fa224d1b7b9ce9
+7	6305	1624204904171529691	src/CMakeFiles/Gora_z_Ostr.dir/Gora_z_Ostr.cpp.o	40bdcc66ee007672
+5855	8357	1624204906199174667	src/CMakeFiles/Sciezka.dir/Sciezka.cpp.o	403e2e1bb2acf8a4
+1	6385	1624204904251515146	src/CMakeFiles/Dron.dir/Dron.cpp.o	310bad0d6a39b770
+9356	9776	1624204907642945508	/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/Dron_Dragonfly	3b0b7f36a8d83d3d
+8119	8266	1624204906135185071	src/libElemPow.a	4ff6bf3c66fff390
+8267	8395	1624204906263164262	src/libPlaskowyz.a	ce9aa1d51e9b57bc
+8287	8423	1624204906291159711	src/libGora_z_Dl_Grania.a	38ab010e44b870b9
+4	3744	1624264791421710700	src/CMakeFiles/Dron_Dragonfly.dir/main.cpp.o	6e558b70c684daf
+3	3903	1624264791581705335	src/CMakeFiles/Dron.dir/Dron.cpp.o	310bad0d6a39b770
+3903	3972	1624264791653702919	src/libDron.a	a234fd2d7f0d6dfa
+3	4347	1624264792025690442	src/CMakeFiles/Scena.dir/Scena.cpp.o	3dad89502b248529
+4347	4383	1624264792061689234	src/libScena.a	4c607fec41f7cb1f
+4384	4945	1624264792621670451	/home/pawbag/Pulpit/PO/5/zadanie-5-Pawbag123/prj/Dron_Dragonfly	3b0b7f36a8d83d3d
